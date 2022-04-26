@@ -1051,6 +1051,7 @@ Gemeinde_Nr,Kanton_Short,Gemeinde_d,Gemeinde_f,Gemeinde_i,Gemeinde_KT_d,Gemeinde
 3104,AI,Schlatt-Haslen,Schlatt-Haslen,Schlatt-Haslen,Schlatt-Haslen AI,Schlatt-Haslen (AI),Schlatt-Haslen AI,Appenzell Innerrhoden,Appenzell Rhodes-Intérieures,Appenzello Interno,16
 3105,AI,Schwende,Schwende,Schwende,Schwende AI,Schwende (AI),Schwende AI,Appenzell Innerrhoden,Appenzell Rhodes-Intérieures,Appenzello Interno,16
 3111,AI,Oberegg,Oberegg,Oberegg,Oberegg AI,Oberegg (AI),Oberegg AI,Appenzell Innerrhoden,Appenzell Rhodes-Intérieures,Appenzello Interno,16
+3112,AI,Schwende-Rüti,Schwende-Rüti,Schwende-Rüti,Schwende-Rüti AI,Schwende-Rüti (AI),Schwende-Rüti AI,Appenzell Innerrhoden,Appenzell Rhodes-Intérieures,Appenzello Interno,16
 3201,SG,Häggenschwil,Häggenschwil,Häggenschwil,Häggenschwil SG,Häggenschwil (SG),Häggenschwil SG,St. Gallen,Saint-Gall,San Gallo,17
 3202,SG,Muolen,Muolen,Muolen,Muolen SG,Muolen (SG),Muolen SG,St. Gallen,Saint-Gall,San Gallo,17
 3203,SG,St. Gallen,Saint-Gall,San Gallo,St. Gallen SG,Saint-Gall (SG),San Gallo SG,St. Gallen,Saint-Gall,San Gallo,17
@@ -1618,6 +1619,7 @@ Gemeinde_Nr,Kanton_Short,Gemeinde_d,Gemeinde_f,Gemeinde_i,Gemeinde_KT_d,Gemeinde
 5237,TI,Alto Malcantone,Alto Malcantone,Alto Malcantone,Alto Malcantone TI,Alto Malcantone (TI),Alto Malcantone TI,Tessin,Tessin,Ticino,21
 5238,TI,Monteceneri,Monteceneri,Monteceneri,Monteceneri TI,Monteceneri (TI),Monteceneri TI,Tessin,Tessin,Ticino,21
 5239,TI,Tresa,Tresa,Tresa,Tresa TI,Tresa (TI),Tresa TI,Tessin,Tessin,Ticino,21
+5240,TI,Val Mara,Val Mara,Val Mara,Val Mara TI,Val Mara (TI),Val Mara TI,Tessin,Tessin,Ticino,21
 5242,TI,Balerna,Balerna,Balerna,Balerna TI,Balerna (TI),Balerna TI,Tessin,Tessin,Ticino,21
 5249,TI,Castel San Pietro,Castel San Pietro,Castel San Pietro,Castel San Pietro TI,Castel San Pietro (TI),Castel San Pietro TI,Tessin,Tessin,Ticino,21
 5250,TI,Chiasso,Chiasso,Chiasso,Chiasso TI,Chiasso (TI),Chiasso TI,Tessin,Tessin,Ticino,21

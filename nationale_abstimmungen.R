@@ -172,9 +172,28 @@ for (i in 1:length(vorlagen_short)) {
   
   #Output Abstimmungen Gemeinde
   output_dw <- get_output_gemeinden(results)
+  
+  #Anpassungen (Val Mara)
+  gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5240,] 
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5195
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5197
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5219
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  #Anpassungen (Schwende-Rüte)
+  gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 3112,] 
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 3103
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 3105
+  output_dw <- rbind(output_dw,gemeinde_adapt)
 
-  
-  
   #Output speichern
   write.csv(output_dw,paste0("Output/",vorlagen_short[i],"_dw.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
   
@@ -230,7 +249,7 @@ for (i in 1:length(vorlagen_short)) {
                             round(results_national$jaStimmenInProzent,1)," %</b> sì, <b>",
                             round(100-results_national$jaStimmenInProzent,1)," %</b> no")
 
-   
+  }   
     #Karten Gemeinden
     dw_edit_chart(datawrapper_codes[i,2],intro=undertitel_de,annotate=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%d.%m.%Y %H:%M Uhr")))
     dw_publish_chart(datawrapper_codes[i,2])
@@ -251,7 +270,7 @@ for (i in 1:length(vorlagen_short)) {
     dw_edit_chart(datawrapper_codes[i,7],intro=undertitel_it,annotate=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%d.%m.%Y %H:%M")))
     dw_publish_chart(datawrapper_codes[i,7])
     
-  }
+
 
 #Eintrag für Uebersicht
 uebersicht_text_de <- paste0("<b>",vorlagen$text[i],"</b><br>",
@@ -300,12 +319,12 @@ write.csv(data_overview,"Output/Uebersicht_dw.csv", na = "", row.names = FALSE, 
 
 #Charts Uebersicht
 
-#dw_edit_chart("7rtNh",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
-#dw_publish_chart("7rtNh")
+dw_edit_chart("qAKpk",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
+dw_publish_chart("qAKpk")
 
-#dw_edit_chart("GZxtj",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
-#dw_publish_chart("GZxtj")
+dw_edit_chart("tBIcV",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
+dw_publish_chart("tBIcV")
 
-#dw_edit_chart("Yxy8g",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
-#dw_publish_chart("Yxy8g")
+dw_edit_chart("5xSDG",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
+dw_publish_chart("5xSDG")
 
