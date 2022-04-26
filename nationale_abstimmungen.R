@@ -91,27 +91,27 @@ for (i in 1:length(vorlagen_short)) {
     
     #Check Vorlagen-ID
     
-    if (vorlagen$id[i] == "6510") { 
-      hist_check <- TRUE 
-      data_hist <- format_data_hist(daten_tierversuche_bfs)
-      results <- merge(results,data_hist,all.x = TRUE)
-      results <- hist_storyfinder(results)
+   # if (vorlagen$id[i] == "6510") { 
+  #    hist_check <- TRUE 
+  #    data_hist <- format_data_hist(daten_tierversuche_bfs)
+  #    results <- merge(results,data_hist,all.x = TRUE)
+  #    results <- hist_storyfinder(results)
 
-    }
+   # }
     
-    if (vorlagen$id[i] == "6520") { 
-      hist_check <- TRUE 
-      data_hist <- format_data_hist(daten_tabak_bfs)
-      results <- merge(results,data_hist,all.x = TRUE)
-      results <- hist_storyfinder(results)
+  #  if (vorlagen$id[i] == "6520") { 
+  #    hist_check <- TRUE 
+  #    data_hist <- format_data_hist(daten_tabak_bfs)
+  #    results <- merge(results,data_hist,all.x = TRUE)
+  #    results <- hist_storyfinder(results)
       
-    }
+  #  }
     
   
     #Vergleich innerhalb des Kantons (falls alle Daten vom Kanton vorhanden)
     
     #Check Vorlagen-ID
-    if (vorlagen$id[i] == "6530" || vorlagen$id[i] == "6540") {
+    #if (vorlagen$id[i] == "6530" || vorlagen$id[i] == "6540") {
       
       #Falls mindestens ein Kanton ausgezählt -> Stories für die Kantone finden
       
@@ -121,7 +121,7 @@ for (i in 1:length(vorlagen_short)) {
         
       }
       
-    }
+    #}
     
     
     ###Storybuilder
@@ -229,7 +229,7 @@ for (i in 1:length(vorlagen_short)) {
                             "</b> comuni sono noti. Stato: <b>",
                             round(results_national$jaStimmenInProzent,1)," %</b> sì, <b>",
                             round(100-results_national$jaStimmenInProzent,1)," %</b> no")
-  }
+
    
     #Karten Gemeinden
     dw_edit_chart(datawrapper_codes[i,2],intro=undertitel_de,annotate=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%d.%m.%Y %H:%M Uhr")))
@@ -251,7 +251,7 @@ for (i in 1:length(vorlagen_short)) {
     dw_edit_chart(datawrapper_codes[i,7],intro=undertitel_it,annotate=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%d.%m.%Y %H:%M")))
     dw_publish_chart(datawrapper_codes[i,7])
     
-
+  }
 
 #Eintrag für Uebersicht
 uebersicht_text_de <- paste0("<b>",vorlagen$text[i],"</b><br>",
@@ -300,12 +300,12 @@ write.csv(data_overview,"Output/Uebersicht_dw.csv", na = "", row.names = FALSE, 
 
 #Charts Uebersicht
 
-dw_edit_chart("7rtNh",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
-dw_publish_chart("7rtNh")
+#dw_edit_chart("7rtNh",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
+#dw_publish_chart("7rtNh")
 
-dw_edit_chart("GZxtj",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
-dw_publish_chart("GZxtj")
+#dw_edit_chart("GZxtj",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
+#dw_publish_chart("GZxtj")
 
-dw_edit_chart("Yxy8g",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
-dw_publish_chart("Yxy8g")
+#dw_edit_chart("Yxy8g",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
+#dw_publish_chart("Yxy8g")
 

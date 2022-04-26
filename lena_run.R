@@ -1,5 +1,5 @@
 #Working Directory definieren
-setwd("C:/Users/simon/OneDrive/LENA_Project/lena_februar2022")
+setwd("C:/Users/sw/OneDrive/LENA_Project/lena_mai2022")
 
 ###LENA alle 5 Sekunden laufen lassen
 #repeat{
@@ -26,17 +26,17 @@ time_start <- Sys.time()
 source("nationale_abstimmungen.R", encoding="UTF-8")
 
 ###Kantonale Abstimmungen###
-source("kantonale_abstimmungen.R", encoding="UTF-8")
+#source("kantonale_abstimmungen.R", encoding="UTF-8")
 
 ###Kantonale Abstimmungen Sonderfälle###
-source("kantonale_abstimmungen_special.R", encoding="UTF-8")
+#source("kantonale_abstimmungen_special.R", encoding="UTF-8")
 
 ###Datenfeeds für Kunden###
-source("datenfeeds_kunden.R", encoding="UTF-8")
+#source("datenfeeds_kunden.R", encoding="UTF-8")
 
 #Make Commit
-#git2r::config(user.name = "awp-finanznachrichten",user.email = "sw@awp.ch")
-token <- read.csv("C:/Users/simon/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
+git2r::config(user.name = "awp-finanznachrichten",user.email = "sw@awp.ch")
+token <- read.csv("C:/Users/sw/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
 git2r::cred_token(token)
 gitadd()
 gitcommit()
