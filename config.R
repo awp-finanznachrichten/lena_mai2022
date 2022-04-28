@@ -33,17 +33,17 @@ vorlagen_short <- c("Film","Transplantation","Frontex")
 
 
 ###Kurznamen und Nummern kantonale Vorlagen
-kantonal_short <- c("BE_Fahrzeugsteuer","LU_Kantonsspital","SO_Spitaeler","BS_Primaten",
-                    "BL_Klimaschutz","SH_Steuersenkung","GE_Logement")
+kantonal_short <- c("FR_Foncière","GE_Cycle_Orientation","JU_Plaques","NE_Cour_Comptes",
+                    "ZH_Wahlrecht16","ZH_Elternzeit","ZH_Klimaschutz","ZH_Buergerrecht")
 
 #Nummer in JSON 
-kantonal_number <- c(1,2,3,4,5,6,7) 
+kantonal_number <- c(1,2,3,4,5,5,5,5) 
 
 #Falls mehrere Vorlagen innerhalb eines Kantons, Vorlage auswaehlen
-kantonal_add <- c(1,1,1,1,1,2,2)
+kantonal_add <- c(1,1,1,1,2,3,4)
 
 ###Kurznamen und Nummern kantonale Vorlagen Spezialfaelle
-kantonal_short_special <- c("JU_Transparence")
+kantonal_short_special <- c("NE_Cour_Comptes")
 
 #Nummer in JSON 
 kantonal_number_special <- c(8) 
