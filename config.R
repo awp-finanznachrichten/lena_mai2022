@@ -22,7 +22,6 @@ abstimmung_date <- "Mai2022"
 link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
 
-
 #link_json_kantone <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-kantAbstimmung.json"
 #json_data_kantone <- fromJSON(link_json_kantone, flatten = TRUE)
 

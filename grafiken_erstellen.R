@@ -94,15 +94,22 @@ dw_edit_chart(new_chart$id,title=titel,
 
 
 ###Bilddaten speichen und hochladen
+setwd("./Grafiken")
+
+#Create Folder
+folder_name <- paste0("LENA_Kantone_",vorlagen_short[i])
+dir.create(folder_name)
+
+setwd(paste0("./",folder_name))
 
 #Als JPEG
 map <- dw_export_chart(new_chart$id, plain=FALSE,border_width = 20)
-image_write(map,path="./Grafiken/preview.jpg",format="jpeg")
+image_write(map,path="preview.jpg",format="jpeg")
 
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
 map <- charToRaw(map)
-rsvg_eps(map,paste0("./Grafiken/LENA_",vorlagen_short[i],".eps"),width=4800)
+rsvg_eps(map,paste0("LENA_",vorlagen_short[i],".eps"),width=4800)
 
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\n",
@@ -119,14 +126,21 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\
                    "i80_byline=AWP Finanznachrichten\n",
                    "i122_writer=AWP\n")
 
-cat(metadata,file="./Grafiken/metadata.properties")
+cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('Grafiken/LENA_',vorlagen_short[i],'_DEU.zip'), c(paste0("Grafiken/LENA_",vorlagen_short[i],".eps"),"Grafiken/preview.jpg","Grafiken/metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+
+#Daten hochladen
+#library(RCurl)
+#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'))
+#ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+
+setwd("..")
+setwd("..")
 
 }
-#library(RCurl)
-#Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/Impfquote_DEU.zip")
-#ftpUpload("./SDA_Grafik/Impfquote_DEU.zip", ftp_adress,userpwd="keyg_in:5r6368vz")
+
+
+
