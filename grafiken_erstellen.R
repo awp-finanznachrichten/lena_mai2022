@@ -5,6 +5,19 @@ library(DatawRappr)
 link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220213-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
 
+#Vorlagen umbenennen
+vorlagen$text[1] <- "Änderung des Filmgesetzes"
+vorlagen$text[2] <- "Änderung des Transplantationsgesetzes"
+vorlagen$text[3] <- "Ausbau von Frontex"
+
+vorlagen_fr$text[1] <- "Modification de la loi sur le cinéma"
+vorlagen_fr$text[2] <- "Modification de la loi sur la transplantation"
+vorlagen_fr$text[3] <- "Développement de Frontex"
+
+vorlagen_it$text[1] <- "Modifica della legge sul cinema"
+vorlagen_it$text[2] <- "Modifica della legge sui trapianti"
+vorlagen_it$text[3] <- "Ampliamento di Frontex"
+
 
 for (i in 1:length(vorlagen_short) ) {
 
@@ -15,6 +28,8 @@ Nein_Anteil <- round(100-results_national$jaStimmenInProzent,1)
 Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent,1)
 Staende_Ja <- results_national$jaStaendeGanz+(results_national$jaStaendeHalb/2)
 Staende_Nein <- results_national$neinStaendeGanz+(results_national$neinStaendeHalb/2)
+
+#####DEUTSCH
 
 ###Flexible Grafik-Bausteine erstellen
 titel <- vorlagen$text[i]
@@ -199,6 +214,11 @@ zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), c(pas
 
 setwd("..")
 setwd("..")
+
+#####FRANZÖSISCH
+
+
+#####ITALIENISHC
 
 }
 
