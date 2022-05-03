@@ -121,10 +121,13 @@ setwd(paste0("./",folder_name))
 map <- dw_export_chart(new_chart$id, plain=FALSE,border_width = 20)
 image_write(map,path="preview.jpg",format="jpeg")
 
-#Als EPS
+
+#Als SVG &  EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Kantone_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
+
 
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\n",
@@ -145,7 +148,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), 
+         c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
@@ -183,6 +187,7 @@ image_write(map,path="preview.jpg",format="jpeg")
 
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 
@@ -205,7 +210,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), 
+         c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
@@ -312,6 +318,7 @@ image_write(map,path="preview.jpg",format="jpeg")
 
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Kantone_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 
@@ -334,7 +341,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), 
+         c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
@@ -374,6 +382,7 @@ image_write(map,path="preview.jpg",format="jpeg")
 
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 
@@ -396,7 +405,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), 
+         c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
@@ -502,8 +512,9 @@ setwd(paste0("./",folder_name))
 map <- dw_export_chart(new_chart$id, plain=FALSE,border_width = 20)
 image_write(map,path="preview.jpg",format="jpeg")
 
-#Als EPS
+#Als SVG und EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Kantone_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 
@@ -526,7 +537,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), 
+         c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
@@ -566,6 +578,7 @@ image_write(map,path="preview.jpg",format="jpeg")
 
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+cat(map,file=paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"))
 map <- charToRaw(map)
 rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 
@@ -588,7 +601,8 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), 
+         c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
