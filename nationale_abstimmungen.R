@@ -19,7 +19,6 @@ results_national$jaStimmenInProzent <- sample(0:100,1)
 #Simulation Gemeinden
 source("data_simulation_gemeinden.R")
   
-
   #Emergency adapt
   #results$gebietAusgezaehlt[155] <- TRUE
   #results$gebietAusgezaehlt[897] <- TRUE
