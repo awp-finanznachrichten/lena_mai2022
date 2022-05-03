@@ -80,6 +80,7 @@ footer <- paste0('<b>Quelle: BFS, Lena',
                  "</b>Grafik: Keystone-SDA")
 
 
+
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("Tfr6N")
 
@@ -91,9 +92,8 @@ dw_edit_chart(new_chart$id,title=titel,
               axes=list("values"="Kanton_color"),
               folderId = "100300")
 
+###Bilddaten speichen und hochladen für Kanton
 
-
-###Bilddaten speichen und hochladen
 setwd("./Grafiken")
 
 #Create Folder
@@ -109,7 +109,7 @@ image_write(map,path="preview.jpg",format="jpeg")
 #Als EPS
 map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
 map <- charToRaw(map)
-rsvg_eps(map,paste0("LENA_",vorlagen_short[i],".eps"),width=4800)
+rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\n",
@@ -130,12 +130,72 @@ cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
 library(zip)
-zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
 #library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'))
 #ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+
+setwd("..")
+setwd("..")
+
+
+###Vorlage kopieren
+new_chart <-dw_copy_chart("kDkMR")
+
+#Grafik anpassen
+dw_edit_chart(new_chart$id,title=titel,
+              intro=undertitel_text,
+              annotate=footer,
+              data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
+              axes=list("values"="Gemeinde_color"),
+              folderId = "100300")
+
+
+##Bilddaten speichen und hochladen für Gemeinde
+setwd("./Grafiken")
+
+#Create Folder
+folder_name <- paste0("LENA_Gemeinden_",vorlagen_short[i])
+dir.create(folder_name)
+
+setwd(paste0("./",folder_name))
+
+#Als JPEG
+map <- dw_export_chart(new_chart$id, plain=FALSE,border_width = 20)
+image_write(map,path="preview.jpg",format="jpeg")
+
+#Als EPS
+map <- dw_export_chart(new_chart$id, type="svg",plain=FALSE,border_width = 20)
+map <- charToRaw(map)
+rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
+
+#Metadata
+metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," D\n",
+                   "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
+                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 Resultate Gemeinden - ",titel,". (Infografik KEYSTONE)\n",
+                   "i103_original_transmission_reference=\n",
+                   "i90_city=\n",
+                   "i100_country_code=CHE\n",
+                   "i15_category=N\n",
+                   "i105_headline=Politik, Wirtschaft\n",
+                   "i40_special_instructions=\n",
+                   "i110_credit=KEYSTONE\n",
+                   "i115_source=KEYSTONE\n",
+                   "i80_byline=AWP Finanznachrichten\n",
+                   "i122_writer=AWP\n")
+
+cat(metadata,file="metadata.properties")
+
+#Zip-File erstellen
+library(zip)
+zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),"preview.jpg","metadata.properties"), mode="cherry-pick")
+
+#Daten hochladen
+#library(RCurl)
+#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'))
+#ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")

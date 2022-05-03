@@ -1,5 +1,5 @@
 #Working Directory definieren
-setwd("C:/Users/simon/OneDrive/LENA_Project/lena_mai2022")
+setwd("C:/Users/sw/OneDrive/LENA_Project/lena_mai2022")
 
 ###LENA alle 5 Sekunden laufen lassen
 #repeat{
