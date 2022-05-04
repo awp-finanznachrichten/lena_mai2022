@@ -91,10 +91,12 @@ undertitel_all <- gsub('6px"></b>0 Nein',
 
 footer <- paste0('<b>Quelle: BFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",94),
-                 "</b>Grafik: Keystone-SDA")
-
-
+                 strrep("&nbsp;",45),
+                 "</b>",format(Sys.time(),"%d.%m.%Y %H:%M Uhr"),
+                 '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
+                 strrep("&nbsp;",40),
+                 "</b>Grafik: Keystone-SDA"
+                 )
 
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("Tfr6N")
@@ -283,9 +285,12 @@ undertitel_all <- gsub('6px"></b>0 Non',
 
 footer <- paste0('<b>Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",90),
-                 "</b>Infographie: Keystone-ATS")
-
+                 strrep("&nbsp;",40),
+                 "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
+                 '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
+                 strrep("&nbsp;",40),
+                 "</b>Infographie: Keystone-ATS"
+                 )
 
 
 ###Vorlage kopieren
@@ -479,9 +484,12 @@ undertitel_all <- gsub('6px"></b>0 no',
 
 footer <- paste0('<b>Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",90),
-                 "</b>Infografica: Keystone-ATS")
-
+                 strrep("&nbsp;",40),
+                 "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
+                 '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
+                 strrep("&nbsp;",40),
+                 "</b>Infografica: Keystone-ATS"
+                 )
 
 
 ###Vorlage kopieren
