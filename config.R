@@ -22,33 +22,32 @@ abstimmung_date <- "Mai2022"
 link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
 
-#link_json_kantone <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-kantAbstimmung.json"
-#json_data_kantone <- fromJSON(link_json_kantone, flatten = TRUE)
+link_json_kantone <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-kantAbstimmung.json"
+json_data_kantone <- fromJSON(link_json_kantone, flatten = TRUE)
 
 cat("Aktuelle Abstimmungsdaten geladen\n")
 
 #Kurznamen Vorlagen (Verwendet im File mit den Textbausteinen)
 vorlagen_short <- c("Film","Transplantation","Frontex")
 
-
 ###Kurznamen und Nummern kantonale Vorlagen
-kantonal_short <- c("FR_Foncière","GE_Cycle_Orientation","JU_Plaques","NE_Cour_Comptes",
-                    "ZH_Wahlrecht16","ZH_Elternzeit","ZH_Klimaschutz","ZH_Buergerrecht")
+kantonal_short <- c("ZH_Klimaschutz","ZH_Wahlrecht16","ZH_Elternzeit","FR_Foncière","GE_Cycle_Orientation","JU_Plaques","NE_Cour_Comptes")
+
 
 #Nummer in JSON 
-kantonal_number <- c(1,2,3,4,5,5,5,5) 
+kantonal_number <- c(1,1,1,4,12,13) 
 
 #Falls mehrere Vorlagen innerhalb eines Kantons, Vorlage auswaehlen
-kantonal_add <- c(1,1,1,1,2,3,4)
+kantonal_add <- c(1,2,4,1,1,1)
 
 ###Kurznamen und Nummern kantonale Vorlagen Spezialfaelle
 kantonal_short_special <- c("NE_Cour_Comptes")
 
 #Nummer in JSON 
-kantonal_number_special <- c(8) 
+kantonal_number_special <- c(11) 
 
 #Falls mehrere Vorlagen innerhalb eines Kantons, Vorlage auswaehlen
-kantonal_add_special <- c(1)
+kantonal_add_special <- c(2)
 
 ###Vorhandene Daten laden
 #daten_tierversuche_bfs <- read_excel("Data/daten_tierversuche_bfs.xlsx")

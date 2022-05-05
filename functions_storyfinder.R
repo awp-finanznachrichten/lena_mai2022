@@ -265,8 +265,8 @@ special_intro <- function(dta) {
       (Ja_Stimmen_In_Prozent > 50 &  Ja_Prozent_Gegenvorschlag < 50) ~ c("Intro_HauptvorlageJa_GegenvorschlagNein"),
       (Ja_Stimmen_In_Prozent < 50 &  Ja_Prozent_Gegenvorschlag > 50) ~ c("Intro_HauptvorlageNein_GegenvorschlagJa"),
       (Ja_Stimmen_In_Prozent < 50 &  Ja_Prozent_Gegenvorschlag < 50) ~ c("Intro_HauptvorlageNein_GegenvorschlagNein"),
-      (Ja_Stimmen_In_Prozent > 50 &  Ja_Prozent_Gegenvorschlag > 50 & Ja_Stimmen_In_Prozent >= Ja_Prozent_Gegenvorschlag) ~ c("Intro_HauptvorlageJa_GegenvorschlagJa_StichentscheidHauptvorlage"),
-      (Ja_Stimmen_In_Prozent > 50 &  Ja_Prozent_Gegenvorschlag > 50 & Ja_Stimmen_In_Prozent < Ja_Prozent_Gegenvorschlag) ~ c("Intro_HauptvorlageJa_GegenvorschlagJa_StichentscheidGegenvorschlag")
+      (Ja_Stimmen_In_Prozent > 50 &  Ja_Prozent_Gegenvorschlag > 50 & Stichentscheid_Zustimmung_Hauptvorlage > 50) ~ c("Intro_HauptvorlageJa_GegenvorschlagJa_StichentscheidHauptvorlage"),
+      (Ja_Stimmen_In_Prozent > 50 &  Ja_Prozent_Gegenvorschlag > 50 & Stichentscheid_Zustimmung_Hauptvorlage < 50) ~ c("Intro_HauptvorlageJa_GegenvorschlagJa_StichentscheidGegenvorschlag")
     ))
   
   return(out)

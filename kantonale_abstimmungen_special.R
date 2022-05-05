@@ -1,5 +1,5 @@
 for (k in 1:length(kantonal_short_special) ) {
-  
+
   cat(paste0("\nErmittle Daten für folgende Vorlage: ",kantonal_short_special[k],"\n"))
   
   results <- get_results_kantonal(json_data_kantone,
@@ -7,7 +7,7 @@ for (k in 1:length(kantonal_short_special) ) {
                                   kantonal_add_special[k])
 
 #Simulation Gemeinden
-#source("data_simulation_gemeinden.R")
+source("data_simulation_gemeinden.R")
  
 
   #Daten anpassen Gemeinden
@@ -42,7 +42,7 @@ for (k in 1:length(kantonal_short_special) ) {
                                                  kantonal_add_special[k]+1)
   
 #Simulation Gemeinden
-#source("data_simulation_gegenvorschlag.R")
+source("data_simulation_gegenvorschlag.R")
 
   results_gegenvorschlag <- results_gegenvorschlag[,c(3:6,11)]
   results_gegenvorschlag$neinStimmenInProzent <- 100-results_gegenvorschlag$jaStimmenInProzent
@@ -54,19 +54,19 @@ for (k in 1:length(kantonal_short_special) ) {
   
 
   #Stichentscheid hinzufügen
-  #results_stichentscheid <- get_results_kantonal(json_data_kantone,
-  #                                               kantonal_number_special[k],
-  #                                               kantonal_add_special[k]+2)
+  results_stichentscheid <- get_results_kantonal(json_data_kantone,
+                                                 kantonal_number_special[k],
+                                                 kantonal_add_special[k]+2)
   
-  #Simulation Gemeinden
-  #source("data_simulation_stichentscheid.R")
+#Simulation Gemeinden
+source("data_simulation_stichentscheid.R")
   
-  #results_stichentscheid  <- results_stichentscheid[,c(3:4,11)]
-  #results_stichentscheid$neinStimmenInProzent <- 100-results_stichentscheid$jaStimmenInProzent
+  results_stichentscheid  <- results_stichentscheid[,c(3:4,11)]
+  results_stichentscheid$neinStimmenInProzent <- 100-results_stichentscheid$jaStimmenInProzent
   
-  #colnames(results_stichentscheid) <- c("Gebiet_Ausgezaehlt_Stichentscheid","Stichentscheid_Zustimmung_Hauptvorlage","Gemeinde_Nr","Stichentscheid_Zustimmung_Gegenvorschlag")
+  colnames(results_stichentscheid) <- c("Gebiet_Ausgezaehlt_Stichentscheid","Stichentscheid_Zustimmung_Hauptvorlage","Gemeinde_Nr","Stichentscheid_Zustimmung_Gegenvorschlag")
   
-  #results <- merge(results,results_stichentscheid)
+  results <- merge(results,results_stichentscheid)
 
   #Ausgezählte Gemeinden auswählen
   results_notavailable <- results[results$Gebiet_Ausgezaehlt == FALSE |
@@ -75,6 +75,7 @@ for (k in 1:length(kantonal_short_special) ) {
   results <- results[results$Gebiet_Ausgezaehlt == TRUE &
                        results$Gebiet_Ausgezaehlt_Gegenvorschlag == TRUE,]
   
+
   #Sind schon Daten vorhanden?
   if (nrow(results) > 0) {
     
