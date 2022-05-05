@@ -29,6 +29,8 @@ Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent,1)
 Staende_Ja <- results_national$jaStaendeGanz+(results_national$jaStaendeHalb/2)
 Staende_Nein <- results_national$neinStaendeGanz+(results_national$neinStaendeHalb/2)
 
+
+
 #####DEUTSCH
 
 ###Flexible Grafik-Bausteine erstellen
@@ -39,15 +41,17 @@ undertitel_text <- paste0("<b>Eidgenössische Volksabstimmung vom 15. Mai 2022</
 length_yes <- round(Ja_Anteil/5)
 length_no <- round(Nein_Anteil/5)
 length_stimmbeteiligung <- round(Stimmbeteiligung/5)
+length_Staende_Ja <- round(((Staende_Ja*100)/23)/5)
+length_Staende_Nein <- round(((Staende_Nein*100)/23)/5)
 
 undertitel_balken_firstline <- paste0("<b>",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       strrep("&nbsp;",20),
                                       "</b>Volk",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                      strrep("&nbsp;",52),
+                                      strrep("&nbsp;",46),
                                       "</b>Stände",
-                                      strrep("&nbsp;",28),
+                                      strrep("&nbsp;",22),
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       "</b>Stimmbeteiligung</b>"
                                       )
@@ -59,15 +63,15 @@ undertitel_balken_secondline <- paste0("Ja ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_no),"</b>",
                                        gsub("[.]",",",Nein_Anteil),"% Nein",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",2),"</b>",
                                        "Ja ",Staende_Ja,
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Ja),"</b>",
+                                       strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Nein),"</b>",
+                                       strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        Staende_Nein," Nein",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",2),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -89,12 +93,12 @@ undertitel_all <- gsub('6px"></b>0 Nein',
                        '0px"></b>0 Nein',
                        undertitel_all)
 
-footer <- paste0('<b>Quelle: BFS, Lena',
+footer <- paste0('Quelle: BFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",45),
+                 strrep("&nbsp;",35),
                  "</b>",format(Sys.time(),"%d.%m.%Y %H:%M Uhr"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",40),
+                 strrep("&nbsp;",35),
                  "</b>Grafik: Keystone-SDA"
                  )
 
@@ -140,7 +144,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
                    "i80_byline=AWP Finanznachrichten\n",
@@ -229,17 +233,14 @@ setwd("..")
 titel <- vorlagen_fr$text[i]
 undertitel_text <- paste0("<b>Votation populaire du 15 mai 2022</b>")
 
-#Undertitel Balken
-length_yes <- round(Ja_Anteil/5)
-length_no <- round(Nein_Anteil/5)
-length_stimmbeteiligung <- round(Stimmbeteiligung/5)
+
 
 undertitel_balken_firstline <- paste0("<b>",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       strrep("&nbsp;",10),
                                       "</b>Majorité du peuple",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                      strrep("&nbsp;",26),
+                                      strrep("&nbsp;",20),
                                       "</b>Majorité des Cantons",
                                       strrep("&nbsp;",10),
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
@@ -253,15 +254,15 @@ undertitel_balken_secondline <- paste0("Oui ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_no),"</b>",
                                        gsub("[.]",",",Nein_Anteil),"% Non",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",1),"</b>",
                                        "Oui ",Staende_Ja,
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Ja),"</b>",
+                                       strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Nein),"</b>",
+                                       strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        Staende_Nein," Non",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",1),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -283,12 +284,12 @@ undertitel_all <- gsub('6px"></b>0 Non',
                        '0px"></b>0 Non',
                        undertitel_all)
 
-footer <- paste0('<b>Source: OFS, Lena',
+footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",40),
+                 strrep("&nbsp;",35),
                  "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",40),
+                 strrep("&nbsp;",32),
                  "</b>Infographie: Keystone-ATS"
                  )
 
@@ -428,19 +429,14 @@ setwd("..")
 titel <- vorlagen_it$text[i]
 undertitel_text <- paste0("<b>Votatzione popolare del 15 maggio 2022</b>")
 
-#Undertitel Balken
-length_yes <- round(Ja_Anteil/5)
-length_no <- round(Nein_Anteil/5)
-length_stimmbeteiligung <- round(Stimmbeteiligung/5)
-
 undertitel_balken_firstline <- paste0("<b>",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       strrep("&nbsp;",20),
                                       "</b>Popolo",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                      strrep("&nbsp;",40),
+                                      strrep("&nbsp;",35),
                                       "</b>Cantoni",
-                                      strrep("&nbsp;",20),
+                                      strrep("&nbsp;",15),
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       "</b>Tasso di partecipazione</b>"
 )
@@ -452,15 +448,15 @@ undertitel_balken_secondline <- paste0("sì ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_no),"</b>",
                                        gsub("[.]",",",Nein_Anteil),"% no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",1),"</b>",
                                        "sì ",Staende_Ja,
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Ja),"</b>",
+                                       strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",Staende_Nein),"</b>",
+                                       strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        Staende_Nein," no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",4),"</b>",
+                                       strrep("&nbsp;",1),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -482,16 +478,16 @@ undertitel_all <- gsub('6px"></b>0 no',
                        '0px"></b>0 no',
                        undertitel_all)
 
-footer <- paste0('<b>Fonte: UTS, Lena',
+footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",40),
+                 strrep("&nbsp;",35),
                  "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",40),
+                 strrep("&nbsp;",30),
                  "</b>Infografica: Keystone-ATS"
                  )
 
-
+cat(footer)
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("Tfr6N")
 
