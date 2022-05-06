@@ -61,15 +61,15 @@ undertitel_balken_secondline <- paste0("Ja ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_yes),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_no),"</b>",
-                                       gsub("[.]",",",Nein_Anteil),"% Nein",
+                                       " ",gsub("[.]",",",Nein_Anteil),"% Nein",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",2),"</b>",
-                                       "Ja ",Staende_Ja,
+                                       "Ja ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
-                                       Staende_Nein," Nein",
+                                       " ",Staende_Nein," Nein",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",2),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
@@ -86,19 +86,19 @@ undertitel_all <- paste0(undertitel_text,"<br><br>",
                          "<br>&nbsp;")
 
 #Fix 0
-undertitel_all <- gsub('Ja 0<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                       'Ja 0<b style="background:	#89CFF0; color:black; padding:1px 0px">',
+undertitel_all <- gsub('Ja 0 <b style="background:	#89CFF0; color:black; padding:1px 6px">',
+                       'Ja 0 <b style="background:	#89CFF0; color:black; padding:1px 0px">',
                        undertitel_all)
-undertitel_all <- gsub('6px"></b>0 Nein',
-                       '0px"></b>0 Nein',
+undertitel_all <- gsub('6px"></b> 0 Nein',
+                       '0px"></b> 0 Nein',
                        undertitel_all)
 
 footer <- paste0('Quelle: BFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",35),
-                 "</b>",format(Sys.time(),"%d.%m.%Y %H:%M Uhr"),
+                 strrep("&nbsp;",30),
+                 "</b>Stand: ",format(Sys.time(),"%d.%m.%Y %H:%M Uhr"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",35),
+                 strrep("&nbsp;",30),
                  "</b>Grafik: Keystone-SDA"
                  )
 
@@ -138,17 +138,17 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 - ",titel,". (Infografik KEYSTONE)\n",
+                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt. (Infografik KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden.\n",
+                   "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 
@@ -200,17 +200,17 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," D\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 Resultate Gemeinden - ",titel,". (Infografik KEYSTONE)\n",
+                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 Resultate Gemeinden - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.(Infografik KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 
@@ -242,7 +242,7 @@ undertitel_balken_firstline <- paste0("<b>",
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       strrep("&nbsp;",20),
                                       "</b>Majorité des Cantons",
-                                      strrep("&nbsp;",10),
+                                      strrep("&nbsp;",6),
                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                       "</b>Taux de participation</b>"
 )
@@ -252,17 +252,17 @@ undertitel_balken_secondline <- paste0("Oui ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_yes),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_no),"</b>",
-                                       gsub("[.]",",",Nein_Anteil),"% Non",
+                                       " ",gsub("[.]",",",Nein_Anteil),"% Non",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",1),"</b>",
-                                       "Oui ",Staende_Ja,
+                                       "Oui ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
-                                       Staende_Nein," Non",
+                                       " ",Staende_Nein," Non",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",1),"</b>",
+                                       strrep("&nbsp;",0),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -277,22 +277,21 @@ undertitel_all <- paste0(undertitel_text,"<br><br>",
                          "<br>&nbsp;")
 
 #Fix 0
-undertitel_all <- gsub('Oui 0<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                       'Oui 0<b style="background:	#89CFF0; color:black; padding:1px 0px">',
+undertitel_all <- gsub('Oui 0 <b style="background:	#89CFF0; color:black; padding:1px 6px">',
+                       'Oui 0 <b style="background:	#89CFF0; color:black; padding:1px 0px">',
                        undertitel_all)
-undertitel_all <- gsub('6px"></b>0 Non',
-                       '0px"></b>0 Non',
+undertitel_all <- gsub('6px"></b> 0 Non',
+                       '0px"></b> 0 Non',
                        undertitel_all)
 
 footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",35),
-                 "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
+                 strrep("&nbsp;",25),
+                 "</b>Etat: ",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",32),
+                 strrep("&nbsp;",25),
                  "</b>Infographie: Keystone-ATS"
                  )
-
 
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("Tfr6N")
@@ -300,7 +299,7 @@ new_chart <-dw_copy_chart("Tfr6N")
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
-              language="fr-FR",
+              language="fr-CH",
               intro=undertitel_all,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
@@ -331,17 +330,17 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," F\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". (Infographie KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=L'infographie peut être obtenue aux formats graphiques EPS et SVG. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 
@@ -364,7 +363,7 @@ new_chart <-dw_copy_chart("kDkMR")
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
-              language="fr-FR",
+              language="fr-CH",
               intro=undertitel_text,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
@@ -395,17 +394,17 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," F\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". (Infographie KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=L'infographie peut être obtenue aux formats graphiques EPS et SVG. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 
@@ -446,15 +445,15 @@ undertitel_balken_secondline <- paste0("sì ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_yes),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_no),"</b>",
-                                       gsub("[.]",",",Nein_Anteil),"% no",
+                                       " ",gsub("[.]",",",Nein_Anteil),"% no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",1),"</b>",
-                                       "sì ",Staende_Ja,
+                                       "sì ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
-                                       Staende_Nein," no",
+                                       " ",Staende_Nein," no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",1),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
@@ -471,30 +470,29 @@ undertitel_all <- paste0(undertitel_text,"<br><br>",
                          "<br>&nbsp;")
 
 #Fix 0
-undertitel_all <- gsub('sì 0<b style="background:	#89CFF0; color:black; padding:1px 6px">',
-                       'sì 0<b style="background:	#89CFF0; color:black; padding:1px 0px">',
+undertitel_all <- gsub('sì 0 <b style="background:	#89CFF0; color:black; padding:1px 6px">',
+                       'sì 0 <b style="background:	#89CFF0; color:black; padding:1px 0px">',
                        undertitel_all)
-undertitel_all <- gsub('6px"></b>0 no',
-                       '0px"></b>0 no',
+undertitel_all <- gsub('6px"></b> 0 no',
+                       '0px"></b> 0 no',
                        undertitel_all)
 
 footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",35),
-                 "</b>",format(Sys.time(),"%d.%m.%Y %Hh%M"),
-                 '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",30),
+                 "</b>Stato: ",format(Sys.time(),"%d.%m.%Y %Hh%M"),
+                 '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
+                 strrep("&nbsp;",28),
                  "</b>Infografica: Keystone-ATS"
                  )
 
-cat(footer)
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("Tfr6N")
 
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
-              language="it-IT",
+              language="it-CH",
               intro=undertitel_all,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
@@ -525,17 +523,17 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," I\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". (Infografica KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=L'infografica può essere ottenuta nei formati grafici EPS e SVG. Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 
@@ -556,15 +554,18 @@ setwd("..")
 ###Vorlage kopieren
 new_chart <-dw_copy_chart("kDkMR")
 
+
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
-              language="it-IT",
+              language="it-CH",
               intro=undertitel_text,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
               axes=list("values"="Gemeinde_color"),
               visualize = list("legend"=list("title"="Proporzione di sì")),
               folderId = "100300")
+
+metadata <- dw_retrieve_chart_metadata(new_chart$id)
 
 
 ##Bilddaten speichen und hochladen für Gemeinde
@@ -589,17 +590,17 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," I\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". (Infografica KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
                    "i15_category=N\n",
                    "i105_headline=Politik, Wirtschaft\n",
-                   "i40_special_instructions=\n",
+                   "i40_special_instructions=L'infografica può essere ottenuta nei formati grafici EPS e SVG. Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=\n",
-                   "i122_writer=AWP\n")
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
 
 cat(metadata,file="metadata.properties")
 

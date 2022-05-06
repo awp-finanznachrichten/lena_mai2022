@@ -120,9 +120,9 @@ source("data_simulation_stichentscheid.R")
   
 
   
-  #Texte speichern
-  library(xlsx)
-  write.xlsx(results,paste0(kantonal_short_special[k],"_texte.xlsx"))
+#Texte speichern
+#library(xlsx)
+#write.xlsx(results,paste0(kantonal_short_special[k],"_texte.xlsx"))
   
   ###Output generieren für Datawrapper
   output_dw <- get_output_gemeinden(results)
