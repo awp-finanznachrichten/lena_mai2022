@@ -2,8 +2,17 @@ library(rsvg)
 library(magick)
 library(DatawRappr)
 
+#Vorlagen Codes
+vorlage_gemeinde <- c("kDkMR","5NIK3","Idw6B")
+vorlage_kantone <- c("Tfr6N","qI7hZ","GAF2u")
+
+
+#Aktueller Abstimmungslink
 link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220213-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
+
+
+
 
 #Vorlagen umbenennen
 vorlagen$text[1] <- "Änderung des Filmgesetzes"
@@ -103,7 +112,7 @@ footer <- paste0('Quelle: BFS, Lena',
                  )
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("Tfr6N")
+new_chart <-dw_copy_chart(vorlage_kantone[1])
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
@@ -111,7 +120,7 @@ dw_edit_chart(new_chart$id,title=titel,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
               axes=list("values"="Kanton_color"),
-              folderId = "100300")
+              folderId = "101954")
 
 ###Bilddaten speichen und hochladen für Kanton
 
@@ -167,7 +176,7 @@ setwd("..")
 
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("kDkMR")
+new_chart <-dw_copy_chart(vorlage_gemeinde[1])
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
@@ -175,7 +184,7 @@ dw_edit_chart(new_chart$id,title=titel,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
               axes=list("values"="Gemeinde_color"),
-              folderId = "100300")
+              folderId = "101954")
 
 
 ##Bilddaten speichen und hochladen für Gemeinde
@@ -294,7 +303,7 @@ footer <- paste0('Source: OFS, Lena',
                  )
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("Tfr6N")
+new_chart <-dw_copy_chart(vorlage_kantone[2])
 
 
 #Grafik anpassen
@@ -305,7 +314,7 @@ dw_edit_chart(new_chart$id,title=titel,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
               axes=list("values"="Kanton_color"),
               visualize = list("legend"=list("title"="Proportion de Oui")),
-              folderId = "100300")
+              folderId = "101954")
 
 ###Bilddaten speichen und hochladen für Kanton
 
@@ -359,7 +368,7 @@ setwd("..")
 
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("kDkMR")
+new_chart <-dw_copy_chart(vorlage_gemeinde[2])
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
@@ -369,7 +378,7 @@ dw_edit_chart(new_chart$id,title=titel,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
               axes=list("values"="Gemeinde_color"),
               visualize = list("legend"=list("title"="Proportion de Oui")),
-              folderId = "100300")
+              folderId = "101954")
 
 
 ##Bilddaten speichen und hochladen für Gemeinde
@@ -487,7 +496,7 @@ footer <- paste0('Fonte: UTS, Lena',
                  )
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("Tfr6N")
+new_chart <-dw_copy_chart(vorlage_kantone[3])
 
 
 #Grafik anpassen
@@ -498,7 +507,7 @@ dw_edit_chart(new_chart$id,title=titel,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
               axes=list("values"="Kanton_color"),
               visualize = list("legend"=list("title"="Proporzione di sì")),
-              folderId = "100300")
+              folderId = "101954")
 
 ###Bilddaten speichen und hochladen für Kanton
 
@@ -552,7 +561,7 @@ setwd("..")
 
 
 ###Vorlage kopieren
-new_chart <-dw_copy_chart("kDkMR")
+new_chart <-dw_copy_chart(vorlage_gemeinde[3])
 
 
 #Grafik anpassen
@@ -563,7 +572,7 @@ dw_edit_chart(new_chart$id,title=titel,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_mai2022/master/Output/",vorlagen_short[i],"_dw.csv")),
               axes=list("values"="Gemeinde_color"),
               visualize = list("legend"=list("title"="Proporzione di sì")),
-              folderId = "100300")
+              folderId = "101954")
 
 metadata <- dw_retrieve_chart_metadata(new_chart$id)
 
