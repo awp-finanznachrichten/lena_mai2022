@@ -1,11 +1,10 @@
-k <- 1
-for (k in 1:length(kantonal_short_special) ) {
+for (s in 1:length(kantonal_short_special) ) {
 
-  cat(paste0("\nErmittle Daten für folgende Vorlage: ",kantonal_short_special[k],"\n"))
+  cat(paste0("\nErmittle Daten für folgende Vorlage: ",kantonal_short_special[s],"\n"))
   
   results <- get_results_kantonal(json_data_kantone,
-                                  kantonal_number_special[k],
-                                  kantonal_add_special[k])
+                                  kantonal_number_special[s],
+                                  kantonal_add_special[s])
 
 #Simulation Gemeinden
 source("data_simulation_gemeinden.R")
@@ -39,8 +38,8 @@ source("data_simulation_gemeinden.R")
   
   #Gegenvorschlag hinzufügen
   results_gegenvorschlag <- get_results_kantonal(json_data_kantone,
-                                                 kantonal_number_special[k],
-                                                 kantonal_add_special[k]+1)
+                                                 kantonal_number_special[s],
+                                                 kantonal_add_special[s]+1)
   
 #Simulation Gemeinden
 source("data_simulation_gegenvorschlag.R")
@@ -56,8 +55,8 @@ source("data_simulation_gegenvorschlag.R")
 
   #Stichentscheid hinzufügen
   results_stichentscheid <- get_results_kantonal(json_data_kantone,
-                                                 kantonal_number_special[k],
-                                                 kantonal_add_special[k]+2)
+                                                 kantonal_number_special[s],
+                                                 kantonal_add_special[s]+2)
   
 #Simulation Gemeinden
 source("data_simulation_stichentscheid.R")
@@ -88,7 +87,7 @@ source("data_simulation_stichentscheid.R")
     
     #Textvorlagen laden
     Textbausteine <- as.data.frame(read_excel(paste0("Data/Textbausteine_LENA_",abstimmung_date,".xlsx"), 
-                                              sheet = kantonal_short_special[k]))
+                                              sheet = kantonal_short_special[s]))
     cat("Textvorlagen geladen\n\n")
 
 
@@ -122,14 +121,14 @@ source("data_simulation_stichentscheid.R")
   
 #Texte speichern
 #library(xlsx)
-#write.xlsx(results,paste0(kantonal_short_special[k],"_texte.xlsx"))
+#write.xlsx(results,paste0(kantonal_short_special[s],"_texte.xlsx"))
   
   ###Output generieren für Datawrapper
   output_dw <- get_output_gemeinden(results)
   
-  write.csv(output_dw,paste0("Output/",kantonal_short_special[k],"_dw.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
+  write.csv(output_dw,paste0("Output/",kantonal_short_special[s],"_dw.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
   
-  cat(paste0("\nGenerated output for Vorlage ",kantonal_short_special[k],"\n"))
+  cat(paste0("\nGenerated output for Vorlage ",kantonal_short_special[s],"\n"))
   
 }
 

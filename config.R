@@ -31,14 +31,13 @@ cat("Aktuelle Abstimmungsdaten geladen\n")
 vorlagen_short <- c("Film","Transplantation","Frontex")
 
 ###Kurznamen und Nummern kantonale Vorlagen
-kantonal_short <- c("ZH_Klimaschutz","ZH_Wahlrecht16","ZH_Elternzeit","FR_Foncière","GE_Cycle_Orientation","JU_Plaques","NE_Cour_Comptes")
-
+kantonal_short <- c("ZH_Klimaschutz","ZH_Wahlrecht16","ZH_Buergerrecht","ZH_Elternzeit","FR_Foncière","GE_Cycle_Orientation","JU_Plaques")
 
 #Nummer in JSON 
-kantonal_number <- c(1,1,1,4,12,13) 
+kantonal_number <- c(1,1,1,1,4,12,13) 
 
 #Falls mehrere Vorlagen innerhalb eines Kantons, Vorlage auswaehlen
-kantonal_add <- c(1,2,4,1,1,1)
+kantonal_add <- c(1,2,3,4,1,1,1)
 
 ###Kurznamen und Nummern kantonale Vorlagen Spezialfaelle
 kantonal_short_special <- c("NE_Cour_Comptes")
