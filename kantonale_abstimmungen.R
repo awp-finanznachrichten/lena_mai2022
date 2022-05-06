@@ -102,8 +102,8 @@ results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
   }
   
   #Texte speichern
-  #library(xlsx)
-  #write.xlsx(results,paste0(kantonal_short[k],"_texte.xlsx"))
+  library(xlsx)
+  write.xlsx(results,paste0(kantonal_short[k],"_texte.xlsx"))
   
   ###Output generieren für Datawrapper
   output_dw <- get_output_gemeinden(results)

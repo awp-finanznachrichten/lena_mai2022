@@ -1,3 +1,4 @@
+k <- 1
 for (k in 1:length(kantonal_short_special) ) {
 
   cat(paste0("\nErmittle Daten für folgende Vorlage: ",kantonal_short_special[k],"\n"))
@@ -120,8 +121,8 @@ source("data_simulation_stichentscheid.R")
 
   
   #Texte speichern
-  #library(xlsx)
-  #write.xlsx(results,paste0(kantonal_short_special[k],"_texte.xlsx"))
+  library(xlsx)
+  write.xlsx(results,paste0(kantonal_short_special[k],"_texte.xlsx"))
   
   ###Output generieren für Datawrapper
   output_dw <- get_output_gemeinden(results)

@@ -147,7 +147,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\
                    "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden.\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
@@ -209,7 +209,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
                    "i40_special_instructions=\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
@@ -340,7 +340,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," F\
                    "i40_special_instructions=\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
@@ -404,7 +404,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
                    "i40_special_instructions=\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
@@ -534,7 +534,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," I\
                    "i40_special_instructions=\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
@@ -598,7 +598,7 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
                    "i40_special_instructions=\n",
                    "i110_credit=KEYSTONE\n",
                    "i115_source=KEYSTONE\n",
-                   "i80_byline=AWP Finanznachrichten\n",
+                   "i80_byline=\n",
                    "i122_writer=AWP\n")
 
 cat(metadata,file="metadata.properties")
