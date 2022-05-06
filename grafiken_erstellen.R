@@ -95,10 +95,10 @@ undertitel_all <- gsub('6px"></b> 0 Nein',
 
 footer <- paste0('Quelle: BFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",30),
+                 strrep("&nbsp;",25),
                  "</b>Stand: ",format(Sys.time(),"%d.%m.%Y %H:%M Uhr"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",30),
+                 strrep("&nbsp;",25),
                  "</b>Grafik: Keystone-SDA"
                  )
 
@@ -286,10 +286,10 @@ undertitel_all <- gsub('6px"></b> 0 Non',
 
 footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",25),
+                 strrep("&nbsp;",22),
                  "</b>Etat: ",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",25),
+                 strrep("&nbsp;",22),
                  "</b>Infographie: Keystone-ATS"
                  )
 
@@ -479,10 +479,10 @@ undertitel_all <- gsub('6px"></b> 0 no',
 
 footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",30),
+                 strrep("&nbsp;",25),
                  "</b>Stato: ",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",28),
+                 strrep("&nbsp;",25),
                  "</b>Infografica: Keystone-ATS"
                  )
 
