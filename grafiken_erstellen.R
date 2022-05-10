@@ -11,9 +11,6 @@ vorlage_kantone <- c("Tfr6N","qI7hZ","GAF2u")
 link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220213-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
 
-
-
-
 #Vorlagen umbenennen
 vorlagen$text[1] <- "Änderung des Filmgesetzes"
 vorlagen$text[2] <- "Änderung des Transplantationsgesetzes"
@@ -26,7 +23,6 @@ vorlagen_fr$text[3] <- "Développement de Frontex"
 vorlagen_it$text[1] <- "Modifica della legge sul cinema"
 vorlagen_it$text[2] <- "Modifica della legge sui trapianti"
 vorlagen_it$text[3] <- "Ampliamento di Frontex"
-
 
 for (i in 1:length(vorlagen_short) ) {
 
@@ -72,15 +68,15 @@ undertitel_balken_secondline <- paste0("Ja ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_no),"</b>",
                                        " ",gsub("[.]",",",Nein_Anteil),"% Nein",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",2),"</b>",
+                                       strrep("&nbsp;",0),"</b>",
                                        "Ja ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        " ",Staende_Nein," Nein",
-                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",2),"</b>",
+                                       '<b style="background:	#FFFFFF; color:black; padding:1px 3px">',
+                                       strrep("&nbsp;",0),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -262,15 +258,15 @@ undertitel_balken_secondline <- paste0("Oui ",gsub("[.]",",",Ja_Anteil),"% ",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_no),"</b>",
                                        " ",gsub("[.]",",",Nein_Anteil),"% Non",
-                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",1),"</b>",
+                                       '<b style="background:	#FFFFFF; color:black; padding:1px 4px">',
+                                       strrep("&nbsp;",0),"</b>",
                                        "Oui ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
                                        '<b style="background:		#F88379; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        " ",Staende_Nein," Non",
-                                       '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
+                                       '<b style="background:	#FFFFFF; color:black; padding:1px 3px">',
                                        strrep("&nbsp;",0),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
@@ -292,7 +288,7 @@ undertitel_all <- gsub('Oui 0 <b style="background:	#89CFF0; color:black; paddin
 undertitel_all <- gsub('6px"></b> 0 Non',
                        '0px"></b> 0 Non',
                        undertitel_all)
-
+cat(undertitel_all)
 footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",22),
@@ -456,7 +452,7 @@ undertitel_balken_secondline <- paste0("sì ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_no),"</b>",
                                        " ",gsub("[.]",",",Nein_Anteil),"% no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",1),"</b>",
+                                       strrep("&nbsp;",0),"</b>",
                                        "sì ",Staende_Ja," ",
                                        '<b style="background:	#89CFF0; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_Staende_Ja),"</b>",
@@ -464,7 +460,7 @@ undertitel_balken_secondline <- paste0("sì ",gsub("[.]",",",Ja_Anteil),"% ",
                                        strrep("&nbsp;",length_Staende_Nein),"</b>",
                                        " ",Staende_Nein," no",
                                        '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",1),"</b>",
+                                       strrep("&nbsp;",0),"</b>",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
@@ -485,7 +481,7 @@ undertitel_all <- gsub('sì 0 <b style="background:	#89CFF0; color:black; paddin
 undertitel_all <- gsub('6px"></b> 0 no',
                        '0px"></b> 0 no',
                        undertitel_all)
-
+cat(undertitel_all)
 footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",25),

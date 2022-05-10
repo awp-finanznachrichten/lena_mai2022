@@ -1,58 +1,58 @@
-#Tierversuche
-data_tierversuche <- read_csv("Output/Tierversuche_dw.csv")
+#Film
+data_Film <- read_csv("Output/Film_dw.csv")
 
-data_tierversuche <- data_tierversuche %>%
+data_Film <- data_Film %>%
   select(Gemeinde_Nr,
          Gemeinde_KT_d,
          Ja_Stimmen_In_Prozent,
          Nein_Stimmen_In_Prozent,
          Text_d)
 
-colnames(data_tierversuche) <- c("Gemeinde_Nr","Gemeinde_Name",
-                                 "Tierversuche_Ja_Anteil","Tierversuche_Nein_Anteil",
-                                 "Tierversuche_Text")
+colnames(data_Film) <- c("Gemeinde_Nr","Gemeinde_Name",
+                                 "Film_Ja_Anteil","Film_Nein_Anteil",
+                                 "Film_Text")
 
-#Tabakwerbung
-data_tabakwerbung <- read_csv("Output/Tabakwerbung_dw.csv")
+#Frontex
+data_Frontex <- read_csv("Output/Frontex_dw.csv")
 
-data_tabakwerbung <- data_tabakwerbung %>%
+data_Frontex <- data_Frontex %>%
   select(Gemeinde_Nr,
          Ja_Stimmen_In_Prozent,
          Nein_Stimmen_In_Prozent,
          Text_d)
 
-colnames(data_tabakwerbung) <- c("Gemeinde_Nr","Tabakwerbung_Ja_Anteil","Tabakwerbung_Nein_Anteil",
-                                 "Tabakwerbung_Text")
+colnames(data_Frontex) <- c("Gemeinde_Nr","Frontex_Ja_Anteil","Frontex_Nein_Anteil",
+                                 "Frontex_Text")
 
-#Stempelabgaben
-data_stempelabgaben <- read_csv("Output/Stempelabgaben_dw.csv")
+#Transplantation
+data_Transplantation <- read_csv("Output/Transplantation_dw.csv")
 
-data_stempelabgaben <- data_stempelabgaben %>%
+data_Transplantation <- data_Transplantation %>%
   select(Gemeinde_Nr,
          Ja_Stimmen_In_Prozent,
          Nein_Stimmen_In_Prozent,
          Text_d)
 
-colnames(data_stempelabgaben) <- c("Gemeinde_Nr","Stempelabgaben_Ja_Anteil","Stempelabgaben_Nein_Anteil",
-                                 "Stempelabgaben_Text")
+colnames(data_Transplantation) <- c("Gemeinde_Nr","Transplantation_Ja_Anteil","Transplantation_Nein_Anteil",
+                                 "Transplantation_Text")
 
 
 #Medien
-data_medien <- read_csv("Output/Medien_dw.csv")
+#data_medien <- read_csv("Output/Medien_dw.csv")
 
-data_medien  <- data_medien  %>%
-  select(Gemeinde_Nr,
-         Ja_Stimmen_In_Prozent,
-         Nein_Stimmen_In_Prozent,
-         Text_d)
+#data_medien  <- data_medien  %>%
+#  select(Gemeinde_Nr,
+#         Ja_Stimmen_In_Prozent,
+#         Nein_Stimmen_In_Prozent,
+#         Text_d)
 
-colnames(data_medien) <- c("Gemeinde_Nr","Medien_Ja_Anteil","Medien_Nein_Anteil",
-                                 "Medien_Text")
+#colnames(data_medien) <- c("Gemeinde_Nr","Medien_Ja_Anteil","Medien_Nein_Anteil",
+#                                 "Medien_Text")
 
 #Zusammenführen
-datenfeed_all <- merge(data_tierversuche,data_tabakwerbung)
-datenfeed_all <- merge(datenfeed_all,data_stempelabgaben)
-datenfeed_all <- merge(datenfeed_all,data_medien)
+datenfeed_all <- merge(data_Film,data_Frontex)
+datenfeed_all <- merge(datenfeed_all,data_Transplantation)
+#datenfeed_all <- merge(datenfeed_all,data_medien)
 
 #Datenfeed speichern
 write.csv(datenfeed_all,"Output/Datenfeed_NAU.csv", na = "", row.names = FALSE, fileEncoding = "UTF-8")
