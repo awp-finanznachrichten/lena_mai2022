@@ -7,7 +7,7 @@ for (s in 1:length(kantonal_short_special) ) {
                                   kantonal_add_special[s])
 
 #Simulation Gemeinden
-source("data_simulation_gemeinden.R")
+#source("data_simulation_gemeinden.R")
  
 
   #Daten anpassen Gemeinden
@@ -42,7 +42,7 @@ source("data_simulation_gemeinden.R")
                                                  kantonal_add_special[s]+1)
   
 #Simulation Gemeinden
-source("data_simulation_gegenvorschlag.R")
+#source("data_simulation_gegenvorschlag.R")
 
   results_gegenvorschlag <- results_gegenvorschlag[,c(3:6,11)]
   results_gegenvorschlag$neinStimmenInProzent <- 100-results_gegenvorschlag$jaStimmenInProzent
@@ -59,7 +59,7 @@ source("data_simulation_gegenvorschlag.R")
                                                  kantonal_add_special[s]+2)
   
 #Simulation Gemeinden
-source("data_simulation_stichentscheid.R")
+#source("data_simulation_stichentscheid.R")
   
   results_stichentscheid  <- results_stichentscheid[,c(3:4,11)]
   results_stichentscheid$neinStimmenInProzent <- 100-results_stichentscheid$jaStimmenInProzent

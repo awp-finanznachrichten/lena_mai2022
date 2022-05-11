@@ -8,7 +8,7 @@ for (k in 1:length(kantonal_short) ) {
   
 
 #Simulation Gemeinden
-source("data_simulation_gemeinden.R")
+#source("data_simulation_gemeinden.R")
   
   #Daten anpassen Gemeinden
   results <- treat_gemeinden(results)
@@ -21,7 +21,7 @@ source("data_simulation_gemeinden.R")
                                             "kantonal")
   
   results$Ja_Stimmen_In_Prozent_Kanton <- Ja_Stimmen_Kanton
-results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
+#results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
   
   #Wie viele Gemeinden sind ausgezählt?
   cat(paste0(sum(results$Gebiet_Ausgezaehlt)," Gemeinden sind ausgezählt.\n"))
@@ -61,7 +61,7 @@ results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
     
 #Vergleich innerhalb des Kantons (falls Daten vom Kanton vorhanden) -> Ändern von FALSE auf TRUE
     
-    if (json_data_kantone$kantone$vorlagen[[kantonal_number[k]]]$vorlageBeendet[[kantonal_add[k]]] == FALSE) {
+    if (json_data_kantone$kantone$vorlagen[[kantonal_number[k]]]$vorlageBeendet[[kantonal_add[k]]] == TRUE) {
       
     if (kantonal_short[k] == "BS_Primaten") {
     cat("Kein kantonaler Vergleich\n\n")  
