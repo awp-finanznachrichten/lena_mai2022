@@ -1,6 +1,8 @@
 library(rsvg)
 library(magick)
 library(DatawRappr)
+library(zip)
+library(RCurl)
 
 #Vorlagen Codes
 vorlage_gemeinde <- c("kDkMR","5NIK3","Idw6B")
@@ -158,12 +160,10 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
 zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), 
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'))
 #ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -220,12 +220,10 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
 zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), 
          c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'))
 #ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -350,12 +348,10 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," F\
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
 zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), 
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'))
 #ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -414,12 +410,11 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
+
 zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), 
          c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'))
 #ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -481,7 +476,7 @@ undertitel_all <- gsub('sì 0 <b style="background:	#89CFF0; color:black; paddin
 undertitel_all <- gsub('6px"></b> 0 no',
                        '0px"></b> 0 no',
                        undertitel_all)
-cat(undertitel_all)
+
 footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",25),
@@ -543,12 +538,10 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," I\
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
 zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), 
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'))
 #ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -610,12 +603,11 @@ metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_sho
 cat(metadata,file="metadata.properties")
 
 #Zip-File erstellen
-library(zip)
 zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), 
          c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#library(RCurl)
+
 #ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'))
 #ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
@@ -625,5 +617,161 @@ setwd("..")
 
 }
 
+Organspende <- FALSE
+
+if (Organspende == TRUE) {
 
 
+#Organspendegrafik DE
+
+setwd("./Grafiken")
+
+#Create Folder
+folder_name <- "Organspende_DE"
+dir.create(folder_name)
+
+setwd(paste0("./",folder_name))
+
+#Als JPEG
+map <- dw_export_chart("19NdQ", plain=FALSE,border_width = 20)
+image_write(map,path="preview.jpg",format="jpeg")
+
+
+#Als SVG &  EPS
+map <- dw_export_chart("19NdQ", type="svg",plain=FALSE,border_width = 20)
+cat(map,file="Organspende_DE.svg")
+map <- charToRaw(map)
+rsvg_eps(map,"Organspende_DE.eps",width=4800)
+
+
+#Metadata
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER D\n",
+                   "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
+                   "i120_caption=INFOGRAFIK - Je mehr freiwillige Einträge ins Organspenderegister, desto grösser die Zustimmung zum Transplantationsgesetz. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt. (Infografik KEYSTONE)\n",
+                   "i103_original_transmission_reference=\n",
+                   "i90_city=\n",
+                   "i100_country_code=CHE\n",
+                   "i15_category=N\n",
+                   "i105_headline=Politik, Wirtschaft\n",
+                   "i40_special_instructions=Die Infografik kann im Grafikformat EPS und SVG bezogen werden. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
+                   "i110_credit=KEYSTONE\n",
+                   "i115_source=KEYSTONE\n",
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
+
+cat(metadata,file="metadata.properties")
+
+#Zip-File erstellen
+zip::zip(zipfile = 'Organspende_DEU.zip', 
+         c("Organspende_DE.eps","Organspende_DE.svg","preview.jpg","metadata.properties"), mode="cherry-pick")
+
+#Daten hochladen
+#ftp_adress <- paste0("ftp://ftp.keystone.ch/",'Organspende_DEU.zip')
+#ftpUpload('Organspende_DEU.zip', ftp_adress,userpwd="keyg_in:5r6368vz")
+
+setwd("..")
+setwd("..")
+
+
+#Organspendegrafik FR
+
+setwd("./Grafiken")
+
+#Create Folder
+folder_name <- "Organspende_FR"
+dir.create(folder_name)
+
+setwd(paste0("./",folder_name))
+
+#Als JPEG
+map <- dw_export_chart("1X64P", plain=FALSE,border_width = 20)
+image_write(map,path="preview.jpg",format="jpeg")
+
+
+#Als SVG &  EPS
+map <- dw_export_chart("1X64P", type="svg",plain=FALSE,border_width = 20)
+cat(map,file="Organspende_FR.svg")
+map <- charToRaw(map)
+rsvg_eps(map,"Organspende_FR.eps",width=4800)
+
+
+#Metadata
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER F\n",
+                   "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
+                   "i120_caption=INFOGRAPHIE - Plus il y a d'inscriptions volontaires au registre des donneurs d'organes, plus l'approbation de la loi sur la transplantation est forte. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
+                   "i103_original_transmission_reference=\n",
+                   "i90_city=\n",
+                   "i100_country_code=CHE\n",
+                   "i15_category=N\n",
+                   "i105_headline=Politik, Wirtschaft\n",
+                   "i40_special_instructions=L'infographie peut être obtenue aux formats graphiques EPS et SVG. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
+                   "i110_credit=KEYSTONE\n",
+                   "i115_source=KEYSTONE\n",
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
+
+cat(metadata,file="metadata.properties")
+
+#Zip-File erstellen
+zip::zip(zipfile = 'Organspende_FR.zip', 
+         c("Organspende_FR.eps","Organspende_FR.svg","preview.jpg","metadata.properties"), mode="cherry-pick")
+
+#Daten hochladen
+#ftp_adress <- paste0("ftp://ftp.keystone.ch/",'Organspende_FR.zip')
+#ftpUpload('Organspende_FR.zip', ftp_adress,userpwd="keyg_in:5r6368vz")
+
+setwd("..")
+setwd("..")
+
+
+#Organspendegrafik IT
+
+setwd("./Grafiken")
+
+#Create Folder
+folder_name <- "Organspende_IT"
+dir.create(folder_name)
+
+setwd(paste0("./",folder_name))
+
+#Als JPEG
+map <- dw_export_chart("lHQVh", plain=FALSE,border_width = 20)
+image_write(map,path="preview.jpg",format="jpeg")
+
+
+#Als SVG &  EPS
+map <- dw_export_chart("lHQVh", type="svg",plain=FALSE,border_width = 20)
+cat(map,file="Organspende_IT.svg")
+map <- charToRaw(map)
+rsvg_eps(map,"Organspende_IT.eps",width=4800)
+
+
+#Metadata
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER I\n",
+                   "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
+                   "i120_caption=INFOGRAPHIE - Più ci sono iscrizioni volontarie al registro di donazione organi, più la legge sui trapianti è accettata. Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
+                   "i103_original_transmission_reference=\n",
+                   "i90_city=\n",
+                   "i100_country_code=CHE\n",
+                   "i15_category=N\n",
+                   "i105_headline=Politik, Wirtschaft\n",
+                   "i40_special_instructions=L'infografica può essere ottenuta nei formati grafici EPS e SVG. Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
+                   "i110_credit=KEYSTONE\n",
+                   "i115_source=KEYSTONE\n",
+                   "i80_byline=Lena\n",
+                   "i122_writer=Lena\n")
+
+cat(metadata,file="metadata.properties")
+
+#Zip-File erstellen
+zip::zip(zipfile = 'Organspende_IT.zip', 
+         c("Organspende_IT.eps","Organspende_IT.svg","preview.jpg","metadata.properties"), mode="cherry-pick")
+
+#Daten hochladen
+#ftp_adress <- paste0("ftp://ftp.keystone.ch/",'Organspende_IT.zip')
+#ftpUpload('Organspende_IT.zip', ftp_adress,userpwd="keyg_in:5r6368vz")
+
+setwd("..")
+setwd("..")
+
+}
