@@ -145,7 +145,7 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," D\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt. (Infografik KEYSTONE)\n",
+                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -205,7 +205,7 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," D\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 Resultate Gemeinden - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.(Infografik KEYSTONE)\n",
+                   "i120_caption=INFOGRAFIK - Eidgenoessische Volksabstimmung vom 15. Mai 2022 Resultate Gemeinden - ",titel,". Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -333,7 +333,7 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," F\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -395,7 +395,7 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," F\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votation populaire du 15 mai 2022 - ",titel,". Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -523,7 +523,7 @@ rsvg_eps(map,paste0("LENA_Kantone_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN ",vorlagen_short[i]," I\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -588,7 +588,7 @@ rsvg_eps(map,paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),width=4800)
 #Metadata
 metadata <- paste0("i5_object_name=SCHWEIZ ABSTIMMUNGEN GEMEINDEN ",vorlagen_short[i]," I\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Votatzione popolare del 15 maggio 2022 - ",titel,". Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -617,7 +617,7 @@ setwd("..")
 
 }
 
-Organspende <- TRUE
+Organspende <- FALSE
 
 if (Organspende == TRUE) {
 
@@ -645,9 +645,9 @@ rsvg_eps(map,"Organspende_DE.eps",width=4800)
 
 
 #Metadata
-metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER D\n",
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDEREGISTER D\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAFIK - Je mehr freiwillige Einträge ins Organspenderegister, desto grösser die Zustimmung zum Transplantationsgesetz. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt. (Infografik KEYSTONE)\n",
+                   "i120_caption=INFOGRAFIK - Je mehr freiwillige Einträge ins Organspenderegister, desto grösser die Zustimmung zum Transplantationsgesetz. Diese Infografik wurde automatisiert vom Schreibroboter Lena erstellt.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -696,9 +696,9 @@ rsvg_eps(map,"Organspende_FR.eps",width=4800)
 
 
 #Metadata
-metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER F\n",
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDEREGISTER F\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Plus il y a d'inscriptions volontaires au registre des donneurs d'organes, plus l'approbation de la loi sur la transplantation est forte. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena. (Infographie KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Plus il y a d'inscriptions volontaires au registre des donneurs d'organes, plus l'approbation de la loi sur la transplantation est forte. Cette infographie a été réalisée de manière automatisée par le robot d'écriture Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
@@ -747,9 +747,9 @@ rsvg_eps(map,"Organspende_IT.eps",width=4800)
 
 
 #Metadata
-metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDER I\n",
+metadata <- paste0("i5_object_name=KORRELATIONSGRAFIK ORGANSPENDEREGISTER I\n",
                    "i55_date_created=",format(Sys.Date(),"%Y%m%d"),"\n",
-                   "i120_caption=INFOGRAPHIE - Più ci sono iscrizioni volontarie al registro di donazione organi, più la legge sui trapianti è accettata. Questa infografica è stata creata automaticamente dal robot di scrittura Lena. (Infografica KEYSTONE)\n",
+                   "i120_caption=INFOGRAPHIE - Più ci sono iscrizioni volontarie al registro di donazione organi, più la legge sui trapianti è accettata. Questa infografica è stata creata automaticamente dal robot di scrittura Lena.\n",
                    "i103_original_transmission_reference=\n",
                    "i90_city=\n",
                    "i100_country_code=CHE\n",
