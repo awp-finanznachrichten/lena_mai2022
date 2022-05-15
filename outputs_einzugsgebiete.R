@@ -46,6 +46,16 @@ output_dw_FM1_today <- results[results$Kanton_Short == "SG" |
 
 output_dw_FM1_today <- get_output_gemeinden(output_dw_FM1_today)
 
+#Anpassungen (Schwende-Rüte)
+gemeinde_adapt <- output_dw_FM1_today[output_dw_FM1_today$Gemeinde_Nr == 3112,] 
+
+gemeinde_adapt$Gemeinde_Nr[1] <- 3103
+output_dw_FM1_today <- rbind(output_dw_FM1_today,gemeinde_adapt)
+
+gemeinde_adapt$Gemeinde_Nr[1] <- 3105
+output_dw_FM1_today <- rbind(output_dw_FM1_today,gemeinde_adapt)
+
+
 write.csv(output_dw_FM1_today,paste0("Output/",vorlagen_short[i],"_dw_FM1_today.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
 
 ###Output generieren für Datawrapper Basel
