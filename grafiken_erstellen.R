@@ -32,12 +32,11 @@ for (i in 1:length(vorlagen_short) ) {
 results_national <- get_results(json_data,i,level="national")
 Ja_Anteil <- round(results_national$jaStimmenInProzent,1)
 Nein_Anteil <- round(100-results_national$jaStimmenInProzent,1)
-Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent,1)
+Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent)
 Staende_Ja <- results_national$jaStaendeGanz+(results_national$jaStaendeHalb/2)
 Staende_Nein <- results_national$neinStaendeGanz+(results_national$neinStaendeHalb/2)
 
-
-
+results_national$stimmbeteiligungInProzent
 #####DEUTSCH
 
 ###Flexible Grafik-Bausteine erstellen
