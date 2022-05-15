@@ -39,13 +39,13 @@
 53,50,0,0,"Bülach ZH","Bülach (ZH)","Bülach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 54,50,0,0,"Dietlikon ZH","Dietlikon (ZH)","Dietlikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 55,50,0,0,"Eglisau ZH","Eglisau (ZH)","Eglisau ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-56,50,0,0,"Embrach ZH","Embrach (ZH)","Embrach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+56,24,24,76,"Embrach ZH","Embrach (ZH)","Embrach ZH","Embrach hat das Stimm- und Wahlsrechtsalter 16  mit 76 Prozent abgelehnt.",,
 57,27.9,27.9,72.1,"Freienstein-Teufen ZH","Freienstein-Teufen (ZH)","Freienstein-Teufen ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Freienstein-Teufen: 72,1 Prozent haben die Vorlage abgelehnt.",,
 58,50,0,0,"Glattfelden ZH","Glattfelden (ZH)","Glattfelden ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 59,19.7,19.7,80.3,"Hochfelden ZH","Hochfelden (ZH)","Hochfelden ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Hochfelden. 80,3 Prozent haben sie verworfen.",,
 60,18.6,18.6,81.4,"Höri ZH","Höri (ZH)","Höri ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Höri. 81,4 Prozent haben sie verworfen.",,
 61,19.6,19.6,80.4,"Hüntwangen ZH","Hüntwangen (ZH)","Hüntwangen ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Hüntwangen. 80,4 Prozent haben sie verworfen.",,
-62,50,0,0,"Kloten ZH","Kloten (ZH)","Kloten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+62,27,27,73,"Kloten ZH","Kloten (ZH)","Kloten ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Kloten: 73 Prozent haben die Vorlage abgelehnt.",,
 63,23.6,23.6,76.4,"Lufingen ZH","Lufingen (ZH)","Lufingen ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Lufingen. 76,4 Prozent haben sie verworfen.",,
 64,50,0,0,"Nürensdorf ZH","Nürensdorf (ZH)","Nürensdorf ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 65,14.9,14.9,85.1,"Oberembrach ZH","Oberembrach (ZH)","Oberembrach ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Oberembrach: 85,1 Prozent haben die Vorlage abgelehnt.",,
@@ -55,7 +55,7 @@
 69,30.7,30.7,69.3,"Wallisellen ZH","Wallisellen (ZH)","Wallisellen ZH","Wallisellen hat das Stimm- und Wahlsrechtsalter 16  mit 69,3 Prozent abgelehnt.",,
 70,22.6,22.6,77.4,"Wasterkingen ZH","Wasterkingen (ZH)","Wasterkingen ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Wasterkingen. 77,4 Prozent haben sie verworfen.",,
 71,23.5,23.5,76.5,"Wil ZH","Wil (ZH)","Wil ZH ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Wil ZH. 76,5 Prozent haben sie verworfen.",,
-72,50,0,0,"Winkel ZH","Winkel (ZH)","Winkel ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+72,21.5,21.5,78.5,"Winkel ZH","Winkel (ZH)","Winkel ZH","Winkel hat das Stimm- und Wahlsrechtsalter 16  mit 78,5 Prozent abgelehnt.",,
 81,23.4,23.4,76.6,"Bachs ZH","Bachs (ZH)","Bachs ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Bachs. 76,6 Prozent haben sie verworfen.",,
 82,23.7,23.7,76.3,"Boppelsen ZH","Boppelsen (ZH)","Boppelsen ZH","Boppelsen hat das Stimm- und Wahlsrechtsalter 16  mit 76,3 Prozent abgelehnt.",,
 83,23.2,23.2,76.8,"Buchs ZH","Buchs (ZH)","Buchs ZH","Buchs ZH hat das Stimm- und Wahlsrechtsalter 16  mit 76,8 Prozent abgelehnt.",,
@@ -77,7 +77,7 @@
 99,22.6,22.6,77.4,"Schöfflisdorf ZH","Schöfflisdorf (ZH)","Schöfflisdorf ZH","Schöfflisdorf hat das Stimm- und Wahlsrechtsalter 16  mit 77,4 Prozent abgelehnt.",,
 100,19.2,19.2,80.8,"Stadel ZH","Stadel (ZH)","Stadel ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Stadel: 80,8 Prozent haben die Vorlage abgelehnt.",,
 101,23.1,23.1,76.9,"Steinmaur ZH","Steinmaur (ZH)","Steinmaur ZH","Steinmaur hat das Stimm- und Wahlsrechtsalter 16  mit 76,9 Prozent abgelehnt.",,
-102,50,0,0,"Weiach ZH","Weiach (ZH)","Weiach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+102,19.2,19.2,80.8,"Weiach ZH","Weiach (ZH)","Weiach ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Weiach. 80,8 Prozent haben sie verworfen.",,
 111,50,0,0,"Bäretswil ZH","Bäretswil (ZH)","Bäretswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 112,25.9,25.9,74.1,"Bubikon ZH","Bubikon (ZH)","Bubikon ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Bubikon: 74,1 Prozent haben die Vorlage abgelehnt.",,
 113,25.9,25.9,74.1,"Dürnten ZH","Dürnten (ZH)","Dürnten ZH","Dürnten hat das Stimm- und Wahlsrechtsalter 16  mit 74,1 Prozent abgelehnt.",,
@@ -126,7 +126,7 @@
 199,23.8,23.8,76.2,"Volketswil ZH","Volketswil (ZH)","Volketswil ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Volketswil. 76,2 Prozent haben sie verworfen.",,
 200,50,0,0,"Wangen-Brüttisellen ZH","Wangen-Brüttisellen (ZH)","Wangen-Brüttisellen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 211,16.6,16.6,83.4,"Altikon ZH","Altikon (ZH)","Altikon ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Altikon. 83,4 Prozent haben sie verworfen.",,
-213,50,0,0,"Brütten ZH","Brütten (ZH)","Brütten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+213,25.1,25.1,74.9,"Brütten ZH","Brütten (ZH)","Brütten ZH","Brütten hat das Stimm- und Wahlsrechtsalter 16  mit 74,9 Prozent abgelehnt.",,
 214,20.7,20.7,79.3,"Dägerlen ZH","Dägerlen (ZH)","Dägerlen ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Dägerlen. 79,3 Prozent haben sie verworfen.",,
 215,30.5,30.5,69.5,"Dättlikon ZH","Dättlikon (ZH)","Dättlikon ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Dättlikon. 69,5 Prozent haben sie verworfen.",,
 216,20.7,20.7,79.3,"Dinhard ZH","Dinhard (ZH)","Dinhard ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Dinhard. 79,3 Prozent haben sie verworfen.",,
@@ -141,7 +141,7 @@
 227,50,0,0,"Seuzach ZH","Seuzach (ZH)","Seuzach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 228,50,0,0,"Turbenthal ZH","Turbenthal (ZH)","Turbenthal ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 230,50,0,0,"Winterthur ZH","Winterthour (ZH)","Winterthur ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-231,50,0,0,"Zell ZH","Zell (ZH)","Zell ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+231,25.7,25.7,74.3,"Zell ZH","Zell (ZH)","Zell ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Zell ZH. 74,3 Prozent haben sie verworfen.",,
 241,25.7,25.7,74.3,"Aesch ZH","Aesch (ZH)","Aesch ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Aesch ZH. 74,3 Prozent haben sie verworfen.",,
 242,50,0,0,"Birmensdorf ZH","Birmensdorf (ZH)","Birmensdorf ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 243,50,0,0,"Dietikon ZH","Dietikon (ZH)","Dietikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -149,7 +149,7 @@
 245,28.3,28.3,71.7,"Oberengstringen ZH","Oberengstringen (ZH)","Oberengstringen ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Oberengstringen: 71,7 Prozent haben die Vorlage abgelehnt.",,
 246,22.1,22.1,77.9,"Oetwil an der Limmat ZH","Oetwil an der Limmat (ZH)","Oetwil an der Limmat ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Oetwil an der Limmat. 77,9 Prozent haben sie verworfen.",,
 247,50,0,0,"Schlieren ZH","Schlieren (ZH)","Schlieren ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-248,50,0,0,"Uitikon ZH","Uitikon (ZH)","Uitikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+248,29.9,29.9,70.1,"Uitikon ZH","Uitikon (ZH)","Uitikon ZH","Uitikon hat das Stimm- und Wahlsrechtsalter 16  mit 70,1 Prozent abgelehnt.",,
 249,50,0,0,"Unterengstringen ZH","Unterengstringen (ZH)","Unterengstringen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 250,50,0,0,"Urdorf ZH","Urdorf (ZH)","Urdorf ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 251,50,0,0,"Weiningen ZH","Weiningen (ZH)","Weiningen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
