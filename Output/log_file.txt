@@ -311,3 +311,12 @@ Luzern, Uri, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzel
 
 2022-05-15 13:35:39 Frontex
 Luzern, Uri, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, St. Gallen, Aargau, Thurgau, Waadt, Wallis, 
+
+2022-05-15 13:37:35 Film
+Luzern, Uri, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Aargau, Thurgau, Waadt, Wallis, 
+
+2022-05-15 13:38:13 Transplantation
+Luzern, Uri, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Aargau, Thurgau, Waadt, Wallis, 
+
+2022-05-15 13:38:53 Frontex
+Luzern, Uri, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Aargau, Thurgau, Waadt, Wallis, 
