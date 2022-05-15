@@ -36,7 +36,7 @@ Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent,1)
 Staende_Ja <- results_national$jaStaendeGanz+(results_national$jaStaendeHalb/2)
 Staende_Nein <- results_national$neinStaendeGanz+(results_national$neinStaendeHalb/2)
 
-results_national$stimmbeteiligungInProzent
+
 #####DEUTSCH
 
 ###Flexible Grafik-Bausteine erstellen
@@ -163,8 +163,8 @@ zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'),
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'))
-#ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'))
+ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
@@ -223,8 +223,8 @@ zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'),
          c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'))
-#ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'))
+ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_DEU.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
@@ -268,7 +268,7 @@ undertitel_balken_secondline <- paste0("Oui ",gsub("[.]",",",Ja_Anteil),"% ",
                                        '<b style="background:	#696969; color:black; padding:1px 6px">',
                                        strrep("&nbsp;",length_stimmbeteiligung),"</b>",
                                        '<b style="background:		#DCDCDC; color:black; padding:1px 6px">',
-                                       strrep("&nbsp;",20-length_stimmbeteiligung),"</b> ",
+                                       strrep("&nbsp;",20-length_stimmbeteiligung),"</b>",
                                        gsub("[.]",",",Stimmbeteiligung),"%"
 )
 
@@ -285,7 +285,7 @@ undertitel_all <- gsub('Oui 0 <b style="background:	#89CFF0; color:black; paddin
 undertitel_all <- gsub('6px"></b> 0 Non',
                        '0px"></b> 0 Non',
                        undertitel_all)
-cat(undertitel_all)
+
 footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",22),
@@ -351,8 +351,8 @@ zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'),
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'))
-#ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'))
+ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
@@ -414,8 +414,8 @@ zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'),
          c(paste0("LENA_Gemeinden_",vorlagen_short[i],".eps"),paste0("LENA_Gemeinden_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'))
-#ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'))
+ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_FR.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
@@ -541,8 +541,8 @@ zip::zip(zipfile = paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'),
          c(paste0("LENA_Kantone_",vorlagen_short[i],".eps"),paste0("LENA_Kantone_",vorlagen_short[i],".svg"),"preview.jpg","metadata.properties"), mode="cherry-pick")
 
 #Daten hochladen
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'))
-#ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'))
+ftpUpload(paste0('LENA_Kantone_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
@@ -607,8 +607,8 @@ zip::zip(zipfile = paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'),
 
 #Daten hochladen
 
-#ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'))
-#ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
+ftp_adress <- paste0("ftp://ftp.keystone.ch/",paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'))
+ftpUpload(paste0('LENA_Gemeinden_',vorlagen_short[i],'_IT.zip'), ftp_adress,userpwd="keyg_in:5r6368vz")
 
 setwd("..")
 setwd("..")
