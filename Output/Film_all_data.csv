@@ -2015,33 +2015,33 @@
 23,6298,60.199004975,242,160,39.884947267,416,1043,402,TRUE,"VS","Visperterminen","Visperterminen","Visperterminen","Visperterminen VS","Visperterminen (VS)","Visperterminen VS","Wallis","Valais","Vallese",58.950785518,FALSE,FALSE
 23,6299,56,42,33,35.545023697,75,211,75,TRUE,"VS","Zeneggen","Zeneggen","Zeneggen","Zeneggen VS","Zeneggen (VS)","Zeneggen VS","Wallis","Valais","Vallese",58.950785518,FALSE,FALSE
 23,6300,48.777777778,439,461,32.913165266,940,2856,900,TRUE,"VS","Zermatt","Zermatt","Zermatt","Zermatt VS","Zermatt (VS)","Zermatt VS","Wallis","Valais","Vallese",58.950785518,FALSE,FALSE
-24,6404,,,,,,,,FALSE,"NE","Boudry","Boudry","Boudry","Boudry NE","Boudry (NE)","Boudry NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6408,,,,,,,,FALSE,"NE","Cortaillod","Cortaillod","Cortaillod","Cortaillod NE","Cortaillod (NE)","Cortaillod NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6413,,,,,,,,FALSE,"NE","Rochefort","Rochefort","Rochefort","Rochefort NE","Rochefort (NE)","Rochefort NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6416,,,,,,,,FALSE,"NE","Milvignes","Milvignes","Milvignes","Milvignes NE","Milvignes (NE)","Milvignes NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6417,,,,,,,,FALSE,"NE","La Grande Béroche","La Grande Béroche","La Grande Béroche","La Grande Béroche NE","La Grande Béroche (NE)","La Grande Béroche NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6421,,,,,,,,FALSE,"NE","La Chaux-de-Fonds","La Chaux-de-Fonds","La Chaux-de-Fonds","La Chaux-de-Fonds NE","La Chaux-de-Fonds (NE)","La Chaux-de-Fonds NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6422,,,,,,,,FALSE,"NE","Les Planchettes","Les Planchettes","Les Planchettes","Les Planchettes NE","Les Planchettes (NE)","Les Planchettes NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6423,,,,,,,,FALSE,"NE","La Sagne","La Sagne","La Sagne","La SagNE","La Sagne (NE)","La SagNE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6432,,,,,,,,FALSE,"NE","La Brévine","La Brévine","La Brévine","La BréviNE","La Brévine (NE)","La BréviNE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6433,,,,,,,,FALSE,"NE","Brot-Plamboz","Brot-Plamboz","Brot-Plamboz","Brot-Plamboz NE","Brot-Plamboz (NE)","Brot-Plamboz NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6434,,,,,,,,FALSE,"NE","Le Cerneux-Péquignot","Le Cerneux-Péquignot","Le Cerneux-Péquignot","Le Cerneux-Péquignot NE","Le Cerneux-Péquignot (NE)","Le Cerneux-Péquignot NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6435,,,,,,,,FALSE,"NE","La Chaux-du-Milieu","La Chaux-du-Milieu","La Chaux-du-Milieu","La Chaux-du-Milieu NE","La Chaux-du-Milieu (NE)","La Chaux-du-Milieu NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6436,,,,,,,,FALSE,"NE","Le Locle","Le Locle","Le Locle","Le Locle NE","Le Locle (NE)","Le Locle NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6437,,,,,,,,FALSE,"NE","Les Ponts-de-Martel","Les Ponts-de-Martel","Les Ponts-de-Martel","Les Ponts-de-Martel NE","Les Ponts-de-Martel (NE)","Les Ponts-de-Martel NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6451,,,,,,,,FALSE,"NE","Cornaux","Cornaux","Cornaux","Cornaux NE","Cornaux (NE)","Cornaux NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6452,,,,,,,,FALSE,"NE","Cressier NE","Cressier (NE)","Cressier NE","Cressier NE","Cressier (NE)","Cressier NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6453,,,,,,,,FALSE,"NE","Enges","Enges","Enges","Enges NE","Enges (NE)","Enges NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6454,,,,,,,,FALSE,"NE","Hauterive NE","Hauterive (NE)","Hauterive NE","Hauterive NE","Hauterive (NE)","Hauterive NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6455,,,,,,,,FALSE,"NE","Le Landeron","Le Landeron","Le Landeron","Le Landeron NE","Le Landeron (NE)","Le Landeron NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6456,,,,,,,,FALSE,"NE","Lignières","Lignières","Lignières","Lignières NE","Lignières (NE)","Lignières NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6458,,,,,,,,FALSE,"NE","Neuenburg","Neuchâtel","Neuenburg","Neuenburg NE","Neuchâtel (NE)","Neuenburg NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6459,,,,,,,,FALSE,"NE","Saint-Blaise","Saint-Blaise","Saint-Blaise","Saint-Blaise NE","Saint-Blaise (NE)","Saint-Blaise NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6461,,,,,,,,FALSE,"NE","La Tène","La Tène","La Tène","La TèNE","La Tène (NE)","La TèNE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6487,,,,,,,,FALSE,"NE","Val-de-Ruz","Val-de-Ruz","Val-de-Ruz","Val-de-Ruz NE","Val-de-Ruz (NE)","Val-de-Ruz NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6504,,,,,,,,FALSE,"NE","La Côte-aux-Fées","La Côte-aux-Fées","La Côte-aux-Fées","La Côte-aux-Fées NE","La Côte-aux-Fées (NE)","La Côte-aux-Fées NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6511,,,,,,,,FALSE,"NE","Les Verrières","Les Verrières","Les Verrières","Les Verrières NE","Les Verrières (NE)","Les Verrières NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
-24,6512,,,,,,,,FALSE,"NE","Val-de-Travers","Val-de-Travers","Val-de-Travers","Val-de-Travers NE","Val-de-Travers (NE)","Val-de-Travers NE","Neuenburg","Neuchâtel","Neuchâtel",,FALSE,FALSE
+24,6404,67.414796342,811,392,33.839068003,1249,3691,1203,TRUE,"NE","Boudry","Boudry","Boudry","Boudry NE","Boudry (NE)","Boudry NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6408,67.836812144,715,339,35.246433204,1087,3084,1054,TRUE,"NE","Cortaillod","Cortaillod","Cortaillod","Cortaillod NE","Cortaillod (NE)","Cortaillod NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6413,64.393939394,255,141,41.348973607,423,1023,396,TRUE,"NE","Rochefort","Rochefort","Rochefort","Rochefort NE","Rochefort (NE)","Rochefort NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6416,70.021786492,1607,688,37.776,2361,6250,2295,TRUE,"NE","Milvignes","Milvignes","Milvignes","Milvignes NE","Milvignes (NE)","Milvignes NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6417,69.253012048,1437,638,34.653945666,2143,6184,2075,TRUE,"NE","La Grande Béroche","La Grande Béroche","La Grande Béroche","La Grande Béroche NE","La Grande Béroche (NE)","La Grande Béroche NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6421,73.114849188,5042,1854,32.126126126,7132,22200,6896,TRUE,"NE","La Chaux-de-Fonds","La Chaux-de-Fonds","La Chaux-de-Fonds","La Chaux-de-Fonds NE","La Chaux-de-Fonds (NE)","La Chaux-de-Fonds NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6422,67.24137931,39,19,39.622641509,63,159,58,TRUE,"NE","Les Planchettes","Les Planchettes","Les Planchettes","Les Planchettes NE","Les Planchettes (NE)","Les Planchettes NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6423,66.112956811,199,102,35.044642857,314,896,301,TRUE,"NE","La Sagne","La Sagne","La Sagne","La SagNE","La Sagne (NE)","La SagNE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6432,54.205607477,116,98,43.137254902,220,510,214,TRUE,"NE","La Brévine","La Brévine","La Brévine","La BréviNE","La Brévine (NE)","La BréviNE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6433,58.75,47,33,42.307692308,88,208,80,TRUE,"NE","Brot-Plamboz","Brot-Plamboz","Brot-Plamboz","Brot-Plamboz NE","Brot-Plamboz (NE)","Brot-Plamboz NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6434,69.902912621,72,31,36.933797909,106,287,103,TRUE,"NE","Le Cerneux-Péquignot","Le Cerneux-Péquignot","Le Cerneux-Péquignot","Le Cerneux-Péquignot NE","Le Cerneux-Péquignot (NE)","Le Cerneux-Péquignot NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6435,66.666666667,88,44,34.895833333,134,384,132,TRUE,"NE","La Chaux-du-Milieu","La Chaux-du-Milieu","La Chaux-du-Milieu","La Chaux-du-Milieu NE","La Chaux-du-Milieu (NE)","La Chaux-du-Milieu NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6436,68.528610354,1509,693,32.361308677,2275,7030,2202,TRUE,"NE","Le Locle","Le Locle","Le Locle","Le Locle NE","Le Locle (NE)","Le Locle NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6437,62.099125364,213,130,35.247524752,356,1010,343,TRUE,"NE","Les Ponts-de-Martel","Les Ponts-de-Martel","Les Ponts-de-Martel","Les Ponts-de-Martel NE","Les Ponts-de-Martel (NE)","Les Ponts-de-Martel NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6451,58.152173913,214,154,36.79154659,383,1041,368,TRUE,"NE","Cornaux","Cornaux","Cornaux","Cornaux NE","Cornaux (NE)","Cornaux NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6452,68.878718535,301,136,38.673557278,449,1161,437,TRUE,"NE","Cressier NE","Cressier (NE)","Cressier NE","Cressier NE","Cressier (NE)","Cressier NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6453,70.930232558,61,25,44.162436548,87,197,86,TRUE,"NE","Enges","Enges","Enges","Enges NE","Enges (NE)","Enges NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6454,71.897289586,504,197,42.621987066,725,1701,701,TRUE,"NE","Hauterive NE","Hauterive (NE)","Hauterive NE","Hauterive NE","Hauterive (NE)","Hauterive NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6455,69.798068481,795,344,37.140145524,1174,3161,1139,TRUE,"NE","Le Landeron","Le Landeron","Le Landeron","Le Landeron NE","Le Landeron (NE)","Le Landeron NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6456,61.316872428,149,94,35.886524823,253,705,243,TRUE,"NE","Lignières","Lignières","Lignières","Lignières NE","Lignières (NE)","Lignières NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6458,74.659598794,7183,2438,36.524153248,9867,27015,9621,TRUE,"NE","Neuenburg","Neuchâtel","Neuenburg","Neuenburg NE","Neuchâtel (NE)","Neuenburg NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6459,73.862433862,698,247,43.987341772,973,2212,945,TRUE,"NE","Saint-Blaise","Saint-Blaise","Saint-Blaise","Saint-Blaise NE","Saint-Blaise (NE)","Saint-Blaise NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6461,67.968056788,766,361,36.784485455,1176,3197,1127,TRUE,"NE","La Tène","La Tène","La Tène","La TèNE","La Tène (NE)","La TèNE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6487,66.102941176,2697,1383,35.611571646,4210,11822,4080,TRUE,"NE","Val-de-Ruz","Val-de-Ruz","Val-de-Ruz","Val-de-Ruz NE","Val-de-Ruz (NE)","Val-de-Ruz NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6504,60.451977401,107,70,45.566502463,185,406,177,TRUE,"NE","La Côte-aux-Fées","La Côte-aux-Fées","La Côte-aux-Fées","La Côte-aux-Fées NE","La Côte-aux-Fées (NE)","La Côte-aux-Fées NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6511,66.459627329,107,54,29.026548673,164,565,161,TRUE,"NE","Les Verrières","Les Verrières","Les Verrières","Les Verrières NE","Les Verrières (NE)","Les Verrières NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
+24,6512,67.978357108,1382,651,27.951870951,2114,7563,2033,TRUE,"NE","Val-de-Travers","Val-de-Travers","Val-de-Travers","Val-de-Travers NE","Val-de-Travers (NE)","Val-de-Travers NE","Neuenburg","Neuchâtel","Neuchâtel",70.480894203,FALSE,FALSE
 25,6601,,,,,,,,FALSE,"GE","Aire-la-Ville","Aire-la-Ville","Aire-la-Ville","Aire-la-Ville GE","Aire-la-Ville (GE)","Aire-la-Ville GE","Genf","Genève","Ginevra",,FALSE,FALSE
 25,6602,,,,,,,,FALSE,"GE","Anières","Anières","Anières","Anières GE","Anières (GE)","Anières GE","Genf","Genève","Ginevra",,FALSE,FALSE
 25,6603,,,,,,,,FALSE,"GE","Avully","Avully","Avully","Avully GE","Avully (GE)","Avully GE","Genf","Genève","Ginevra",,FALSE,FALSE
