@@ -656,132 +656,132 @@
 9,1709,,,,,,,,FALSE,"ZG","Unterägeri","Unterägeri","Unterägeri","Unterägeri ZG","Unterägeri (ZG)","Unterägeri ZG","Zug","Zoug","Zugo",,FALSE,FALSE
 9,1710,,,,,,,,FALSE,"ZG","Walchwil","Walchwil","Walchwil","Walchwil ZG","Walchwil (ZG)","Walchwil ZG","Zug","Zoug","Zugo",,FALSE,FALSE
 9,1711,,,,,,,,FALSE,"ZG","Zug","Zoug","Zugo","Zug ZG","Zoug (ZG)","Zugo ZG","Zug","Zoug","Zugo",,FALSE,FALSE
-10,2008,77.941176471,106,30,40.166204986,145,361,136,TRUE,"FR","Châtillon FR","Châtillon (FR)","Châtillon FR","Châtillon FR","Châtillon (FR)","Châtillon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2011,80.184331797,348,86,36.60130719,448,1224,434,TRUE,"FR","Cugy FR","Cugy (FR)","Cugy FR","Cugy FR","Cugy (FR)","Cugy FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2016,79.746835443,189,48,30.693069307,248,808,237,TRUE,"FR","Fétigny","Fétigny","Fétigny","Fétigny FR","Fétigny (FR)","Fétigny FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2022,70.614035088,161,67,31.799729364,235,739,228,TRUE,"FR","Gletterens","Gletterens","Gletterens","Gletterens FR","Gletterens (FR)","Gletterens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2025,,,,,,,,FALSE,"FR","Lully FR","Lully (FR)","Lully FR","Lully FR","Lully (FR)","Lully FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2027,80.612244898,79,19,36.029411765,98,272,98,TRUE,"FR","Ménières","Ménières","Ménières","Ménières FR","Ménières (FR)","Ménières FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2029,70.625,339,141,27.405405405,507,1850,480,TRUE,"FR","Montagny FR","Montagny (FR)","Montagny FR","Montagny FR","Montagny (FR)","Montagny FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2035,74.666666667,56,19,27.551020408,81,294,75,TRUE,"FR","Nuvilly","Nuvilly","Nuvilly","Nuvilly FR","Nuvilly (FR)","Nuvilly FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2038,60,9,6,22.077922078,17,77,15,TRUE,"FR","Prévondavaux","Prévondavaux","Prévondavaux","Prévondavaux FR","Prévondavaux (FR)","Prévondavaux FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2041,81.99513382,337,74,36.355859709,425,1169,411,TRUE,"FR","Saint-Aubin FR","Saint-Aubin (FR)","Saint-Aubin FR","Saint-Aubin FR","Saint-Aubin (FR)","Saint-Aubin FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2043,82.608695652,57,12,34.299516908,71,207,69,TRUE,"FR","Sévaz","Sévaz","Sévaz","Sévaz FR","Sévaz (FR)","Sévaz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2044,67.525773196,131,63,23.866348449,200,838,194,TRUE,"FR","Surpierre","Surpierre","Surpierre","Surpierre FR","Surpierre (FR)","Surpierre FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2045,,,,,,,,FALSE,"FR","Vallon","Vallon","Vallon","Vallon FR","Vallon (FR)","Vallon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2050,75.563909774,201,65,27.398615232,277,1011,266,TRUE,"FR","Les Montets","Les Montets","Les Montets","Les Montets FR","Les Montets (FR)","Les Montets FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2051,,,,,,,,FALSE,"FR","Delley-Portalban","Delley-Portalban","Delley-Portalban","Delley-Portalban FR","Delley-Portalban (FR)","Delley-Portalban FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2053,75.537938845,667,216,28.070175439,944,3363,883,TRUE,"FR","Belmont-Broye","Belmont-Broye","Belmont-Broye","Belmont-Broye FR","Belmont-Broye (FR)","Belmont-Broye FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2054,,,,,,,,FALSE,"FR","Estavayer","Estavayer","Estavayer","Estavayer FR","Estavayer (FR)","Estavayer FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2055,73.37164751,383,139,31.918708906,534,1673,522,TRUE,"FR","Cheyres-Châbles","Cheyres-Châbles","Cheyres-Châbles","Cheyres-Châbles FR","Cheyres-Châbles (FR)","Cheyres-Châbles FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2061,,,,,,,,FALSE,"FR","Auboranges","Auboranges","Auboranges","Auboranges FR","Auboranges (FR)","Auboranges FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2063,76.878612717,133,40,31.494661922,177,562,173,TRUE,"FR","Billens-Hennens","Billens-Hennens","Billens-Hennens","Billens-Hennens FR","Billens-Hennens (FR)","Billens-Hennens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2066,79.518072289,66,17,37.229437229,86,231,83,TRUE,"FR","Chapelle (Glâne)","Chapelle (Glâne)","Chapelle (Glâne)","Chapelle (Glâne) FR","Chapelle (Glâne) (FR)","Chapelle (Glâne) FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2067,72.881355932,43,16,23.954372624,63,263,59,TRUE,"FR","Le Châtelard","Le Châtelard","Le Châtelard","Le Châtelard FR","Le Châtelard (FR)","Le Châtelard FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2068,68.553459119,109,50,28.353140917,167,589,159,TRUE,"FR","Châtonnaye","Châtonnaye","Châtonnaye","Châtonnaye FR","Châtonnaye (FR)","Châtonnaye FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2072,79.518072289,66,17,33.333333333,88,264,83,TRUE,"FR","Ecublens FR","Ecublens (FR)","Ecublens FR","Ecublens FR","Ecublens (FR)","Ecublens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2079,67.567567568,25,12,31.851851852,43,135,37,TRUE,"FR","Grangettes","Grangettes","Grangettes","Grangettes FR","Grangettes (FR)","Grangettes FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2086,62.222222222,56,34,25.745257453,95,369,90,TRUE,"FR","Massonnens","Massonnens","Massonnens","Massonnens FR","Massonnens (FR)","Massonnens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2087,68.899521531,144,65,29.347826087,216,736,209,TRUE,"FR","Mézières FR","Mézières (FR)","Mézières FR","Mézières FR","Mézières (FR)","Mézières FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2089,80.21978022,73,18,30.844155844,95,308,91,TRUE,"FR","Montet (Glâne)","Montet (Glâne)","Montet (Glâne)","Montet (Glâne) FR","Montet (Glâne) (FR)","Montet (Glâne) FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2096,,,,,,,,FALSE,"FR","Romont FR","Romont (FR)","Romont FR","Romont FR","Romont (FR)","Romont FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2097,70.545454545,194,81,28.627838105,290,1013,275,TRUE,"FR","Rue","Rue","Rue","Rue FR","Rue (FR)","Rue FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2099,70.737913486,278,115,26.232616941,415,1582,393,TRUE,"FR","Siviriez","Siviriez","Siviriez","Siviriez FR","Siviriez (FR)","Siviriez FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2102,76.066790353,410,129,26.779026217,572,2136,539,TRUE,"FR","Ursy","Ursy","Ursy","Ursy FR","Ursy (FR)","Ursy FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2113,,,,,,,,FALSE,"FR","Vuisternens-devant-Romont","Vuisternens-devant-Romont","Vuisternens-devant-Romont","Vuisternens-devant-Romont FR","Vuisternens-devant-Romont (FR)","Vuisternens-devant-Romont FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2114,,,,,,,,FALSE,"FR","Villorsonnens","Villorsonnens","Villorsonnens","Villorsonnens FR","Villorsonnens (FR)","Villorsonnens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2115,74.137931034,129,45,26.390870185,185,701,174,TRUE,"FR","Torny","Torny","Torny","Torny FR","Torny (FR)","Torny FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2117,72.144846797,259,100,29.077540107,435,1496,359,TRUE,"FR","Villaz","Villaz","Villaz","Villaz FR","Villaz (FR)","Villaz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2121,77.651515152,205,59,26.251180359,278,1059,264,TRUE,"FR","Haut-Intyamon","Haut-Intyamon","Haut-Intyamon","Haut-Intyamon FR","Haut-Intyamon (FR)","Haut-Intyamon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2122,,,,,,,,FALSE,"FR","Pont-en-Ogoz","Pont-en-Ogoz","Pont-en-Ogoz","Pont-en-Ogoz FR","Pont-en-Ogoz (FR)","Pont-en-Ogoz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2123,71.538461538,93,37,32.008830022,145,453,130,TRUE,"FR","Botterens","Botterens","Botterens","Botterens FR","Botterens (FR)","Botterens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2124,,,,,,,,FALSE,"FR","Broc","Broc","Broc","Broc FR","Broc (FR)","Broc FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2125,,,,,,,,FALSE,"FR","Bulle","Bulle","Bulle","Bulle FR","Bulle (FR)","Bulle FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2128,73.417721519,58,21,39.047619048,82,210,79,TRUE,"FR","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens FR","Châtel-sur-Montsalvens (FR)","Châtel-sur-Montsalvens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2129,71.35678392,142,57,31.846153846,207,650,199,TRUE,"FR","Corbières","Corbières","Corbières","Corbières FR","Corbières (FR)","Corbières FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2130,67.272727273,74,36,40.492957746,115,284,110,TRUE,"FR","Crésuz","Crésuz","Crésuz","Crésuz FR","Crésuz (FR)","Crésuz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2131,80.87431694,148,35,30.622009569,192,627,183,TRUE,"FR","Echarlens","Echarlens","Echarlens","Echarlens FR","Echarlens (FR)","Echarlens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2134,76.878612717,133,40,30.650684932,179,584,173,TRUE,"FR","Grandvillard","Grandvillard","Grandvillard","Grandvillard FR","Grandvillard (FR)","Grandvillard FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2135,,,,,,,,FALSE,"FR","Greyerz","Gruyères","Greyerz","Greyerz FR","Gruyères (FR)","Greyerz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2137,87.401574803,111,16,29.772727273,131,440,127,TRUE,"FR","Hauteville","Hauteville","Hauteville","Hauteville FR","Hauteville (FR)","Hauteville FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2138,,,,,,,,FALSE,"FR","Jaun","Bellegarde","Jaun","Jaun FR","Bellegarde (FR)","Jaun FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2140,81.632653061,320,72,30.884557721,412,1334,392,TRUE,"FR","Marsens","Marsens","Marsens","Marsens FR","Marsens (FR)","Marsens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2143,81.879194631,122,27,33.690987124,157,466,149,TRUE,"FR","Morlon","Morlon","Morlon","Morlon FR","Morlon (FR)","Morlon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2145,,,,,,,,FALSE,"FR","Le Pâquier FR","Le Pâquier (FR)","Le Pâquier FR","Le Pâquier FR","Le Pâquier (FR)","Le Pâquier FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2147,,,,,,,,FALSE,"FR","Pont-la-Ville","Pont-la-Ville","Pont-la-Ville","Pont-la-Ville FR","Pont-la-Ville (FR)","Pont-la-Ville FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2148,76.978417266,428,128,31.667571972,583,1841,556,TRUE,"FR","Riaz","Riaz","Riaz","Riaz FR","Riaz (FR)","Riaz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2149,71.124620061,234,95,29.549248748,354,1198,329,TRUE,"FR","La Roche","La Roche","La Roche","La Roche FR","La Roche (FR)","La Roche FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2152,,,,,,,,FALSE,"FR","Sâles","Sâles","Sâles","Sâles FR","Sâles (FR)","Sâles FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2153,,,,,,,,FALSE,"FR","Sorens","Sorens","Sorens","Sorens FR","Sorens (FR)","Sorens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2155,82.967032967,151,31,26.747311828,199,744,182,TRUE,"FR","Vaulruz","Vaulruz","Vaulruz","Vaulruz FR","Vaulruz (FR)","Vaulruz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2160,78.646934461,372,101,30.978934325,500,1614,473,TRUE,"FR","Vuadens","Vuadens","Vuadens","Vuadens FR","Vuadens (FR)","Vuadens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2162,77.090909091,212,63,28.137254902,287,1020,275,TRUE,"FR","Bas-Intyamon","Bas-Intyamon","Bas-Intyamon","Bas-Intyamon FR","Bas-Intyamon (FR)","Bas-Intyamon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2163,73.083475298,429,158,33.797327394,607,1796,587,TRUE,"FR","Val-de-Charmey","Val-de-Charmey","Val-de-Charmey","Val-de-Charmey FR","Val-de-Charmey (FR)","Val-de-Charmey FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2173,75.115207373,163,54,45.105566219,235,521,217,TRUE,"FR","Autigny","Autigny","Autigny","Autigny FR","Autigny (FR)","Autigny FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2174,,,,,,,,FALSE,"FR","Avry","Avry","Avry","Avry FR","Avry (FR)","Avry FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2175,,,,,,,,FALSE,"FR","Belfaux","Belfaux","Belfaux","Belfaux FR","Belfaux (FR)","Belfaux FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2177,79.310344828,115,30,29.62962963,152,513,145,TRUE,"FR","Chénens","Chénens","Chénens","Chénens FR","Chénens (FR)","Chénens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2183,,,,,,,,FALSE,"FR","Corminboeuf","Corminboeuf","Corminboeuf","Corminboeuf FR","Corminboeuf (FR)","Corminboeuf FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2186,,,,,,,,FALSE,"FR","Cottens FR","Cottens (FR)","Cottens FR","Cottens FR","Cottens (FR)","Cottens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2194,80.357142857,45,11,31.491712707,57,181,56,TRUE,"FR","Ferpicloz","Ferpicloz","Ferpicloz","Ferpicloz FR","Ferpicloz (FR)","Ferpicloz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2196,,,,,,,,FALSE,"FR","Freiburg","Fribourg","Friburgo","Freiburg FR","Fribourg (FR)","Friburgo FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2197,,,,,,,,FALSE,"FR","Givisiez","Givisiez","Givisiez","Givisiez FR","Givisiez (FR)","Givisiez FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2198,72.156196944,425,164,31.600407747,620,1962,589,TRUE,"FR","Granges-Paccot","Granges-Paccot","Granges-Paccot","Granges-Paccot FR","Granges-Paccot (FR)","Granges-Paccot FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2200,78.846153846,369,99,37.490494297,493,1315,468,TRUE,"FR","Grolley","Grolley","Grolley","Grolley FR","Grolley (FR)","Grolley FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2206,,,,,,,,FALSE,"FR","Marly","Marly","Marly","Marly FR","Marly (FR)","Marly FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2208,,,,,,,,FALSE,"FR","Matran","Matran","Matran","Matran FR","Matran (FR)","Matran FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2211,,,,,,,,FALSE,"FR","Neyruz FR","Neyruz (FR)","Neyruz FR","Neyruz FR","Neyruz (FR)","Neyruz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2216,73.333333333,33,12,43.75,49,112,45,TRUE,"FR","Pierrafortscha","Pierrafortscha","Pierrafortscha","Pierrafortscha FR","Pierrafortscha (FR)","Pierrafortscha FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2217,,,,,,,,FALSE,"FR","Ponthaux","Ponthaux","Ponthaux","Ponthaux FR","Ponthaux (FR)","Ponthaux FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2220,,,,,,,,FALSE,"FR","Le Mouret","Le Mouret","Le Mouret","Le Mouret FR","Le Mouret (FR)","Le Mouret FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2226,74.314214464,298,103,39.008419083,417,1069,401,TRUE,"FR","Treyvaux","Treyvaux","Treyvaux","Treyvaux FR","Treyvaux (FR)","Treyvaux FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2228,,,,,,,,FALSE,"FR","Villars-sur-Glâne","Villars-sur-Glâne","Villars-sur-Glâne","Villars-sur-Glâne FR","Villars-sur-Glâne (FR)","Villars-sur-Glâne FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2230,63.636363636,14,8,51.162790698,22,43,22,TRUE,"FR","Villarsel-sur-Marly","Villarsel-sur-Marly","Villarsel-sur-Marly","Villarsel-sur-Marly FR","Villarsel-sur-Marly (FR)","Villarsel-sur-Marly FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2233,,,,,,,,FALSE,"FR","Hauterive FR","Hauterive (FR)","Hauterive FR","Hauterive FR","Hauterive (FR)","Hauterive FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2234,,,,,,,,FALSE,"FR","La Brillaz","La Brillaz","La Brillaz","La Brillaz FR","La Brillaz (FR)","La Brillaz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2235,,,,,,,,FALSE,"FR","La Sonnaz","La Sonnaz","La Sonnaz","La Sonnaz FR","La Sonnaz (FR)","La Sonnaz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2236,,,,,,,,FALSE,"FR","Gibloux","Gibloux","Gibloux","Gibloux FR","Gibloux (FR)","Gibloux FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2237,,,,,,,,FALSE,"FR","Prez","Prez","Prez","Prez FR","Prez (FR)","Prez FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2238,,,,,,,,FALSE,"FR","Bois-d'Amont","Bois-d'Amont","Bois-d'Amont","Bois-d'Amont FR","Bois-d'Amont (FR)","Bois-d'Amont FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2250,,,,,,,,FALSE,"FR","Gurwolf","Courgevaux","Gurwolf","Gurwolf FR","Courgevaux (FR)","Gurwolf FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2254,,,,,,,,FALSE,"FR","Courtepin","Courtepin","Courtepin","Courtepin FR","Courtepin (FR)","Courtepin FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2257,77.631578947,177,51,40.854700855,239,585,228,TRUE,"FR","Cressier FR","Cressier (FR)","Cressier FR","Cressier FR","Cressier (FR)","Cressier FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2258,,,,,,,,FALSE,"FR","Fräschels","Fräschels","Fräschels","Fräschels FR","Fräschels (FR)","Fräschels FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2261,70.689655172,41,17,48.780487805,60,123,58,TRUE,"FR","Greng","Greng","Greng","Greng FR","Greng (FR)","Greng FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2262,76.220806794,718,224,30.890897353,957,3098,942,TRUE,"FR","Gurmels","Cormondes","Gurmels","Gurmels FR","Cormondes (FR)","Gurmels FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2265,,,,,,,,FALSE,"FR","Kerzers","Chiètres (FR)","Kerzers","Kerzers FR","Chiètres (FR)","Kerzers FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2266,78.527607362,128,35,30.988593156,163,526,163,TRUE,"FR","Kleinbösingen","Kleinbösingen","Kleinbösingen","Kleinbösingen FR","Kleinbösingen (FR)","Kleinbösingen FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2271,80.693069307,163,39,46.910755149,205,437,202,TRUE,"FR","Merlach","Meyriez","Merlach","Merlach FR","Meyriez (FR)","Merlach FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2272,,,,,,,,FALSE,"FR","Misery-Courtion","Misery-Courtion","Misery-Courtion","Misery-Courtion FR","Misery-Courtion (FR)","Misery-Courtion FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2274,,,,,,,,FALSE,"FR","Muntelier","Montilier","Muntelier","Muntelier FR","Montilier (FR)","Muntelier FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2275,,,,,,,,FALSE,"FR","Murten","Morat","Murten","Murten FR","Morat (FR)","Murten FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2276,73.714285714,258,92,42.482100239,356,838,350,TRUE,"FR","Ried bei Kerzers","Ried bei Kerzers","Ried bei Kerzers","Ried bei Kerzers FR","Ried bei Kerzers (FR)","Ried bei Kerzers FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2278,,,,,,,,FALSE,"FR","Ulmiz","Ormey","Ulmiz","Ulmiz FR","Ormey (FR)","Ulmiz FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2284,,,,,,,,FALSE,"FR","Mont-Vully","Mont-Vully","Mont-Vully","Mont-Vully FR","Mont-Vully (FR)","Mont-Vully FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2292,74.814814815,101,34,25.231910946,136,539,135,TRUE,"FR","Brünisried","Brünisried","Brünisried","Brünisried FR","Brünisried (FR)","Brünisried FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2293,,,,,,,,FALSE,"FR","Düdingen","Guin","Düdingen","Düdingen FR","Guin (FR)","Düdingen FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2294,,,,,,,,FALSE,"FR","Giffers","Chevrilles","Giffers","Giffers FR","Chevrilles (FR)","Giffers FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2295,,,,,,,,FALSE,"FR","Bösingen","Bösingen","Bösingen","Bösingen FR","Bösingen (FR)","Bösingen FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2296,66.774193548,207,103,30.234741784,322,1065,310,TRUE,"FR","Heitenried","Heitenried","Heitenried","Heitenried FR","Heitenried (FR)","Heitenried FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2299,,,,,,,,FALSE,"FR","Plaffeien","Planfayon","Plaffeien","Plaffeien FR","Planfayon (FR)","Plaffeien FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2300,68.837209302,148,67,26.84729064,218,812,215,TRUE,"FR","Plasselb","Plasselb","Plasselb","Plasselb FR","Plasselb (FR)","Plasselb FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2301,,,,,,,,FALSE,"FR","Rechthalten","Dirlaret","Rechthalten","Rechthalten FR","Dirlaret (FR)","Rechthalten FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2303,61.70212766,116,72,23.551171393,191,811,188,TRUE,"FR","St. Silvester","Saint-Silvestre","St. Silvester","St. Silvester FR","Saint-Silvestre (FR)","St. Silvester FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2304,,,,,,,,FALSE,"FR","St. Ursen","Saint-Ours","St. Ursen","St. Ursen FR","Saint-Ours (FR)","St. Ursen FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2305,72.303206997,744,285,34.275386132,1043,3043,1029,TRUE,"FR","Schmitten FR","Schmitten (FR)","Schmitten FR","Schmitten FR","Schmitten (FR)","Schmitten FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2306,,,,,,,,FALSE,"FR","Tafers","Tavel","Tafers","Tafers FR","Tavel (FR)","Tafers FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2307,73.701298701,227,81,31.041257367,316,1018,308,TRUE,"FR","Tentlingen","Tinterin","Tentlingen","Tentlingen FR","Tinterin (FR)","Tentlingen FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2308,71.496815287,449,179,33.597883598,635,1890,628,TRUE,"FR","Ueberstorf","Ueberstorf","Ueberstorf","Ueberstorf FR","Ueberstorf (FR)","Ueberstorf FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2309,,,,,,,,FALSE,"FR","Wünnewil-Flamatt","Wünnewil-Flamatt","Wünnewil-Flamatt","Wünnewil-Flamatt FR","Wünnewil-Flamatt (FR)","Wünnewil-Flamatt FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2321,,,,,,,,FALSE,"FR","Attalens","Attalens","Attalens","Attalens FR","Attalens (FR)","Attalens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2323,76.447876448,198,61,29.117959617,274,941,259,TRUE,"FR","Bossonnens","Bossonnens","Bossonnens","Bossonnens FR","Bossonnens (FR)","Bossonnens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2325,,,,,,,,FALSE,"FR","Châtel-Saint-Denis","Châtel-Saint-Denis","Châtel-Saint-Denis","Châtel-Saint-Denis FR","Châtel-Saint-Denis (FR)","Châtel-Saint-Denis FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2328,77.642276423,191,55,41.262135922,255,618,246,TRUE,"FR","Granges (Veveyse)","Granges (Veveyse)","Granges (Veveyse)","Granges (Veveyse) FR","Granges (Veveyse) (FR)","Granges (Veveyse) FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2333,81.497797357,185,42,30.115830116,234,777,227,TRUE,"FR","Remaufens","Remaufens","Remaufens","Remaufens FR","Remaufens (FR)","Remaufens FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2335,,,,,,,,FALSE,"FR","Saint-Martin FR","Saint-Martin (FR)","Saint-Martin FR","Saint-Martin FR","Saint-Martin (FR)","Saint-Martin FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2336,73.851590106,209,74,30.276134122,307,1014,283,TRUE,"FR","Semsales","Semsales","Semsales","Semsales FR","Semsales (FR)","Semsales FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2337,69.911504425,158,68,29.426129426,241,819,226,TRUE,"FR","Le Flon","Le Flon","Le Flon","Le Flon FR","Le Flon (FR)","Le Flon FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
-10,2338,,,,,,,,FALSE,"FR","La Verrerie","La Verrerie","La Verrerie","La Verrerie FR","La Verrerie (FR)","La Verrerie FR","Freiburg","Fribourg","Friburgo",74.841437632,FALSE,FALSE
+10,2008,77.941176471,106,30,40.166204986,145,361,136,TRUE,"FR","Châtillon FR","Châtillon (FR)","Châtillon FR","Châtillon FR","Châtillon (FR)","Châtillon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2011,80.184331797,348,86,36.60130719,448,1224,434,TRUE,"FR","Cugy FR","Cugy (FR)","Cugy FR","Cugy FR","Cugy (FR)","Cugy FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2016,79.746835443,189,48,30.693069307,248,808,237,TRUE,"FR","Fétigny","Fétigny","Fétigny","Fétigny FR","Fétigny (FR)","Fétigny FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2022,70.614035088,161,67,31.799729364,235,739,228,TRUE,"FR","Gletterens","Gletterens","Gletterens","Gletterens FR","Gletterens (FR)","Gletterens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2025,72.908366534,183,68,35.153129161,264,751,251,TRUE,"FR","Lully FR","Lully (FR)","Lully FR","Lully FR","Lully (FR)","Lully FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2027,80.612244898,79,19,36.029411765,98,272,98,TRUE,"FR","Ménières","Ménières","Ménières","Ménières FR","Ménières (FR)","Ménières FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2029,70.625,339,141,27.405405405,507,1850,480,TRUE,"FR","Montagny FR","Montagny (FR)","Montagny FR","Montagny FR","Montagny (FR)","Montagny FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2035,74.666666667,56,19,27.551020408,81,294,75,TRUE,"FR","Nuvilly","Nuvilly","Nuvilly","Nuvilly FR","Nuvilly (FR)","Nuvilly FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2038,60,9,6,22.077922078,17,77,15,TRUE,"FR","Prévondavaux","Prévondavaux","Prévondavaux","Prévondavaux FR","Prévondavaux (FR)","Prévondavaux FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2041,81.99513382,337,74,36.355859709,425,1169,411,TRUE,"FR","Saint-Aubin FR","Saint-Aubin (FR)","Saint-Aubin FR","Saint-Aubin FR","Saint-Aubin (FR)","Saint-Aubin FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2043,82.608695652,57,12,34.299516908,71,207,69,TRUE,"FR","Sévaz","Sévaz","Sévaz","Sévaz FR","Sévaz (FR)","Sévaz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2044,67.525773196,131,63,23.866348449,200,838,194,TRUE,"FR","Surpierre","Surpierre","Surpierre","Surpierre FR","Surpierre (FR)","Surpierre FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2045,,,,,,,,FALSE,"FR","Vallon","Vallon","Vallon","Vallon FR","Vallon (FR)","Vallon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2050,75.563909774,201,65,27.398615232,277,1011,266,TRUE,"FR","Les Montets","Les Montets","Les Montets","Les Montets FR","Les Montets (FR)","Les Montets FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2051,,,,,,,,FALSE,"FR","Delley-Portalban","Delley-Portalban","Delley-Portalban","Delley-Portalban FR","Delley-Portalban (FR)","Delley-Portalban FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2053,75.537938845,667,216,28.070175439,944,3363,883,TRUE,"FR","Belmont-Broye","Belmont-Broye","Belmont-Broye","Belmont-Broye FR","Belmont-Broye (FR)","Belmont-Broye FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2054,,,,,,,,FALSE,"FR","Estavayer","Estavayer","Estavayer","Estavayer FR","Estavayer (FR)","Estavayer FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2055,73.37164751,383,139,31.918708906,534,1673,522,TRUE,"FR","Cheyres-Châbles","Cheyres-Châbles","Cheyres-Châbles","Cheyres-Châbles FR","Cheyres-Châbles (FR)","Cheyres-Châbles FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2061,,,,,,,,FALSE,"FR","Auboranges","Auboranges","Auboranges","Auboranges FR","Auboranges (FR)","Auboranges FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2063,76.878612717,133,40,31.494661922,177,562,173,TRUE,"FR","Billens-Hennens","Billens-Hennens","Billens-Hennens","Billens-Hennens FR","Billens-Hennens (FR)","Billens-Hennens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2066,79.518072289,66,17,37.229437229,86,231,83,TRUE,"FR","Chapelle (Glâne)","Chapelle (Glâne)","Chapelle (Glâne)","Chapelle (Glâne) FR","Chapelle (Glâne) (FR)","Chapelle (Glâne) FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2067,72.881355932,43,16,23.954372624,63,263,59,TRUE,"FR","Le Châtelard","Le Châtelard","Le Châtelard","Le Châtelard FR","Le Châtelard (FR)","Le Châtelard FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2068,68.553459119,109,50,28.353140917,167,589,159,TRUE,"FR","Châtonnaye","Châtonnaye","Châtonnaye","Châtonnaye FR","Châtonnaye (FR)","Châtonnaye FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2072,79.518072289,66,17,33.333333333,88,264,83,TRUE,"FR","Ecublens FR","Ecublens (FR)","Ecublens FR","Ecublens FR","Ecublens (FR)","Ecublens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2079,67.567567568,25,12,31.851851852,43,135,37,TRUE,"FR","Grangettes","Grangettes","Grangettes","Grangettes FR","Grangettes (FR)","Grangettes FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2086,62.222222222,56,34,25.745257453,95,369,90,TRUE,"FR","Massonnens","Massonnens","Massonnens","Massonnens FR","Massonnens (FR)","Massonnens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2087,68.899521531,144,65,29.347826087,216,736,209,TRUE,"FR","Mézières FR","Mézières (FR)","Mézières FR","Mézières FR","Mézières (FR)","Mézières FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2089,80.21978022,73,18,30.844155844,95,308,91,TRUE,"FR","Montet (Glâne)","Montet (Glâne)","Montet (Glâne)","Montet (Glâne) FR","Montet (Glâne) (FR)","Montet (Glâne) FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2096,77.192982456,616,182,31.335356601,826,2636,798,TRUE,"FR","Romont FR","Romont (FR)","Romont FR","Romont FR","Romont (FR)","Romont FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2097,70.545454545,194,81,28.627838105,290,1013,275,TRUE,"FR","Rue","Rue","Rue","Rue FR","Rue (FR)","Rue FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2099,70.737913486,278,115,26.232616941,415,1582,393,TRUE,"FR","Siviriez","Siviriez","Siviriez","Siviriez FR","Siviriez (FR)","Siviriez FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2102,76.066790353,410,129,26.779026217,572,2136,539,TRUE,"FR","Ursy","Ursy","Ursy","Ursy FR","Ursy (FR)","Ursy FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2113,71.56626506,297,118,27.12477396,450,1659,415,TRUE,"FR","Vuisternens-devant-Romont","Vuisternens-devant-Romont","Vuisternens-devant-Romont","Vuisternens-devant-Romont FR","Vuisternens-devant-Romont (FR)","Vuisternens-devant-Romont FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2114,80.07518797,213,53,27.665706052,288,1041,266,TRUE,"FR","Villorsonnens","Villorsonnens","Villorsonnens","Villorsonnens FR","Villorsonnens (FR)","Villorsonnens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2115,74.137931034,129,45,26.390870185,185,701,174,TRUE,"FR","Torny","Torny","Torny","Torny FR","Torny (FR)","Torny FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2117,72.144846797,259,100,29.077540107,435,1496,359,TRUE,"FR","Villaz","Villaz","Villaz","Villaz FR","Villaz (FR)","Villaz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2121,77.651515152,205,59,26.251180359,278,1059,264,TRUE,"FR","Haut-Intyamon","Haut-Intyamon","Haut-Intyamon","Haut-Intyamon FR","Haut-Intyamon (FR)","Haut-Intyamon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2122,,,,,,,,FALSE,"FR","Pont-en-Ogoz","Pont-en-Ogoz","Pont-en-Ogoz","Pont-en-Ogoz FR","Pont-en-Ogoz (FR)","Pont-en-Ogoz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2123,71.538461538,93,37,32.008830022,145,453,130,TRUE,"FR","Botterens","Botterens","Botterens","Botterens FR","Botterens (FR)","Botterens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2124,,,,,,,,FALSE,"FR","Broc","Broc","Broc","Broc FR","Broc (FR)","Broc FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2125,,,,,,,,FALSE,"FR","Bulle","Bulle","Bulle","Bulle FR","Bulle (FR)","Bulle FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2128,73.417721519,58,21,39.047619048,82,210,79,TRUE,"FR","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens","Châtel-sur-Montsalvens FR","Châtel-sur-Montsalvens (FR)","Châtel-sur-Montsalvens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2129,71.35678392,142,57,31.846153846,207,650,199,TRUE,"FR","Corbières","Corbières","Corbières","Corbières FR","Corbières (FR)","Corbières FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2130,67.272727273,74,36,40.492957746,115,284,110,TRUE,"FR","Crésuz","Crésuz","Crésuz","Crésuz FR","Crésuz (FR)","Crésuz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2131,80.87431694,148,35,30.622009569,192,627,183,TRUE,"FR","Echarlens","Echarlens","Echarlens","Echarlens FR","Echarlens (FR)","Echarlens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2134,76.878612717,133,40,30.650684932,179,584,173,TRUE,"FR","Grandvillard","Grandvillard","Grandvillard","Grandvillard FR","Grandvillard (FR)","Grandvillard FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2135,78.680203046,310,84,31.301115242,421,1345,394,TRUE,"FR","Greyerz","Gruyères","Greyerz","Greyerz FR","Gruyères (FR)","Greyerz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2137,87.401574803,111,16,29.772727273,131,440,127,TRUE,"FR","Hauteville","Hauteville","Hauteville","Hauteville FR","Hauteville (FR)","Hauteville FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2138,,,,,,,,FALSE,"FR","Jaun","Bellegarde","Jaun","Jaun FR","Bellegarde (FR)","Jaun FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2140,81.632653061,320,72,30.884557721,412,1334,392,TRUE,"FR","Marsens","Marsens","Marsens","Marsens FR","Marsens (FR)","Marsens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2143,81.879194631,122,27,33.690987124,157,466,149,TRUE,"FR","Morlon","Morlon","Morlon","Morlon FR","Morlon (FR)","Morlon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2145,,,,,,,,FALSE,"FR","Le Pâquier FR","Le Pâquier (FR)","Le Pâquier FR","Le Pâquier FR","Le Pâquier (FR)","Le Pâquier FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2147,,,,,,,,FALSE,"FR","Pont-la-Ville","Pont-la-Ville","Pont-la-Ville","Pont-la-Ville FR","Pont-la-Ville (FR)","Pont-la-Ville FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2148,76.978417266,428,128,31.667571972,583,1841,556,TRUE,"FR","Riaz","Riaz","Riaz","Riaz FR","Riaz (FR)","Riaz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2149,71.124620061,234,95,29.549248748,354,1198,329,TRUE,"FR","La Roche","La Roche","La Roche","La Roche FR","La Roche (FR)","La Roche FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2152,,,,,,,,FALSE,"FR","Sâles","Sâles","Sâles","Sâles FR","Sâles (FR)","Sâles FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2153,76.036866359,165,52,30.254350736,226,747,217,TRUE,"FR","Sorens","Sorens","Sorens","Sorens FR","Sorens (FR)","Sorens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2155,82.967032967,151,31,26.747311828,199,744,182,TRUE,"FR","Vaulruz","Vaulruz","Vaulruz","Vaulruz FR","Vaulruz (FR)","Vaulruz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2160,78.646934461,372,101,30.978934325,500,1614,473,TRUE,"FR","Vuadens","Vuadens","Vuadens","Vuadens FR","Vuadens (FR)","Vuadens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2162,77.090909091,212,63,28.137254902,287,1020,275,TRUE,"FR","Bas-Intyamon","Bas-Intyamon","Bas-Intyamon","Bas-Intyamon FR","Bas-Intyamon (FR)","Bas-Intyamon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2163,73.083475298,429,158,33.797327394,607,1796,587,TRUE,"FR","Val-de-Charmey","Val-de-Charmey","Val-de-Charmey","Val-de-Charmey FR","Val-de-Charmey (FR)","Val-de-Charmey FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2173,75.115207373,163,54,45.105566219,235,521,217,TRUE,"FR","Autigny","Autigny","Autigny","Autigny FR","Autigny (FR)","Autigny FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2174,81.063829787,381,89,40.5,486,1200,470,TRUE,"FR","Avry","Avry","Avry","Avry FR","Avry (FR)","Avry FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2175,,,,,,,,FALSE,"FR","Belfaux","Belfaux","Belfaux","Belfaux FR","Belfaux (FR)","Belfaux FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2177,79.310344828,115,30,29.62962963,152,513,145,TRUE,"FR","Chénens","Chénens","Chénens","Chénens FR","Chénens (FR)","Chénens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2183,,,,,,,,FALSE,"FR","Corminboeuf","Corminboeuf","Corminboeuf","Corminboeuf FR","Corminboeuf (FR)","Corminboeuf FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2186,82.242990654,264,57,33.872598584,335,989,321,TRUE,"FR","Cottens FR","Cottens (FR)","Cottens FR","Cottens FR","Cottens (FR)","Cottens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2194,80.357142857,45,11,31.491712707,57,181,56,TRUE,"FR","Ferpicloz","Ferpicloz","Ferpicloz","Ferpicloz FR","Ferpicloz (FR)","Ferpicloz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2196,,,,,,,,FALSE,"FR","Freiburg","Fribourg","Friburgo","Freiburg FR","Fribourg (FR)","Friburgo FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2197,,,,,,,,FALSE,"FR","Givisiez","Givisiez","Givisiez","Givisiez FR","Givisiez (FR)","Givisiez FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2198,72.156196944,425,164,31.600407747,620,1962,589,TRUE,"FR","Granges-Paccot","Granges-Paccot","Granges-Paccot","Granges-Paccot FR","Granges-Paccot (FR)","Granges-Paccot FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2200,78.846153846,369,99,37.490494297,493,1315,468,TRUE,"FR","Grolley","Grolley","Grolley","Grolley FR","Grolley (FR)","Grolley FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2206,,,,,,,,FALSE,"FR","Marly","Marly","Marly","Marly FR","Marly (FR)","Marly FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2208,,,,,,,,FALSE,"FR","Matran","Matran","Matran","Matran FR","Matran (FR)","Matran FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2211,,,,,,,,FALSE,"FR","Neyruz FR","Neyruz (FR)","Neyruz FR","Neyruz FR","Neyruz (FR)","Neyruz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2216,73.333333333,33,12,43.75,49,112,45,TRUE,"FR","Pierrafortscha","Pierrafortscha","Pierrafortscha","Pierrafortscha FR","Pierrafortscha (FR)","Pierrafortscha FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2217,75.423728814,89,29,23.20754717,123,530,118,TRUE,"FR","Ponthaux","Ponthaux","Ponthaux","Ponthaux FR","Ponthaux (FR)","Ponthaux FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2220,75.688073394,495,159,31.207598372,690,2211,654,TRUE,"FR","Le Mouret","Le Mouret","Le Mouret","Le Mouret FR","Le Mouret (FR)","Le Mouret FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2226,74.314214464,298,103,39.008419083,417,1069,401,TRUE,"FR","Treyvaux","Treyvaux","Treyvaux","Treyvaux FR","Treyvaux (FR)","Treyvaux FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2228,,,,,,,,FALSE,"FR","Villars-sur-Glâne","Villars-sur-Glâne","Villars-sur-Glâne","Villars-sur-Glâne FR","Villars-sur-Glâne (FR)","Villars-sur-Glâne FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2230,63.636363636,14,8,51.162790698,22,43,22,TRUE,"FR","Villarsel-sur-Marly","Villarsel-sur-Marly","Villarsel-sur-Marly","Villarsel-sur-Marly FR","Villarsel-sur-Marly (FR)","Villarsel-sur-Marly FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2233,,,,,,,,FALSE,"FR","Hauterive FR","Hauterive (FR)","Hauterive FR","Hauterive FR","Hauterive (FR)","Hauterive FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2234,79.385964912,362,94,32.371134021,471,1455,456,TRUE,"FR","La Brillaz","La Brillaz","La Brillaz","La Brillaz FR","La Brillaz (FR)","La Brillaz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2235,82.527881041,222,47,32.650739477,287,879,269,TRUE,"FR","La Sonnaz","La Sonnaz","La Sonnaz","La Sonnaz FR","La Sonnaz (FR)","La Sonnaz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2236,,,,,,,,FALSE,"FR","Gibloux","Gibloux","Gibloux","Gibloux FR","Gibloux (FR)","Gibloux FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2237,,,,,,,,FALSE,"FR","Prez","Prez","Prez","Prez FR","Prez (FR)","Prez FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2238,76.091476091,366,115,34.06961178,509,1494,481,TRUE,"FR","Bois-d'Amont","Bois-d'Amont","Bois-d'Amont","Bois-d'Amont FR","Bois-d'Amont (FR)","Bois-d'Amont FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2250,76.428571429,214,66,34.093637455,284,833,280,TRUE,"FR","Gurwolf","Courgevaux","Gurwolf","Gurwolf FR","Courgevaux (FR)","Gurwolf FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2254,,,,,,,,FALSE,"FR","Courtepin","Courtepin","Courtepin","Courtepin FR","Courtepin (FR)","Courtepin FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2257,77.631578947,177,51,40.854700855,239,585,228,TRUE,"FR","Cressier FR","Cressier (FR)","Cressier FR","Cressier FR","Cressier (FR)","Cressier FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2258,,,,,,,,FALSE,"FR","Fräschels","Fräschels","Fräschels","Fräschels FR","Fräschels (FR)","Fräschels FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2261,70.689655172,41,17,48.780487805,60,123,58,TRUE,"FR","Greng","Greng","Greng","Greng FR","Greng (FR)","Greng FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2262,76.220806794,718,224,30.890897353,957,3098,942,TRUE,"FR","Gurmels","Cormondes","Gurmels","Gurmels FR","Cormondes (FR)","Gurmels FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2265,,,,,,,,FALSE,"FR","Kerzers","Chiètres (FR)","Kerzers","Kerzers FR","Chiètres (FR)","Kerzers FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2266,78.527607362,128,35,30.988593156,163,526,163,TRUE,"FR","Kleinbösingen","Kleinbösingen","Kleinbösingen","Kleinbösingen FR","Kleinbösingen (FR)","Kleinbösingen FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2271,80.693069307,163,39,46.910755149,205,437,202,TRUE,"FR","Merlach","Meyriez","Merlach","Merlach FR","Meyriez (FR)","Merlach FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2272,76.375404531,236,73,26.494345719,328,1238,309,TRUE,"FR","Misery-Courtion","Misery-Courtion","Misery-Courtion","Misery-Courtion FR","Misery-Courtion (FR)","Misery-Courtion FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2274,79.94100295,271,68,47.692307692,341,715,339,TRUE,"FR","Muntelier","Montilier","Muntelier","Muntelier FR","Montilier (FR)","Muntelier FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2275,77.815554611,1831,522,38.759814132,2419,6241,2353,TRUE,"FR","Murten","Morat","Murten","Murten FR","Morat (FR)","Murten FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2276,73.714285714,258,92,42.482100239,356,838,350,TRUE,"FR","Ried bei Kerzers","Ried bei Kerzers","Ried bei Kerzers","Ried bei Kerzers FR","Ried bei Kerzers (FR)","Ried bei Kerzers FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2278,,,,,,,,FALSE,"FR","Ulmiz","Ormey","Ulmiz","Ulmiz FR","Ormey (FR)","Ulmiz FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2284,79.032258065,833,221,36.161750083,1091,3017,1054,TRUE,"FR","Mont-Vully","Mont-Vully","Mont-Vully","Mont-Vully FR","Mont-Vully (FR)","Mont-Vully FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2292,74.814814815,101,34,25.231910946,136,539,135,TRUE,"FR","Brünisried","Brünisried","Brünisried","Brünisried FR","Brünisried (FR)","Brünisried FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2293,,,,,,,,FALSE,"FR","Düdingen","Guin","Düdingen","Düdingen FR","Guin (FR)","Düdingen FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2294,76.712328767,224,68,24.794069193,301,1214,292,TRUE,"FR","Giffers","Chevrilles","Giffers","Giffers FR","Chevrilles (FR)","Giffers FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2295,,,,,,,,FALSE,"FR","Bösingen","Bösingen","Bösingen","Bösingen FR","Bösingen (FR)","Bösingen FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2296,66.774193548,207,103,30.234741784,322,1065,310,TRUE,"FR","Heitenried","Heitenried","Heitenried","Heitenried FR","Heitenried (FR)","Heitenried FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2299,67.052023121,464,228,25.56797692,709,2773,692,TRUE,"FR","Plaffeien","Planfayon","Plaffeien","Plaffeien FR","Planfayon (FR)","Plaffeien FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2300,68.837209302,148,67,26.84729064,218,812,215,TRUE,"FR","Plasselb","Plasselb","Plasselb","Plasselb FR","Plasselb (FR)","Plasselb FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2301,74.774774775,166,56,26.832018038,238,887,222,TRUE,"FR","Rechthalten","Dirlaret","Rechthalten","Rechthalten FR","Dirlaret (FR)","Rechthalten FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2303,61.70212766,116,72,23.551171393,191,811,188,TRUE,"FR","St. Silvester","Saint-Silvestre","St. Silvester","St. Silvester FR","Saint-Silvestre (FR)","St. Silvester FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2304,71.818181818,237,93,33.234421365,336,1011,330,TRUE,"FR","St. Ursen","Saint-Ours","St. Ursen","St. Ursen FR","Saint-Ours (FR)","St. Ursen FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2305,72.303206997,744,285,34.275386132,1043,3043,1029,TRUE,"FR","Schmitten FR","Schmitten (FR)","Schmitten FR","Schmitten FR","Schmitten (FR)","Schmitten FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2306,,,,,,,,FALSE,"FR","Tafers","Tavel","Tafers","Tafers FR","Tavel (FR)","Tafers FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2307,73.701298701,227,81,31.041257367,316,1018,308,TRUE,"FR","Tentlingen","Tinterin","Tentlingen","Tentlingen FR","Tinterin (FR)","Tentlingen FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2308,71.496815287,449,179,33.597883598,635,1890,628,TRUE,"FR","Ueberstorf","Ueberstorf","Ueberstorf","Ueberstorf FR","Ueberstorf (FR)","Ueberstorf FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2309,,,,,,,,FALSE,"FR","Wünnewil-Flamatt","Wünnewil-Flamatt","Wünnewil-Flamatt","Wünnewil-Flamatt FR","Wünnewil-Flamatt (FR)","Wünnewil-Flamatt FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2321,,,,,,,,FALSE,"FR","Attalens","Attalens","Attalens","Attalens FR","Attalens (FR)","Attalens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2323,76.447876448,198,61,29.117959617,274,941,259,TRUE,"FR","Bossonnens","Bossonnens","Bossonnens","Bossonnens FR","Bossonnens (FR)","Bossonnens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2325,,,,,,,,FALSE,"FR","Châtel-Saint-Denis","Châtel-Saint-Denis","Châtel-Saint-Denis","Châtel-Saint-Denis FR","Châtel-Saint-Denis (FR)","Châtel-Saint-Denis FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2328,77.642276423,191,55,41.262135922,255,618,246,TRUE,"FR","Granges (Veveyse)","Granges (Veveyse)","Granges (Veveyse)","Granges (Veveyse) FR","Granges (Veveyse) (FR)","Granges (Veveyse) FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2333,81.497797357,185,42,30.115830116,234,777,227,TRUE,"FR","Remaufens","Remaufens","Remaufens","Remaufens FR","Remaufens (FR)","Remaufens FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2335,,,,,,,,FALSE,"FR","Saint-Martin FR","Saint-Martin (FR)","Saint-Martin FR","Saint-Martin FR","Saint-Martin (FR)","Saint-Martin FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2336,73.851590106,209,74,30.276134122,307,1014,283,TRUE,"FR","Semsales","Semsales","Semsales","Semsales FR","Semsales (FR)","Semsales FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2337,69.911504425,158,68,29.426129426,241,819,226,TRUE,"FR","Le Flon","Le Flon","Le Flon","Le Flon FR","Le Flon (FR)","Le Flon FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
+10,2338,76.076555024,159,50,25.82480091,227,879,209,TRUE,"FR","La Verrerie","La Verrerie","La Verrerie","La Verrerie FR","La Verrerie (FR)","La Verrerie FR","Freiburg","Fribourg","Friburgo",75.582862836,FALSE,FALSE
 11,2401,71.683673469,562,222,35.388026608,798,2255,784,TRUE,"SO","Egerkingen","Egerkingen","Egerkingen","Egerkingen SO","Egerkingen (SO)","Egerkingen SO","Solothurn","Soleure","Soletta",72.071909572,FALSE,FALSE
 11,2402,66.28440367,289,147,38.84083045,449,1156,436,TRUE,"SO","Härkingen","Härkingen","Härkingen","Härkingen SO","Härkingen (SO)","Härkingen SO","Solothurn","Soleure","Soletta",72.071909572,FALSE,FALSE
 11,2403,74.542124542,407,139,39.800285307,558,1402,546,TRUE,"SO","Kestenholz","Kestenholz","Kestenholz","Kestenholz SO","Kestenholz (SO)","Kestenholz SO","Solothurn","Soleure","Soletta",72.071909572,FALSE,FALSE
