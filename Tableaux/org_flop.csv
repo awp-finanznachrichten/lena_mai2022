@@ -1,51 +1,51 @@
 "","Gemeinde_f","Gemeinde_d","Gemeinde_i","Kanton_Short","Ja_Stimmen_In_Prozent","Commune","Gemeinde","Comune","Canton","Kanton","Cantone","Pourcentage de non","Nein in %","Percentuale di no"
 "1","Ferrera","Ferrera","Ferrera","GR",15.384615385,"Ferrera","Ferrera","Ferrera","GR","GR","GR",84.615384615,84.615384615,84.615384615
-"2","Seehof","Seehof","Seehof","BE",23.529411765,"Seehof","Seehof","Seehof","BE","BE","BE",76.470588235,76.470588235,76.470588235
-"3","Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE",24.137931034,"Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE","BE","BE",75.862068966,75.862068966,75.862068966
-"4","Dozwil","Dozwil","Dozwil","TG",24.137931034,"Dozwil","Dozwil","Dozwil","TG","TG","TG",75.862068966,75.862068966,75.862068966
-"5","Unteriberg","Unteriberg","Unteriberg","SZ",25.471698113,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",74.528301887,74.528301887,74.528301887
-"6","Furna","Furna","Furna","GR",27.5,"Furna","Furna","Furna","GR","GR","GR",72.5,72.5,72.5
-"7","Oeschenbach","Oeschenbach","Oeschenbach","BE",29.268292683,"Oeschenbach","Oeschenbach","Oeschenbach","BE","BE","BE",70.731707317,70.731707317,70.731707317
-"8","Därstetten","Därstetten","Därstetten","BE",29.523809524,"Därstetten","Därstetten","Därstetten","BE","BE","BE",70.476190476,70.476190476,70.476190476
-"9","Illgau","Illgau","Illgau","SZ",30,"Illgau","Illgau","Illgau","SZ","SZ","SZ",70,70,70
-"10","Vorderthal","Vorderthal","Vorderthal","SZ",30.158730159,"Vorderthal","Vorderthal","Vorderthal","SZ","SZ","SZ",69.841269841,69.841269841,69.841269841
-"11","Affoltern im Emmental","Affoltern im Emmental","Affoltern im Emmental","BE",31.448763251,"Affoltern im Emmental","Affoltern im Emmental","Affoltern im Emmental","BE","BE","BE",68.551236749,68.551236749,68.551236749
-"12","Alpthal","Alpthal","Alpthal","SZ",31.924882629,"Alpthal","Alpthal","Alpthal","SZ","SZ","SZ",68.075117371,68.075117371,68.075117371
-"13","Oberwil im Simmental","Oberwil im Simmental","Oberwil im Simmental","BE",32.307692308,"Oberwil im Simmental","Oberwil im Simmental","Oberwil im Simmental","BE","BE","BE",67.692307692,67.692307692,67.692307692
-"14","Steinerberg","Steinerberg","Steinerberg","SZ",33.085501859,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",66.914498141,66.914498141,66.914498141
-"15","Burg im Leimental","Burg im Leimental","Burg im Leimental","BL",33.333333333,"Burg im Leimental","Burg im Leimental","Burg im Leimental","BL","BL","BL",66.666666667,66.666666667,66.666666667
-"16","Thalheim (AG)","Thalheim AG","Thalheim AG","AG",34.074074074,"Thalheim (AG)","Thalheim AG","Thalheim AG","AG","AG","AG",65.925925926,65.925925926,65.925925926
-"17","Dürrenäsch","Dürrenäsch","Dürrenäsch","AG",34.366197183,"Dürrenäsch","Dürrenäsch","Dürrenäsch","AG","AG","AG",65.633802817,65.633802817,65.633802817
-"18","Muotathal","Muotathal","Muotathal","SZ",34.767932489,"Muotathal","Muotathal","Muotathal","SZ","SZ","SZ",65.232067511,65.232067511,65.232067511
-"19","Mönthal","Mönthal","Mönthal","AG",34.782608696,"Mönthal","Mönthal","Mönthal","AG","AG","AG",65.217391304,65.217391304,65.217391304
-"20","Hagenbuch","Hagenbuch","Hagenbuch","ZH",34.821428571,"Hagenbuch","Hagenbuch","Hagenbuch","ZH","ZH","ZH",65.178571429,65.178571429,65.178571429
-"21","Gurtnellen","Gurtnellen","Gurtnellen","UR",34.951456311,"Gurtnellen","Gurtnellen","Gurtnellen","UR","UR","UR",65.048543689,65.048543689,65.048543689
-"22","Trachselwald","Trachselwald","Trachselwald","BE",35.12195122,"Trachselwald","Trachselwald","Trachselwald","BE","BE","BE",64.87804878,64.87804878,64.87804878
-"23","Auswil","Auswil","Auswil","BE",35.2,"Auswil","Auswil","Auswil","BE","BE","BE",64.8,64.8,64.8
-"24","Wolfhalden","Wolfhalden","Wolfhalden","AR",35.424354244,"Wolfhalden","Wolfhalden","Wolfhalden","AR","AR","AR",64.575645756,64.575645756,64.575645756
-"25","Seelisberg","Seelisberg","Seelisberg","UR",35.465116279,"Seelisberg","Seelisberg","Seelisberg","UR","UR","UR",64.534883721,64.534883721,64.534883721
-"26","Leutwil","Leutwil","Leutwil","AG",35.555555556,"Leutwil","Leutwil","Leutwil","AG","AG","AG",64.444444444,64.444444444,64.444444444
-"27","Bauma","Bauma","Bauma","ZH",35.667107001,"Bauma","Bauma","Bauma","ZH","ZH","ZH",64.332892999,64.332892999,64.332892999
-"28","Schmiedrued","Schmiedrued","Schmiedrued","AG",35.684647303,"Schmiedrued","Schmiedrued","Schmiedrued","AG","AG","AG",64.315352697,64.315352697,64.315352697
-"29","Beggingen","Beggingen","Beggingen","SH",35.983263598,"Beggingen","Beggingen","Beggingen","SH","SH","SH",64.016736402,64.016736402,64.016736402
-"30","Gontenschwil","Gontenschwil","Gontenschwil","AG",36.086956522,"Gontenschwil","Gontenschwil","Gontenschwil","AG","AG","AG",63.913043478,63.913043478,63.913043478
-"31","Rothenthurm","Rothenthurm","Rothenthurm","SZ",36.308623298,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",63.691376702,63.691376702,63.691376702
-"32","Adlikon","Adlikon","Adlikon","ZH",36.398467433,"Adlikon","Adlikon","Adlikon","ZH","ZH","ZH",63.601532567,63.601532567,63.601532567
-"33","Beinwil (SO)","Beinwil SO","Beinwil SO","SO",36.486486486,"Beinwil (SO)","Beinwil SO","Beinwil SO","SO","SO","SO",63.513513514,63.513513514,63.513513514
-"34","Niederbüren","Niederbüren","Niederbüren","SG",36.717062635,"Niederbüren","Niederbüren","Niederbüren","SG","SG","SG",63.282937365,63.282937365,63.282937365
-"35","Bister","Bister","Bister","VS",36.842105263,"Bister","Bister","Bister","VS","VS","VS",63.157894737,63.157894737,63.157894737
-"36","Walzenhausen","Walzenhausen","Walzenhausen","AR",37.016574586,"Walzenhausen","Walzenhausen","Walzenhausen","AR","AR","AR",62.983425414,62.983425414,62.983425414
-"37","Eriswil","Eriswil","Eriswil","BE",37.090909091,"Eriswil","Eriswil","Eriswil","BE","BE","BE",62.909090909,62.909090909,62.909090909
-"38","Schlossrued","Schlossrued","Schlossrued","AG",37.172774869,"Schlossrued","Schlossrued","Schlossrued","AG","AG","AG",62.827225131,62.827225131,62.827225131
-"39","Schönengrund","Schönengrund","Schönengrund","AR",37.419354839,"Schönengrund","Schönengrund","Schönengrund","AR","AR","AR",62.580645161,62.580645161,62.580645161
-"40","Bäretswil","Bäretswil","Bäretswil","ZH",37.43315508,"Bäretswil","Bäretswil","Bäretswil","ZH","ZH","ZH",62.56684492,62.56684492,62.56684492
-"41","Benken (ZH)","Benken ZH","Benken ZH","ZH",37.451737452,"Benken (ZH)","Benken ZH","Benken ZH","ZH","ZH","ZH",62.548262548,62.548262548,62.548262548
-"42","Adelboden","Adelboden","Adelboden","BE",37.664974619,"Adelboden","Adelboden","Adelboden","BE","BE","BE",62.335025381,62.335025381,62.335025381
-"43","Fischenthal","Fischenthal","Fischenthal","ZH",37.671232877,"Fischenthal","Fischenthal","Fischenthal","ZH","ZH","ZH",62.328767123,62.328767123,62.328767123
-"44","Turbenthal","Turbenthal","Turbenthal","ZH",37.675795707,"Turbenthal","Turbenthal","Turbenthal","ZH","ZH","ZH",62.324204293,62.324204293,62.324204293
-"45","Rumisberg","Rumisberg","Rumisberg","BE",37.68115942,"Rumisberg","Rumisberg","Rumisberg","BE","BE","BE",62.31884058,62.31884058,62.31884058
-"46","Röthenbach im Emmental","Röthenbach im Emmental","Röthenbach im Emmental","BE",37.890625,"Röthenbach im Emmental","Röthenbach im Emmental","Röthenbach im Emmental","BE","BE","BE",62.109375,62.109375,62.109375
-"47","Berg am Irchel","Berg am Irchel","Berg am Irchel","ZH",37.931034483,"Berg am Irchel","Berg am Irchel","Berg am Irchel","ZH","ZH","ZH",62.068965517,62.068965517,62.068965517
-"48","Oberhallau","Oberhallau","Oberhallau","SH",38,"Oberhallau","Oberhallau","Oberhallau","SH","SH","SH",62,62,62
-"49","Riemenstalden","Riemenstalden","Riemenstalden","SZ",38.095238095,"Riemenstalden","Riemenstalden","Riemenstalden","SZ","SZ","SZ",61.904761905,61.904761905,61.904761905
-"50","Bellegarde","Jaun","Jaun","FR",38.095238095,"Bellegarde","Jaun","Jaun","FR","FR","FR",61.904761905,61.904761905,61.904761905
+"2","Horrenbach-Buchen","Horrenbach-Buchen","Horrenbach-Buchen","BE",20.37037037,"Horrenbach-Buchen","Horrenbach-Buchen","Horrenbach-Buchen","BE","BE","BE",79.62962963,79.62962963,79.62962963
+"3","Seehof","Seehof","Seehof","BE",23.529411765,"Seehof","Seehof","Seehof","BE","BE","BE",76.470588235,76.470588235,76.470588235
+"4","Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE",24.137931034,"Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE","BE","BE",75.862068966,75.862068966,75.862068966
+"5","Dozwil","Dozwil","Dozwil","TG",24.137931034,"Dozwil","Dozwil","Dozwil","TG","TG","TG",75.862068966,75.862068966,75.862068966
+"6","Häutligen","Häutligen","Häutligen","BE",24.615384615,"Häutligen","Häutligen","Häutligen","BE","BE","BE",75.384615385,75.384615385,75.384615385
+"7","Unteriberg","Unteriberg","Unteriberg","SZ",25.471698113,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",74.528301887,74.528301887,74.528301887
+"8","Furna","Furna","Furna","GR",27.5,"Furna","Furna","Furna","GR","GR","GR",72.5,72.5,72.5
+"9","Oberhünigen","Oberhünigen","Oberhünigen","BE",27.631578947,"Oberhünigen","Oberhünigen","Oberhünigen","BE","BE","BE",72.368421053,72.368421053,72.368421053
+"10","Oeschenbach","Oeschenbach","Oeschenbach","BE",29.268292683,"Oeschenbach","Oeschenbach","Oeschenbach","BE","BE","BE",70.731707317,70.731707317,70.731707317
+"11","Därstetten","Därstetten","Därstetten","BE",29.523809524,"Därstetten","Därstetten","Därstetten","BE","BE","BE",70.476190476,70.476190476,70.476190476
+"12","Illgau","Illgau","Illgau","SZ",30,"Illgau","Illgau","Illgau","SZ","SZ","SZ",70,70,70
+"13","Vorderthal","Vorderthal","Vorderthal","SZ",30.158730159,"Vorderthal","Vorderthal","Vorderthal","SZ","SZ","SZ",69.841269841,69.841269841,69.841269841
+"14","Oberlangenegg","Oberlangenegg","Oberlangenegg","BE",30.392156863,"Oberlangenegg","Oberlangenegg","Oberlangenegg","BE","BE","BE",69.607843137,69.607843137,69.607843137
+"15","Affoltern im Emmental","Affoltern im Emmental","Affoltern im Emmental","BE",31.448763251,"Affoltern im Emmental","Affoltern im Emmental","Affoltern im Emmental","BE","BE","BE",68.551236749,68.551236749,68.551236749
+"16","Alpthal","Alpthal","Alpthal","SZ",31.924882629,"Alpthal","Alpthal","Alpthal","SZ","SZ","SZ",68.075117371,68.075117371,68.075117371
+"17","Teuffenthal (BE)","Teuffenthal BE","Teuffenthal BE","BE",32.142857143,"Teuffenthal (BE)","Teuffenthal BE","Teuffenthal BE","BE","BE","BE",67.857142857,67.857142857,67.857142857
+"18","Oberwil im Simmental","Oberwil im Simmental","Oberwil im Simmental","BE",32.307692308,"Oberwil im Simmental","Oberwil im Simmental","Oberwil im Simmental","BE","BE","BE",67.692307692,67.692307692,67.692307692
+"19","Eriz","Eriz","Eriz","BE",32.330827068,"Eriz","Eriz","Eriz","BE","BE","BE",67.669172932,67.669172932,67.669172932
+"20","Freimettigen","Freimettigen","Freimettigen","BE",32.8,"Freimettigen","Freimettigen","Freimettigen","BE","BE","BE",67.2,67.2,67.2
+"21","Steinerberg","Steinerberg","Steinerberg","SZ",33.085501859,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",66.914498141,66.914498141,66.914498141
+"22","Blumenstein","Blumenstein","Blumenstein","BE",33.103448276,"Blumenstein","Blumenstein","Blumenstein","BE","BE","BE",66.896551724,66.896551724,66.896551724
+"23","Burg im Leimental","Burg im Leimental","Burg im Leimental","BL",33.333333333,"Burg im Leimental","Burg im Leimental","Burg im Leimental","BL","BL","BL",66.666666667,66.666666667,66.666666667
+"24","Thalheim (AG)","Thalheim AG","Thalheim AG","AG",34.074074074,"Thalheim (AG)","Thalheim AG","Thalheim AG","AG","AG","AG",65.925925926,65.925925926,65.925925926
+"25","Dürrenäsch","Dürrenäsch","Dürrenäsch","AG",34.366197183,"Dürrenäsch","Dürrenäsch","Dürrenäsch","AG","AG","AG",65.633802817,65.633802817,65.633802817
+"26","Muotathal","Muotathal","Muotathal","SZ",34.767932489,"Muotathal","Muotathal","Muotathal","SZ","SZ","SZ",65.232067511,65.232067511,65.232067511
+"27","Mönthal","Mönthal","Mönthal","AG",34.782608696,"Mönthal","Mönthal","Mönthal","AG","AG","AG",65.217391304,65.217391304,65.217391304
+"28","Hagenbuch","Hagenbuch","Hagenbuch","ZH",34.821428571,"Hagenbuch","Hagenbuch","Hagenbuch","ZH","ZH","ZH",65.178571429,65.178571429,65.178571429
+"29","Gurtnellen","Gurtnellen","Gurtnellen","UR",34.951456311,"Gurtnellen","Gurtnellen","Gurtnellen","UR","UR","UR",65.048543689,65.048543689,65.048543689
+"30","Trachselwald","Trachselwald","Trachselwald","BE",35.12195122,"Trachselwald","Trachselwald","Trachselwald","BE","BE","BE",64.87804878,64.87804878,64.87804878
+"31","Rüschegg","Rüschegg","Rüschegg","BE",35.175879397,"Rüschegg","Rüschegg","Rüschegg","BE","BE","BE",64.824120603,64.824120603,64.824120603
+"32","Wachseldorn","Wachseldorn","Wachseldorn","BE",35.185185185,"Wachseldorn","Wachseldorn","Wachseldorn","BE","BE","BE",64.814814815,64.814814815,64.814814815
+"33","Auswil","Auswil","Auswil","BE",35.2,"Auswil","Auswil","Auswil","BE","BE","BE",64.8,64.8,64.8
+"34","Wolfhalden","Wolfhalden","Wolfhalden","AR",35.424354244,"Wolfhalden","Wolfhalden","Wolfhalden","AR","AR","AR",64.575645756,64.575645756,64.575645756
+"35","Seelisberg","Seelisberg","Seelisberg","UR",35.465116279,"Seelisberg","Seelisberg","Seelisberg","UR","UR","UR",64.534883721,64.534883721,64.534883721
+"36","Leutwil","Leutwil","Leutwil","AG",35.555555556,"Leutwil","Leutwil","Leutwil","AG","AG","AG",64.444444444,64.444444444,64.444444444
+"37","Bauma","Bauma","Bauma","ZH",35.667107001,"Bauma","Bauma","Bauma","ZH","ZH","ZH",64.332892999,64.332892999,64.332892999
+"38","Schmiedrued","Schmiedrued","Schmiedrued","AG",35.684647303,"Schmiedrued","Schmiedrued","Schmiedrued","AG","AG","AG",64.315352697,64.315352697,64.315352697
+"39","Beggingen","Beggingen","Beggingen","SH",35.983263598,"Beggingen","Beggingen","Beggingen","SH","SH","SH",64.016736402,64.016736402,64.016736402
+"40","Gontenschwil","Gontenschwil","Gontenschwil","AG",36.086956522,"Gontenschwil","Gontenschwil","Gontenschwil","AG","AG","AG",63.913043478,63.913043478,63.913043478
+"41","Rothenthurm","Rothenthurm","Rothenthurm","SZ",36.308623298,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",63.691376702,63.691376702,63.691376702
+"42","Adlikon","Adlikon","Adlikon","ZH",36.398467433,"Adlikon","Adlikon","Adlikon","ZH","ZH","ZH",63.601532567,63.601532567,63.601532567
+"43","Beinwil (SO)","Beinwil SO","Beinwil SO","SO",36.486486486,"Beinwil (SO)","Beinwil SO","Beinwil SO","SO","SO","SO",63.513513514,63.513513514,63.513513514
+"44","Niederbüren","Niederbüren","Niederbüren","SG",36.717062635,"Niederbüren","Niederbüren","Niederbüren","SG","SG","SG",63.282937365,63.282937365,63.282937365
+"45","Zwieselberg","Zwieselberg","Zwieselberg","BE",36.842105263,"Zwieselberg","Zwieselberg","Zwieselberg","BE","BE","BE",63.157894737,63.157894737,63.157894737
+"46","Bister","Bister","Bister","VS",36.842105263,"Bister","Bister","Bister","VS","VS","VS",63.157894737,63.157894737,63.157894737
+"47","Walzenhausen","Walzenhausen","Walzenhausen","AR",37.016574586,"Walzenhausen","Walzenhausen","Walzenhausen","AR","AR","AR",62.983425414,62.983425414,62.983425414
+"48","Eriswil","Eriswil","Eriswil","BE",37.090909091,"Eriswil","Eriswil","Eriswil","BE","BE","BE",62.909090909,62.909090909,62.909090909
+"49","Schlossrued","Schlossrued","Schlossrued","AG",37.172774869,"Schlossrued","Schlossrued","Schlossrued","AG","AG","AG",62.827225131,62.827225131,62.827225131
+"50","Schönengrund","Schönengrund","Schönengrund","AR",37.419354839,"Schönengrund","Schönengrund","Schönengrund","AR","AR","AR",62.580645161,62.580645161,62.580645161
