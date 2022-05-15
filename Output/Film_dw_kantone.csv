@@ -1,6 +1,6 @@
 "Kantons_Nr","Kanton_d","Kanton_f","Kanton_i","Ja_Stimmen_In_Prozent_Kanton","Nein_Stimmen_In_Prozent_Kanton","Kanton_color","Gemeinden_overall","Gemeinden_counted","Legende"
 1,"Zürich","Zurich","Zurigo",48.7,51.3,0,162,111,"111/162"
-2,"Bern","Berne","Berna",54.1,45.9,100,334,28,"28/334"
+2,"Bern","Berne","Berna",52.2,47.8,100,334,48,"48/334"
 3,"Luzern","Lucerne","Lucerna",56,44,100,80,79,"79/80"
 4,"Uri","Uri","Uri",0,0,50,19,0,"0/19"
 5,"Schwyz","Schwyz","Svitto",39.8,60.2,0,30,20,"20/30"
@@ -13,7 +13,7 @@
 12,"Basel-Stadt","Bâle-Ville","Basilea Città",0,0,50,3,0,"0/3"
 13,"Basel-Landschaft","Bâle-Campagne","Basilea Campagna",55.3,44.7,100,86,75,"75/86"
 14,"Schaffhausen","Schaffhouse","Sciaffusa",0,0,50,26,0,"0/26"
-15,"Appenzell Ausserrhoden","Appenzell Rhodes-Extérieures","Appenzello Esterno",0,0,50,20,0,"0/20"
+15,"Appenzell Ausserrhoden","Appenzell Rhodes-Extérieures","Appenzello Esterno",52,48,52,20,20,
 16,"Appenzell Innerrhoden","Appenzell Rhodes-Intérieures","Appenzello Interno",0,0,50,5,0,"0/5"
 17,"St. Gallen","Saint-Gall","San Gallo",48.1,51.9,0,77,54,"54/77"
 18,"Graubünden","Grisons","Grigioni",55.7,44.3,100,101,95,"95/101"
