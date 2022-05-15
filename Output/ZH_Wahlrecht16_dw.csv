@@ -1,7 +1,7 @@
 "Gemeinde_Nr","Gemeinde_color","Ja_Stimmen_In_Prozent","Nein_Stimmen_In_Prozent","Gemeinde_KT_d","Gemeinde_KT_f","Gemeinde_KT_i","Text_d","Text_f","Text_i"
 1,29.7,29.7,70.3,"Aeugst am Albis ZH","Aeugst am Albis (ZH)","Aeugst am Albis ZH","Aeugst am Albis hat das Stimm- und Wahlsrechtsalter 16  mit 70,3 Prozent abgelehnt.",,
 2,30,30,70,"Affoltern am Albis ZH","Affoltern am Albis (ZH)","Affoltern am Albis ZH","Affoltern am Albis hat das Stimm- und Wahlsrechtsalter 16  mit 70 Prozent abgelehnt.",,
-3,50,0,0,"Bonstetten ZH","Bonstetten (ZH)","Bonstetten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+3,31.8,31.8,68.2,"Bonstetten ZH","Bonstetten (ZH)","Bonstetten ZH","Bonstetten hat das Stimm- und Wahlsrechtsalter 16  mit 68,2 Prozent abgelehnt.",,
 4,33.2,33.2,66.8,"Hausen am Albis ZH","Hausen am Albis (ZH)","Hausen am Albis ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Hausen am Albis. 66,8 Prozent haben sie verworfen.",,
 5,31.7,31.7,68.3,"Hedingen ZH","Hedingen (ZH)","Hedingen ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Hedingen: 68,3 Prozent haben die Vorlage abgelehnt.",,
 6,23.2,23.2,76.8,"Kappel am Albis ZH","Kappel am Albis (ZH)","Kappel am Albis ZH","Kappel am Albis hat das Stimm- und Wahlsrechtsalter 16  mit 76,8 Prozent abgelehnt.",,
@@ -64,7 +64,7 @@
 86,25.8,25.8,74.2,"Dielsdorf ZH","Dielsdorf (ZH)","Dielsdorf ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Dielsdorf. 74,2 Prozent haben sie verworfen.",,
 87,25.5,25.5,74.5,"Hüttikon ZH","Hüttikon (ZH)","Hüttikon ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Hüttikon: 74,5 Prozent haben die Vorlage abgelehnt.",,
 88,20.1,20.1,79.9,"Neerach ZH","Neerach (ZH)","Neerach ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Neerach. 79,9 Prozent haben sie verworfen.",,
-89,50,0,0,"Niederglatt ZH","Niederglatt (ZH)","Niederglatt ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+89,19.7,19.7,80.3,"Niederglatt ZH","Niederglatt (ZH)","Niederglatt ZH","Niederglatt hat das Stimm- und Wahlsrechtsalter 16  mit 80,3 Prozent abgelehnt.",,
 90,22.2,22.2,77.8,"Niederhasli ZH","Niederhasli (ZH)","Niederhasli ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Niederhasli: 77,8 Prozent haben die Vorlage abgelehnt.",,
 91,28.9,28.9,71.1,"Niederweningen ZH","Niederweningen (ZH)","Niederweningen ZH","Niederweningen hat das Stimm- und Wahlsrechtsalter 16  mit 71,1 Prozent abgelehnt.",,
 92,20.9,20.9,79.1,"Oberglatt ZH","Oberglatt (ZH)","Oberglatt ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Oberglatt: 79,1 Prozent haben die Vorlage abgelehnt.",,
@@ -135,7 +135,7 @@
 220,16.5,16.5,83.5,"Hagenbuch ZH","Hagenbuch (ZH)","Hagenbuch ZH","Hagenbuch hat das Stimm- und Wahlsrechtsalter 16  mit 83,5 Prozent abgelehnt.",,
 221,27.2,27.2,72.8,"Hettlingen ZH","Hettlingen (ZH)","Hettlingen ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Hettlingen: 72,8 Prozent haben die Vorlage abgelehnt.",,
 223,23.4,23.4,76.6,"Neftenbach ZH","Neftenbach (ZH)","Neftenbach ZH","Neftenbach hat das Stimm- und Wahlsrechtsalter 16  mit 76,6 Prozent abgelehnt.",,
-224,50,0,0,"Pfungen ZH","Pfungen (ZH)","Pfungen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+224,24.6,24.6,75.4,"Pfungen ZH","Pfungen (ZH)","Pfungen ZH","Nein zum Stimm- und Wahlrechtsalter 16 in Pfungen: 75,4 Prozent haben die Vorlage abgelehnt.",,
 225,25.6,25.6,74.4,"Rickenbach ZH","Rickenbach (ZH)","Rickenbach ZH","Rickenbach ZH hat das Stimm- und Wahlsrechtsalter 16  mit 74,4 Prozent abgelehnt.",,
 226,21.9,21.9,78.1,"Schlatt ZH","Schlatt (ZH)","Schlatt ZH","Keine Mehrheit für das Stimm- und Wahlsrechtsalter 16 in Schlatt ZH. 78,1 Prozent haben sie verworfen.",,
 227,50,0,0,"Seuzach ZH","Seuzach (ZH)","Seuzach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
