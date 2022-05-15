@@ -1,5 +1,5 @@
 "Gemeinde_Nr","Gemeinde_color","Ja_Stimmen_In_Prozent","Nein_Stimmen_In_Prozent","Gemeinde_KT_d","Gemeinde_KT_f","Gemeinde_KT_i","Text_d","Text_f","Text_i"
-1,50,0,0,"Aeugst am Albis ZH","Aeugst am Albis (ZH)","Aeugst am Albis ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+1,63,63,37,"Aeugst am Albis ZH","Aeugst am Albis (ZH)","Aeugst am Albis ZH","Aeugst am Albis hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 63 Prozent angenommen.",,
 2,65.1,65.1,34.9,"Affoltern am Albis ZH","Affoltern am Albis (ZH)","Affoltern am Albis ZH","Affoltern am Albis hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 65,1 Prozent angenommen.",,
 3,50,0,0,"Bonstetten ZH","Bonstetten (ZH)","Bonstetten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 4,66.8,66.8,33.2,"Hausen am Albis ZH","Hausen am Albis (ZH)","Hausen am Albis ZH","66,8 Prozent der Stimmbürgerinnen und Stimmbürger von Hausen am Albis haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
@@ -9,7 +9,7 @@
 8,57.7,57.7,42.3,"Maschwanden ZH","Maschwanden (ZH)","Maschwanden ZH","57,7 Prozent der Stimmbürgerinnen und Stimmbürger von Maschwanden haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 9,50,0,0,"Mettmenstetten ZH","Mettmenstetten (ZH)","Mettmenstetten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 10,50,0,0,"Obfelden ZH","Obfelden (ZH)","Obfelden ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-11,50,0,0,"Ottenbach ZH","Ottenbach (ZH)","Ottenbach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+11,64.3,64.3,35.7,"Ottenbach ZH","Ottenbach (ZH)","Ottenbach ZH","Mit 64,3 Prozent Ja hat sich Ottenbach für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 12,64.1,64.1,35.9,"Rifferswil ZH","Rifferswil (ZH)","Rifferswil ZH","Mit 64,1 Prozent Ja hat sich Rifferswil für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 13,63.7,63.7,36.3,"Stallikon ZH","Stallikon (ZH)","Stallikon ZH","63,7 Prozent der Stimmbürgerinnen und Stimmbürger von Stallikon haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 14,50,0,0,"Wettswil am Albis ZH","Wettswil am Albis (ZH)","Wettswil am Albis ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -17,7 +17,7 @@
 22,46.5,46.5,53.5,"Benken ZH","Benken (ZH)","Benken ZH","Nein zur Änderung des kantonalen Bürgerrechtsgesetzes in Benken ZH: 53,5 Prozent haben die Vorlage abgelehnt.",,
 23,45.7,45.7,54.3,"Berg am Irchel ZH","Berg am Irchel (ZH)","Berg am Irchel ZH","Berg am Irchel hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 54,3 Prozent abgelehnt.",,
 24,56.1,56.1,43.9,"Buch am Irchel ZH","Buch am Irchel (ZH)","Buch am Irchel ZH","56,1 Prozent der Stimmbürgerinnen und Stimmbürger von Buch am Irchel haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
-25,50,0,0,"Dachsen ZH","Dachsen (ZH)","Dachsen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+25,67,67,33,"Dachsen ZH","Dachsen (ZH)","Dachsen ZH","67 Prozent der Stimmbürgerinnen und Stimmbürger von Dachsen haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 26,52.9,52.9,47.1,"Dorf ZH","Dorf (ZH)","Dorf ZH","52,9 Prozent der Stimmbürgerinnen und Stimmbürger von Dorf haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 27,50,0,0,"Feuerthalen ZH","Feuerthalen (ZH)","Feuerthalen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 28,51.8,51.8,48.2,"Flaach ZH","Flaach (ZH)","Flaach ZH","Flaach hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 51,8 Prozent angenommen.",,
@@ -80,7 +80,7 @@
 102,50,0,0,"Weiach ZH","Weiach (ZH)","Weiach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 111,50,0,0,"Bäretswil ZH","Bäretswil (ZH)","Bäretswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 112,59.8,59.8,40.2,"Bubikon ZH","Bubikon (ZH)","Bubikon ZH","Mit 59,8 Prozent Ja hat sich Bubikon für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
-113,50,0,0,"Dürnten ZH","Dürnten (ZH)","Dürnten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+113,60.8,60.8,39.2,"Dürnten ZH","Dürnten (ZH)","Dürnten ZH","Dürnten hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 60,8 Prozent angenommen.",,
 114,50,0,0,"Fischenthal ZH","Fischenthal (ZH)","Fischenthal ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 115,58.8,58.8,41.2,"Gossau ZH","Gossau (ZH)","Gossau ZH","58,8 Prozent der Stimmbürgerinnen und Stimmbürger von Gossau ZH haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 116,50,0,0,"Grüningen ZH","Grüningen (ZH)","Grüningen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -156,7 +156,7 @@
 261,50,0,0,"Zürich ZH","Zurich (ZH)","Zurigo ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 292,56.7,56.7,43.3,"Stammheim ZH","Stammheim (ZH)","Stammheim ZH","Mit 56,7 Prozent Ja hat sich Stammheim für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 293,50,0,0,"Wädenswil ZH","Wädenswil (ZH)","Wädenswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-294,50,0,0,"Elgg ZH","Elgg (ZH)","Elgg ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+294,62.8,62.8,37.2,"Elgg ZH","Elgg (ZH)","Elgg ZH","Mit 62,8 Prozent Ja hat sich Elgg für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 295,50,0,0,"Horgen ZH","Horgen (ZH)","Horgen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 296,50,0,0,"Illnau-Effretikon ZH","Illnau-Effretikon (ZH)","Illnau-Effretikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 297,50,0,0,"Bauma ZH","Bauma (ZH)","Bauma ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."

@@ -1,5 +1,5 @@
 "Gemeinde_Nr","Gemeinde_color","Ja_Stimmen_In_Prozent","Nein_Stimmen_In_Prozent","Gemeinde_KT_d","Gemeinde_KT_f","Gemeinde_KT_i","Text_d","Text_f","Text_i"
-1,50,0,0,"Aeugst am Albis ZH","Aeugst am Albis (ZH)","Aeugst am Albis ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+1,64.2,64.2,35.8,"Aeugst am Albis ZH","Aeugst am Albis (ZH)","Aeugst am Albis ZH","Aeugst am Albis hat den Klimaschutzartikel in der Kantonsverfassung mit 64,2 Prozent angenommen.",,
 2,65.5,65.5,34.5,"Affoltern am Albis ZH","Affoltern am Albis (ZH)","Affoltern am Albis ZH","Affoltern am Albis hat den Klimaschutzartikel in der Kantonsverfassung mit 65,5 Prozent angenommen.",,
 3,50,0,0,"Bonstetten ZH","Bonstetten (ZH)","Bonstetten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 4,64,64,36,"Hausen am Albis ZH","Hausen am Albis (ZH)","Hausen am Albis ZH","64 Prozent der Stimmbürgerinnen und Stimmbürger von Hausen am Albis haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
@@ -9,7 +9,7 @@
 8,57.2,57.2,42.8,"Maschwanden ZH","Maschwanden (ZH)","Maschwanden ZH","57,2 Prozent der Stimmbürgerinnen und Stimmbürger von Maschwanden haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
 9,50,0,0,"Mettmenstetten ZH","Mettmenstetten (ZH)","Mettmenstetten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 10,50,0,0,"Obfelden ZH","Obfelden (ZH)","Obfelden ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-11,50,0,0,"Ottenbach ZH","Ottenbach (ZH)","Ottenbach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+11,63.4,63.4,36.6,"Ottenbach ZH","Ottenbach (ZH)","Ottenbach ZH","Mit 63,4 Prozent Ja hat sich Ottenbach für den Klimaschutzartikel in der Kantonsverfassung ausgesprochen.",,
 12,67.5,67.5,32.5,"Rifferswil ZH","Rifferswil (ZH)","Rifferswil ZH","Mit 67,5 Prozent Ja hat sich Rifferswil für den Klimaschutzartikel in der Kantonsverfassung ausgesprochen.",,
 13,58.1,58.1,41.9,"Stallikon ZH","Stallikon (ZH)","Stallikon ZH","58,1 Prozent der Stimmbürgerinnen und Stimmbürger von Stallikon haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
 14,50,0,0,"Wettswil am Albis ZH","Wettswil am Albis (ZH)","Wettswil am Albis ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -17,7 +17,7 @@
 22,47.1,47.1,52.9,"Benken ZH","Benken (ZH)","Benken ZH","Nein zum Klimaschutzartikel in der Kantonsverfassung in Benken ZH: 52,9 Prozent haben die Vorlage abgelehnt.",,
 23,43.6,43.6,56.4,"Berg am Irchel ZH","Berg am Irchel (ZH)","Berg am Irchel ZH","Berg am Irchel hat den Klimaschutzartikel in der Kantonsverfassung mit 56,4 Prozent abgelehnt.",,
 24,54.2,54.2,45.8,"Buch am Irchel ZH","Buch am Irchel (ZH)","Buch am Irchel ZH","54,2 Prozent der Stimmbürgerinnen und Stimmbürger von Buch am Irchel haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
-25,50,0,0,"Dachsen ZH","Dachsen (ZH)","Dachsen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+25,63.2,63.2,36.8,"Dachsen ZH","Dachsen (ZH)","Dachsen ZH","63,2 Prozent der Stimmbürgerinnen und Stimmbürger von Dachsen haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
 26,53.3,53.3,46.7,"Dorf ZH","Dorf (ZH)","Dorf ZH","53,3 Prozent der Stimmbürgerinnen und Stimmbürger von Dorf haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
 27,50,0,0,"Feuerthalen ZH","Feuerthalen (ZH)","Feuerthalen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 28,52.6,52.6,47.4,"Flaach ZH","Flaach (ZH)","Flaach ZH","Flaach hat den Klimaschutzartikel in der Kantonsverfassung mit 52,6 Prozent angenommen.",,
@@ -80,7 +80,7 @@
 102,50,0,0,"Weiach ZH","Weiach (ZH)","Weiach ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 111,50,0,0,"Bäretswil ZH","Bäretswil (ZH)","Bäretswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 112,59.3,59.3,40.7,"Bubikon ZH","Bubikon (ZH)","Bubikon ZH","Mit 59,3 Prozent Ja hat sich Bubikon für den Klimaschutzartikel in der Kantonsverfassung ausgesprochen.",,
-113,50,0,0,"Dürnten ZH","Dürnten (ZH)","Dürnten ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+113,57.3,57.3,42.7,"Dürnten ZH","Dürnten (ZH)","Dürnten ZH","Dürnten hat den Klimaschutzartikel in der Kantonsverfassung mit 57,3 Prozent angenommen.",,
 114,50,0,0,"Fischenthal ZH","Fischenthal (ZH)","Fischenthal ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 115,55.6,55.6,44.4,"Gossau ZH","Gossau (ZH)","Gossau ZH","55,6 Prozent der Stimmbürgerinnen und Stimmbürger von Gossau ZH haben dem Klimaschutzartikel in der Kantonsverfassung zugestimmt.",,
 116,50,0,0,"Grüningen ZH","Grüningen (ZH)","Grüningen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -156,7 +156,7 @@
 261,50,0,0,"Zürich ZH","Zurich (ZH)","Zurigo ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 292,55.4,55.4,44.6,"Stammheim ZH","Stammheim (ZH)","Stammheim ZH","Mit 55,4 Prozent Ja hat sich Stammheim für den Klimaschutzartikel in der Kantonsverfassung ausgesprochen.",,
 293,50,0,0,"Wädenswil ZH","Wädenswil (ZH)","Wädenswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-294,50,0,0,"Elgg ZH","Elgg (ZH)","Elgg ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+294,60.5,60.5,39.5,"Elgg ZH","Elgg (ZH)","Elgg ZH","Mit 60,5 Prozent Ja hat sich Elgg für den Klimaschutzartikel in der Kantonsverfassung ausgesprochen.",,
 295,50,0,0,"Horgen ZH","Horgen (ZH)","Horgen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 296,50,0,0,"Illnau-Effretikon ZH","Illnau-Effretikon (ZH)","Illnau-Effretikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 297,50,0,0,"Bauma ZH","Bauma (ZH)","Bauma ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
