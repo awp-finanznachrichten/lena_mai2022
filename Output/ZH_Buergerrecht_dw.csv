@@ -29,7 +29,7 @@
 34,56.3,56.3,43.7,"Laufen-Uhwiesen ZH","Laufen-Uhwiesen (ZH)","Laufen-Uhwiesen ZH","Laufen-Uhwiesen hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 56,3 Prozent angenommen.",,
 35,51.4,51.4,48.6,"Marthalen ZH","Marthalen (ZH)","Marthalen ZH","Mit 51,4 Prozent Ja hat sich Marthalen für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 37,55.4,55.4,44.6,"Ossingen ZH","Ossingen (ZH)","Ossingen ZH","Mit 55,4 Prozent Ja hat sich Ossingen für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
-38,50,0,0,"Rheinau ZH","Rheinau (ZH)","Rheinau ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+38,63.9,63.9,36.1,"Rheinau ZH","Rheinau (ZH)","Rheinau ZH","Rheinau hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 63,9 Prozent angenommen.",,
 39,50.9,50.9,49.1,"Thalheim an der Thur ZH","Thalheim an der Thur (ZH)","Thalheim an der Thur ZH","Thalheim an der Thur hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 50,9 Prozent angenommen.",,
 40,48.8,48.8,51.2,"Trüllikon ZH","Trüllikon (ZH)","Trüllikon ZH","Keine Mehrheit für die Änderung des kantonalen Bürgerrechtsgesetzes in Trüllikon. 51,2 Prozent haben die Vorlage verworfen.",,
 41,46.9,46.9,53.1,"Truttikon ZH","Truttikon (ZH)","Truttikon ZH","Keine Mehrheit für die Änderung des kantonalen Bürgerrechtsgesetzes in Truttikon. 53,1 Prozent haben die Vorlage verworfen.",,
@@ -92,7 +92,7 @@
 131,50,0,0,"Adliswil ZH","Adliswil (ZH)","Adliswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 135,50,0,0,"Kilchberg ZH","Kilchberg (ZH)","Kilchberg ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 136,50,0,0,"Langnau am Albis ZH","Langnau am Albis (ZH)","Langnau am Albis ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-137,50,0,0,"Oberrieden ZH","Oberrieden (ZH)","Oberrieden ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+137,71.5,71.5,28.5,"Oberrieden ZH","Oberrieden (ZH)","Oberrieden ZH","71,5 Prozent der Stimmbürgerinnen und Stimmbürger von Oberrieden haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 138,50,0,0,"Richterswil ZH","Richterswil (ZH)","Richterswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 139,68.2,68.2,31.8,"Rüschlikon ZH","Rüschlikon (ZH)","Rüschlikon ZH","Mit 68,2 Prozent Ja hat sich Rüschlikon für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 141,50,0,0,"Thalwil ZH","Thalwil (ZH)","Thalwil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
@@ -116,7 +116,7 @@
 181,50,0,0,"Wila ZH","Wila (ZH)","Wila ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 182,54.7,54.7,45.3,"Wildberg ZH","Wildberg (ZH)","Wildberg ZH","Mit 54,7 Prozent Ja hat sich Wildberg für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 191,66.6,66.6,33.4,"Dübendorf ZH","Dübendorf (ZH)","Dübendorf ZH","Mit 66,6 Prozent Ja hat sich Dübendorf für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
-192,50,0,0,"Egg ZH","Egg (ZH)","Egg ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+192,63.1,63.1,36.9,"Egg ZH","Egg (ZH)","Egg ZH","63,1 Prozent der Stimmbürgerinnen und Stimmbürger von Egg haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 193,69.8,69.8,30.2,"Fällanden ZH","Fällanden (ZH)","Fällanden ZH","69,8 Prozent der Stimmbürgerinnen und Stimmbürger von Fällanden haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 194,50,0,0,"Greifensee ZH","Greifensee (ZH)","Greifensee ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 195,65.5,65.5,34.5,"Maur ZH","Maur (ZH)","Maur ZH","Mit 65,5 Prozent Ja hat sich Maur für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
@@ -145,12 +145,12 @@
 241,61.8,61.8,38.2,"Aesch ZH","Aesch (ZH)","Aesch ZH","61,8 Prozent der Stimmbürgerinnen und Stimmbürger von Aesch ZH haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 242,50,0,0,"Birmensdorf ZH","Birmensdorf (ZH)","Birmensdorf ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 243,50,0,0,"Dietikon ZH","Dietikon (ZH)","Dietikon ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
-244,50,0,0,"Geroldswil ZH","Geroldswil (ZH)","Geroldswil ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+244,55.7,55.7,44.3,"Geroldswil ZH","Geroldswil (ZH)","Geroldswil ZH","Geroldswil hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 55,7 Prozent angenommen.",,
 245,68.3,68.3,31.7,"Oberengstringen ZH","Oberengstringen (ZH)","Oberengstringen ZH","Mit 68,3 Prozent Ja hat sich Oberengstringen für die Änderung des kantonalen Bürgerrechtsgesetzes ausgesprochen.",,
 246,55.5,55.5,44.5,"Oetwil an der Limmat ZH","Oetwil an der Limmat (ZH)","Oetwil an der Limmat ZH","55,5 Prozent der Stimmbürgerinnen und Stimmbürger von Oetwil an der Limmat haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 247,50,0,0,"Schlieren ZH","Schlieren (ZH)","Schlieren ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 248,69.7,69.7,30.3,"Uitikon ZH","Uitikon (ZH)","Uitikon ZH","Uitikon hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 69,7 Prozent angenommen.",,
-249,50,0,0,"Unterengstringen ZH","Unterengstringen (ZH)","Unterengstringen ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
+249,64.6,64.6,35.4,"Unterengstringen ZH","Unterengstringen (ZH)","Unterengstringen ZH","Unterengstringen hat die Änderung des kantonalen Bürgerrechtsgesetzes mit 64,6 Prozent angenommen.",,
 250,50,0,0,"Urdorf ZH","Urdorf (ZH)","Urdorf ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
 251,57.8,57.8,42.2,"Weiningen ZH","Weiningen (ZH)","Weiningen ZH","57,8 Prozent der Stimmbürgerinnen und Stimmbürger von Weiningen ZH haben der Änderung des kantonalen Bürgerrechtsgesetzes zugestimmt.",,
 261,50,0,0,"Zürich ZH","Zurich (ZH)","Zurigo ZH","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I resultati di questa comune non sono ancora noti."
