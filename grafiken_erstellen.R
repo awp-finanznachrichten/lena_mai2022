@@ -10,7 +10,7 @@ vorlage_kantone <- c("Tfr6N","qI7hZ","GAF2u")
 
 
 #Aktueller Abstimmungslink
-link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220213-eidgAbstimmung.json" 
+link_json <- "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20220515-eidgAbstimmung.json" 
 json_data <- fromJSON(link_json, flatten = TRUE)
 
 #Vorlagen umbenennen
