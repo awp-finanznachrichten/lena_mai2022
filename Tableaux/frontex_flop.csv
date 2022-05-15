@@ -1,51 +1,51 @@
 "","Gemeinde_f","Gemeinde_d","Gemeinde_i","Kanton_Short","Ja_Stimmen_In_Prozent","Commune","Gemeinde","Comune","Canton","Kanton","Cantone","Pourcentage de non","Nein in %","Percentuale di no"
-"1","Ederswiler","Ederswiler","Ederswiler","JU",36.363636364,"Ederswiler","Ederswiler","Ederswiler","JU","JU","JU",63.636363636,63.636363636,63.636363636
-"2","Riemenstalden","Riemenstalden","Riemenstalden","SZ",38.095238095,"Riemenstalden","Riemenstalden","Riemenstalden","SZ","SZ","SZ",61.904761905,61.904761905,61.904761905
-"3","Illgau","Illgau","Illgau","SZ",38.888888889,"Illgau","Illgau","Illgau","SZ","SZ","SZ",61.111111111,61.111111111,61.111111111
-"4","Muotathal","Muotathal","Muotathal","SZ",39.931153184,"Muotathal","Muotathal","Muotathal","SZ","SZ","SZ",60.068846816,60.068846816,60.068846816
-"5","Unteriberg","Unteriberg","Unteriberg","SZ",41.666666667,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",58.333333333,58.333333333,58.333333333
-"6","Vorderthal","Vorderthal","Vorderthal","SZ",45.748987854,"Vorderthal","Vorderthal","Vorderthal","SZ","SZ","SZ",54.251012146,54.251012146,54.251012146
-"7","Guttannen","Guttannen","Guttannen","BE",46.808510638,"Guttannen","Guttannen","Guttannen","BE","BE","BE",53.191489362,53.191489362,53.191489362
-"8","Oeschenbach","Oeschenbach","Oeschenbach","BE",47.5,"Oeschenbach","Oeschenbach","Oeschenbach","BE","BE","BE",52.5,52.5,52.5
-"9","Astano","Astano","Astano","TI",48,"Astano","Astano","Astano","TI","TI","TI",52,52,52
-"10","Beinwil (SO)","Beinwil SO","Beinwil SO","SO",48.529411765,"Beinwil (SO)","Beinwil SO","Beinwil SO","SO","SO","SO",51.470588235,51.470588235,51.470588235
-"11","Santa Maria in Calanca","Santa Maria in Calanca","Santa Maria in Calanca","GR",48.837209302,"Santa Maria in Calanca","Santa Maria in Calanca","Santa Maria in Calanca","GR","GR","GR",51.162790698,51.162790698,51.162790698
-"12","Walliswil bei Niederbipp","Walliswil bei Niederbipp","Walliswil bei Niederbipp","BE",49.206349206,"Walliswil bei Niederbipp","Walliswil bei Niederbipp","Walliswil bei Niederbipp","BE","BE","BE",50.793650794,50.793650794,50.793650794
-"13","Les Enfers","Les Enfers","Les Enfers","JU",49.230769231,"Les Enfers","Les Enfers","Les Enfers","JU","JU","JU",50.769230769,50.769230769,50.769230769
-"14","Gurtnellen","Gurtnellen","Gurtnellen","UR",50,"Gurtnellen","Gurtnellen","Gurtnellen","UR","UR","UR",50,50,50
-"15","Hasle (LU)","Hasle LU","Hasle LU","LU",50.491159136,"Hasle (LU)","Hasle LU","Hasle LU","LU","LU","LU",49.508840864,49.508840864,49.508840864
-"16","Steinerberg","Steinerberg","Steinerberg","SZ",50.579150579,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",49.420849421,49.420849421,49.420849421
-"17","Alto Malcantone","Alto Malcantone","Alto Malcantone","TI",50.938967136,"Alto Malcantone","Alto Malcantone","Alto Malcantone","TI","TI","TI",49.061032864,49.061032864,49.061032864
-"18","Alpthal","Alpthal","Alpthal","SZ",50.980392157,"Alpthal","Alpthal","Alpthal","SZ","SZ","SZ",49.019607843,49.019607843,49.019607843
-"19","Spiringen","Spiringen","Spiringen","UR",51.515151515,"Spiringen","Spiringen","Spiringen","UR","UR","UR",48.484848485,48.484848485,48.484848485
-"20","Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE",51.764705882,"Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE","BE","BE",48.235294118,48.235294118,48.235294118
-"21","Aranno","Aranno","Aranno","TI",51.818181818,"Aranno","Aranno","Aranno","TI","TI","TI",48.181818182,48.181818182,48.181818182
-"22","Kandergrund","Kandergrund","Kandergrund","BE",52.066115702,"Kandergrund","Kandergrund","Kandergrund","BE","BE","BE",47.933884298,47.933884298,47.933884298
-"23","Eisten","Eisten","Eisten","VS",52.23880597,"Eisten","Eisten","Eisten","VS","VS","VS",47.76119403,47.76119403,47.76119403
-"24","Ogens","Ogens","Ogens","VD",52.777777778,"Ogens","Ogens","Ogens","VD","VD","VD",47.222222222,47.222222222,47.222222222
-"25","Bosco/Gurin","Bosco/Gurin","Bosco/Gurin","TI",52.941176471,"Bosco/Gurin","Bosco/Gurin","Bosco/Gurin","TI","TI","TI",47.058823529,47.058823529,47.058823529
-"26","Gündlischwand","Gündlischwand","Gündlischwand","BE",53.03030303,"Gündlischwand","Gündlischwand","Gündlischwand","BE","BE","BE",46.96969697,46.96969697,46.96969697
-"27","Cama","Cama","Cama","GR",53.333333333,"Cama","Cama","Cama","GR","GR","GR",46.666666667,46.666666667,46.666666667
-"28","Linescio","Linescio","Linescio","TI",53.333333333,"Linescio","Linescio","Linescio","TI","TI","TI",46.666666667,46.666666667,46.666666667
-"29","Mauraz","Mauraz","Mauraz","VD",53.333333333,"Mauraz","Mauraz","Mauraz","VD","VD","VD",46.666666667,46.666666667,46.666666667
-"30","Rothenthurm","Rothenthurm","Rothenthurm","SZ",53.488372093,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",46.511627907,46.511627907,46.511627907
-"31","Roggenburg","Roggenburg","Roggenburg","BL",53.521126761,"Roggenburg","Roggenburg","Roggenburg","BL","BL","BL",46.478873239,46.478873239,46.478873239
-"32","Zwischbergen","Zwischbergen","Zwischbergen","VS",53.571428571,"Zwischbergen","Zwischbergen","Zwischbergen","VS","VS","VS",46.428571429,46.428571429,46.428571429
-"33","Castaneda","Castaneda","Castaneda","GR",53.6,"Castaneda","Castaneda","Castaneda","GR","GR","GR",46.4,46.4,46.4
-"34","Dozwil","Dozwil","Dozwil","TG",53.744493392,"Dozwil","Dozwil","Dozwil","TG","TG","TG",46.255506608,46.255506608,46.255506608
-"35","Albinen","Albinen","Albinen","VS",53.75,"Albinen","Albinen","Albinen","VS","VS","VS",46.25,46.25,46.25
-"36","Pollegio","Pollegio","Pollegio","TI",54,"Pollegio","Pollegio","Pollegio","TI","TI","TI",46,46,46
-"37","Höchstetten","Höchstetten","Höchstetten","BE",54.128440367,"Höchstetten","Höchstetten","Höchstetten","BE","BE","BE",45.871559633,45.871559633,45.871559633
-"38","Iseltwald","Iseltwald","Iseltwald","BE",54.128440367,"Iseltwald","Iseltwald","Iseltwald","BE","BE","BE",45.871559633,45.871559633,45.871559633
-"39","Därstetten","Därstetten","Därstetten","BE",54.146341463,"Därstetten","Därstetten","Därstetten","BE","BE","BE",45.853658537,45.853658537,45.853658537
-"40","Mergoscia","Mergoscia","Mergoscia","TI",54.166666667,"Mergoscia","Mergoscia","Mergoscia","TI","TI","TI",45.833333333,45.833333333,45.833333333
-"41","Oberiberg","Oberiberg","Oberiberg","SZ",54.178674352,"Oberiberg","Oberiberg","Oberiberg","SZ","SZ","SZ",45.821325648,45.821325648,45.821325648
-"42","Reisiswil","Reisiswil","Reisiswil","BE",54.347826087,"Reisiswil","Reisiswil","Reisiswil","BE","BE","BE",45.652173913,45.652173913,45.652173913
-"43","Rongellen","Rongellen","Rongellen","GR",54.545454545,"Rongellen","Rongellen","Rongellen","GR","GR","GR",45.454545455,45.454545455,45.454545455
-"44","Brienzwiler","Brienzwiler","Brienzwiler","BE",54.761904762,"Brienzwiler","Brienzwiler","Brienzwiler","BE","BE","BE",45.238095238,45.238095238,45.238095238
-"45","Sisikon","Sisikon","Sisikon","UR",54.794520548,"Sisikon","Sisikon","Sisikon","UR","UR","UR",45.205479452,45.205479452,45.205479452
-"46","Buch (SH)","Buch SH","Buch SH","SH",55.371900826,"Buch (SH)","Buch SH","Buch SH","SH","SH","SH",44.628099174,44.628099174,44.628099174
-"47","Ufhusen","Ufhusen","Ufhusen","LU",55.405405405,"Ufhusen","Ufhusen","Ufhusen","LU","LU","LU",44.594594595,44.594594595,44.594594595
-"48","Sattel","Sattel","Sattel","SZ",55.774647887,"Sattel","Sattel","Sattel","SZ","SZ","SZ",44.225352113,44.225352113,44.225352113
-"49","Innerthal","Innerthal","Innerthal","SZ",56.060606061,"Innerthal","Innerthal","Innerthal","SZ","SZ","SZ",43.939393939,43.939393939,43.939393939
-"50","Sommeri","Sommeri","Sommeri","TG",56.291390728,"Sommeri","Sommeri","Sommeri","TG","TG","TG",43.708609272,43.708609272,43.708609272
+"1","Seehof","Seehof","Seehof","BE",25,"Seehof","Seehof","Seehof","BE","BE","BE",75,75,75
+"2","Ederswiler","Ederswiler","Ederswiler","JU",36.363636364,"Ederswiler","Ederswiler","Ederswiler","JU","JU","JU",63.636363636,63.636363636,63.636363636
+"3","Riemenstalden","Riemenstalden","Riemenstalden","SZ",38.095238095,"Riemenstalden","Riemenstalden","Riemenstalden","SZ","SZ","SZ",61.904761905,61.904761905,61.904761905
+"4","Illgau","Illgau","Illgau","SZ",38.888888889,"Illgau","Illgau","Illgau","SZ","SZ","SZ",61.111111111,61.111111111,61.111111111
+"5","Muotathal","Muotathal","Muotathal","SZ",39.931153184,"Muotathal","Muotathal","Muotathal","SZ","SZ","SZ",60.068846816,60.068846816,60.068846816
+"6","Unteriberg","Unteriberg","Unteriberg","SZ",41.666666667,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",58.333333333,58.333333333,58.333333333
+"7","La Scheulte","Schelten","Schelten","BE",44,"La Scheulte","Schelten","Schelten","BE","BE","BE",56,56,56
+"8","Vorderthal","Vorderthal","Vorderthal","SZ",45.748987854,"Vorderthal","Vorderthal","Vorderthal","SZ","SZ","SZ",54.251012146,54.251012146,54.251012146
+"9","Guttannen","Guttannen","Guttannen","BE",46.808510638,"Guttannen","Guttannen","Guttannen","BE","BE","BE",53.191489362,53.191489362,53.191489362
+"10","Oeschenbach","Oeschenbach","Oeschenbach","BE",47.5,"Oeschenbach","Oeschenbach","Oeschenbach","BE","BE","BE",52.5,52.5,52.5
+"11","Astano","Astano","Astano","TI",48,"Astano","Astano","Astano","TI","TI","TI",52,52,52
+"12","Beinwil (SO)","Beinwil SO","Beinwil SO","SO",48.529411765,"Beinwil (SO)","Beinwil SO","Beinwil SO","SO","SO","SO",51.470588235,51.470588235,51.470588235
+"13","Santa Maria in Calanca","Santa Maria in Calanca","Santa Maria in Calanca","GR",48.837209302,"Santa Maria in Calanca","Santa Maria in Calanca","Santa Maria in Calanca","GR","GR","GR",51.162790698,51.162790698,51.162790698
+"14","Walliswil bei Niederbipp","Walliswil bei Niederbipp","Walliswil bei Niederbipp","BE",49.206349206,"Walliswil bei Niederbipp","Walliswil bei Niederbipp","Walliswil bei Niederbipp","BE","BE","BE",50.793650794,50.793650794,50.793650794
+"15","Les Enfers","Les Enfers","Les Enfers","JU",49.230769231,"Les Enfers","Les Enfers","Les Enfers","JU","JU","JU",50.769230769,50.769230769,50.769230769
+"16","Gurtnellen","Gurtnellen","Gurtnellen","UR",50,"Gurtnellen","Gurtnellen","Gurtnellen","UR","UR","UR",50,50,50
+"17","Hasle (LU)","Hasle LU","Hasle LU","LU",50.491159136,"Hasle (LU)","Hasle LU","Hasle LU","LU","LU","LU",49.508840864,49.508840864,49.508840864
+"18","Steinerberg","Steinerberg","Steinerberg","SZ",50.579150579,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",49.420849421,49.420849421,49.420849421
+"19","Alto Malcantone","Alto Malcantone","Alto Malcantone","TI",50.938967136,"Alto Malcantone","Alto Malcantone","Alto Malcantone","TI","TI","TI",49.061032864,49.061032864,49.061032864
+"20","Alpthal","Alpthal","Alpthal","SZ",50.980392157,"Alpthal","Alpthal","Alpthal","SZ","SZ","SZ",49.019607843,49.019607843,49.019607843
+"21","Spiringen","Spiringen","Spiringen","UR",51.515151515,"Spiringen","Spiringen","Spiringen","UR","UR","UR",48.484848485,48.484848485,48.484848485
+"22","Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE",51.764705882,"Rohrbachgraben","Rohrbachgraben","Rohrbachgraben","BE","BE","BE",48.235294118,48.235294118,48.235294118
+"23","Aranno","Aranno","Aranno","TI",51.818181818,"Aranno","Aranno","Aranno","TI","TI","TI",48.181818182,48.181818182,48.181818182
+"24","Kandergrund","Kandergrund","Kandergrund","BE",52.066115702,"Kandergrund","Kandergrund","Kandergrund","BE","BE","BE",47.933884298,47.933884298,47.933884298
+"25","Eisten","Eisten","Eisten","VS",52.23880597,"Eisten","Eisten","Eisten","VS","VS","VS",47.76119403,47.76119403,47.76119403
+"26","Ogens","Ogens","Ogens","VD",52.777777778,"Ogens","Ogens","Ogens","VD","VD","VD",47.222222222,47.222222222,47.222222222
+"27","Bosco/Gurin","Bosco/Gurin","Bosco/Gurin","TI",52.941176471,"Bosco/Gurin","Bosco/Gurin","Bosco/Gurin","TI","TI","TI",47.058823529,47.058823529,47.058823529
+"28","Gündlischwand","Gündlischwand","Gündlischwand","BE",53.03030303,"Gündlischwand","Gündlischwand","Gündlischwand","BE","BE","BE",46.96969697,46.96969697,46.96969697
+"29","Cama","Cama","Cama","GR",53.333333333,"Cama","Cama","Cama","GR","GR","GR",46.666666667,46.666666667,46.666666667
+"30","Linescio","Linescio","Linescio","TI",53.333333333,"Linescio","Linescio","Linescio","TI","TI","TI",46.666666667,46.666666667,46.666666667
+"31","Mauraz","Mauraz","Mauraz","VD",53.333333333,"Mauraz","Mauraz","Mauraz","VD","VD","VD",46.666666667,46.666666667,46.666666667
+"32","Rothenthurm","Rothenthurm","Rothenthurm","SZ",53.488372093,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",46.511627907,46.511627907,46.511627907
+"33","Roggenburg","Roggenburg","Roggenburg","BL",53.521126761,"Roggenburg","Roggenburg","Roggenburg","BL","BL","BL",46.478873239,46.478873239,46.478873239
+"34","Zwischbergen","Zwischbergen","Zwischbergen","VS",53.571428571,"Zwischbergen","Zwischbergen","Zwischbergen","VS","VS","VS",46.428571429,46.428571429,46.428571429
+"35","Castaneda","Castaneda","Castaneda","GR",53.6,"Castaneda","Castaneda","Castaneda","GR","GR","GR",46.4,46.4,46.4
+"36","Dozwil","Dozwil","Dozwil","TG",53.744493392,"Dozwil","Dozwil","Dozwil","TG","TG","TG",46.255506608,46.255506608,46.255506608
+"37","Albinen","Albinen","Albinen","VS",53.75,"Albinen","Albinen","Albinen","VS","VS","VS",46.25,46.25,46.25
+"38","Pollegio","Pollegio","Pollegio","TI",54,"Pollegio","Pollegio","Pollegio","TI","TI","TI",46,46,46
+"39","Höchstetten","Höchstetten","Höchstetten","BE",54.128440367,"Höchstetten","Höchstetten","Höchstetten","BE","BE","BE",45.871559633,45.871559633,45.871559633
+"40","Iseltwald","Iseltwald","Iseltwald","BE",54.128440367,"Iseltwald","Iseltwald","Iseltwald","BE","BE","BE",45.871559633,45.871559633,45.871559633
+"41","Därstetten","Därstetten","Därstetten","BE",54.146341463,"Därstetten","Därstetten","Därstetten","BE","BE","BE",45.853658537,45.853658537,45.853658537
+"42","Mergoscia","Mergoscia","Mergoscia","TI",54.166666667,"Mergoscia","Mergoscia","Mergoscia","TI","TI","TI",45.833333333,45.833333333,45.833333333
+"43","Oberiberg","Oberiberg","Oberiberg","SZ",54.178674352,"Oberiberg","Oberiberg","Oberiberg","SZ","SZ","SZ",45.821325648,45.821325648,45.821325648
+"44","Reisiswil","Reisiswil","Reisiswil","BE",54.347826087,"Reisiswil","Reisiswil","Reisiswil","BE","BE","BE",45.652173913,45.652173913,45.652173913
+"45","Rongellen","Rongellen","Rongellen","GR",54.545454545,"Rongellen","Rongellen","Rongellen","GR","GR","GR",45.454545455,45.454545455,45.454545455
+"46","Brienzwiler","Brienzwiler","Brienzwiler","BE",54.761904762,"Brienzwiler","Brienzwiler","Brienzwiler","BE","BE","BE",45.238095238,45.238095238,45.238095238
+"47","Sisikon","Sisikon","Sisikon","UR",54.794520548,"Sisikon","Sisikon","Sisikon","UR","UR","UR",45.205479452,45.205479452,45.205479452
+"48","Buch (SH)","Buch SH","Buch SH","SH",55.371900826,"Buch (SH)","Buch SH","Buch SH","SH","SH","SH",44.628099174,44.628099174,44.628099174
+"49","Ufhusen","Ufhusen","Ufhusen","LU",55.405405405,"Ufhusen","Ufhusen","Ufhusen","LU","LU","LU",44.594594595,44.594594595,44.594594595
+"50","Sattel","Sattel","Sattel","SZ",55.774647887,"Sattel","Sattel","Sattel","SZ","SZ","SZ",44.225352113,44.225352113,44.225352113
